@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix.grid.re_
 {
+	/// <summary>
+	/// 
+	/// </summary>
+	/// vs:
+	///		<see cref="matrix.vec.re_._SommableX"/>
 	static public class _ConformX
 	{
 		static public bool Re(
@@ -21,7 +26,7 @@ namespace nilnul.num.real.matrix.grid.re_
 				obj.matrix._RowsX.Rows(a).All(
 					r=> obj.matrix._ExtensionsX.Cols(b).All(
 						c=>
-						matrix.str.re_._ConformableX.Be(
+						matrix.str.re_._SommableX.Re(
 							r,c
 						)
 					)

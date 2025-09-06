@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix.grid.to_
 {
+	[Obsolete(nameof(nilnul.obj.matrix.grid.))]
 	static public class _ToMatrixX
 	{
 		/// <summary>

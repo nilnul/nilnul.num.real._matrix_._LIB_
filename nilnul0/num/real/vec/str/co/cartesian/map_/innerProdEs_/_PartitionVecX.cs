@@ -1,4 +1,4 @@
-﻿using nilnul.num.real.vec.compart.str.co;
+using nilnul.num.real.vec.compart.str.co;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -25,7 +25,7 @@ namespace nilnul.num.real.vec.str.co.cartesian.map_.innerProdEs_
 		/// here we don't allow the partition of the other dimension
 		/// </param>
 		/// <returns></returns>
-		/// <seealso cref="nilnul.num.real.matrix.vec.co_.conform._Belt1bunchX"/>
+		/// <seealso cref="nilnul.num.real.matrix.vec.co_.sommable._Belt1bunchX"/>
 		static public IEnumerable< IEnumerable< double>> _Multi_vecAssumeSameSize(
 			IEnumerable<IEnumerable<double>> _major_dweltVecDwelt
 			,

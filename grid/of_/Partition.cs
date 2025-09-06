@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +6,17 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix.grid.of_
 {
+	[Obsolete(nameof(obj.matrix.to_._ToGridX))]
 	static public class _PartitionX
 	{
 		/// <summary>
 		/// 
 		/// </summary>
 		/// <param name="matrix"></param>
-		/// <param name="_majorPartition_assumePositivesSumValid"> group rows</param>
+		/// <param name="_majorPartition_assumePositivesSumValid"> group rows;
+		/// each item is unneg, or strictly positive.
+		/// the count of items can be zero; Hence for a trivia matrix, the items is empty.
+		/// </param>
 		/// <param name="_minorPartition_assumePositivesSumValid">
 		/// group cols
 		/// </param>

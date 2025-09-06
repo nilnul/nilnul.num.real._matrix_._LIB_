@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +9,10 @@ namespace nilnul.num.real.matrix.grid_
 	/// <summary>
 	/// One single belt. Inside the belt there might be a few blocks; each block might contain multiple rows and cols.
 	/// </summary>
+	/// vs:
+	///		<see cref="_grid.IBelt"/>
+	///		,<see cref="_grid.IMosaic"/>
+	///		
 	public interface IBelt
 		:IUnibelt
 	{

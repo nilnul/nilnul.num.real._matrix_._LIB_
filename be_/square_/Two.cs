@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace nilnul.num.real.matrix.be_.square
 	{
 		public bool be(num.RealI[,] obj)
 		{
-			return Square.Singleton.be(obj) && obj.GetLength(0) == 2;
+			return num.real.matrix.be_.Square1.Singleton.be(obj) && obj.GetLength(0) == 2;
 			//throw new NotImplementedException();
 		}
 

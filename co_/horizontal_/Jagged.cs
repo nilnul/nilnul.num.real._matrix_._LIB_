@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +8,12 @@ namespace nilnul.num.real.matrix.co_.horizontal_
 {
 	/// <summary>
 	/// two str of different size.
+	/// eg:
+	///		{
+	///			1,2,3;              7,8,9,10
+	///			4,5,6
+	///		}
+	///			
 	/// </summary>
 	/// <remarks>
 	/// this forms a L-shaped block

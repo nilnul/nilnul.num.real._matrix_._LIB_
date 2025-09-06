@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
+
+namespace nilnul.num.real.matrix_.sq.cel.remnant.minor
+{
+	/// <summary>
+	/// signed minor
+	/// 代数余子式
+	/// </summary>
+	static public class _CofactorX
+	{
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public double _AssumeValid(double[,] matrix,int row,int col) {
+			return nilnul.num.integer.op_.unary_.polyn._BaseNegOneX.OfNegOneAsInt
+				//.int_.MinusOnePow.Eval
+				(row + col)  // this is also called :Levi-Civita symbol
+				* matrix_.sq.cel.remnant. _MinorX._AssumeValid(matrix,row,col);
+		
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public Q _AssumeValid(Q[,] matrix,int row,int col) {
+			return nilnul.num.integer.op_.unary_.polyn._BaseNegOneX.OfNegOneAsInt
+				//.int_.MinusOnePow.Eval
+				(row + col)  // this is also called :Levi-Civita symbol
+				* matrix_.sq.cel.remnant. _MinorX._AssumeValid(matrix,row,col);
+		
+		}
+
+
+
+	}
+}

@@ -1,4 +1,4 @@
-﻿using nilnul.obj.matrix.co.be_.multible.vow;
+using nilnul.obj.matrix.co.be_.multible.vow;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Text;
 using N = nilnul._num.bigint.be.Natural.Asserted;
 using Q1 = nilnul.num._quotient.fraction.op.Simplify.Ed1;
 using Qr = nilnul.num.real_.Quotient;
-using R = nilnul.num.RealI;
+using R3 = nilnul.num.RealI;
 using R2 = nilnul.num.Real;
 
 
@@ -75,6 +75,7 @@ namespace nilnul.num.real.matrix.co_.multible
 			return c;
 		}
 
+	
 
 		public static double[,] _Multiply_assumeSociable(this double[,] a, double[,] b)
 		{
@@ -99,7 +100,34 @@ namespace nilnul.num.real.matrix.co_.multible
 
 		}
 
-		/// <summary>
+
+		public static Q[,] _Multiply_1sociable(this Q[,] a, Q[,] b)
+		{
+
+			var c = new Q[a.GetLength(0), b.GetLength(1)];//every element has been initialized to 0.
+
+
+			for (int i1 = 0; i1 < c.GetLength(0); i1++)
+			{
+
+				for (int j = 0; j < c.GetLength(1); j++)
+				{
+					c[i1, j] = nilnul.num.real.vec.co._InnerProductX._InnerProduct_1equisize(
+						nilnul.obj.matrix._RowsX.Row(
+						a, i1)
+						,
+						nilnul.obj.matrix._ColsX.Col(
+						b, j
+						)
+					);
+
+				}
+
+			}
+
+			return c;
+
+		}		/// <summary>
 		/// 
 		/// </summary>
 		/// <param name="a"></param>

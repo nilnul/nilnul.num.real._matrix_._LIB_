@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +7,10 @@ using N = nilnul._num.bigint.be.Natural.Asserted;
 using Q1 = nilnul.num._quotient.fraction.op.Simplify.Ed1;
 using Qr = nilnul.num.real_.Quotient;
 using RI = nilnul.num.RealI;
-using R = nilnul.num.Real;
+// Remove or rename the conflicting alias
+// For example, rename the alias to avoid conflict:
+using R1 = nilnul.num.Real;
+//using R = nilnul.num.Real;
 
 
 
@@ -26,7 +29,7 @@ namespace nilnul.num.real.matrix.be_
 		}
 		 
 
-		public bool be(R[,] obj) {
+		public bool be(R1[,] obj) {
 			return nilnul.matrix.be_._SquareX.Square(obj);
 		}
 

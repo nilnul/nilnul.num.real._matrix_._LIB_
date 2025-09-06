@@ -12,7 +12,7 @@
 			return new Matrix4dbl(a);
 		}
 		static public implicit operator double[,](Matrix4dbl a) {
-			return a;
+			return a.boxed;
 		}
 
 		static public Matrix4dbl operator +(Matrix4dbl a, Matrix4dbl b) {

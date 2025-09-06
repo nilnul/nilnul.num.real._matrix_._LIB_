@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +8,10 @@ namespace nilnul.num.real.matrix_
 {
 	public interface ISquare
 		:IMatrix
+		,
+		nilnul.obj.matrix_.ISquare
 	{
 	}
+
+
 }

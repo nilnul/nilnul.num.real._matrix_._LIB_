@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using R = nilnul.num.RealI;
+using R3 = nilnul.num.RealI;
 
 namespace nilnul.num.real.matrix_
 {
@@ -11,7 +11,7 @@ namespace nilnul.num.real.matrix_
 	public class Square1
 		: nilnul.num.real.matrix.be_.Square.En
 	{
-		public Square1(R[,] v) : base(v)
+		public Square1(R3[,] v) : base(v)
 		{
 
 
@@ -24,16 +24,16 @@ namespace nilnul.num.real.matrix_
 
 		}
 
-		public Square1() : base(new R[0, 0])
+		public Square1() : base(new R3[0, 0])
 		{
 
 		}
-		public Square1(IEnumerable<R> args) : base(args)
+		public Square1(IEnumerable<R3> args) : base(args)
 		{
 
 
 		}
-		public Square1(params R[] args) : base(args)
+		public Square1(params R3[] args) : base(args)
 		{
 
 

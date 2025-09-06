@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix.grid.co_
 {
+	/// 
+	/// <see cref="nilnul.obj.matrix.re_.IChainable"/>
 	/// <summary>
 	/// 
 	///	the mosaic itself is a matrix of matrix.
@@ -13,12 +15,17 @@ namespace nilnul.num.real.matrix.grid.co_
 	///	and:
 	///		for each row in left matrix,
 	///			for each col in right matrix
-	///				they must be <see cref="matrix.vec.co_.equisize_.IConformable"/>
+	///				they must be <see cref="matrix.vec.co_.ISommable"/>
 	/// </summary>
 	/// alias:
 	///		conformable
 	///			forms can be con-sidered.
+	///		catenable
+	///		joignable
+	///		chainable
+	///		linkable
 	public interface IConformable
+		
 	{
 	}
 }

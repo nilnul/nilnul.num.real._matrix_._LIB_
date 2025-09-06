@@ -1,6 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -37,6 +38,17 @@ namespace nilnul.num.real.matrix.of_
 			return r;
 		}
 
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+
+		static public Q[,] _OfRows_0started1unisize(
+			IEnumerable<IEnumerable<Q>> rows
+		)
+		{
+			return nilnul.obj.matrix.of_.vecs_._OfRowsX._OfVecs_assumeSameArity(rows);
+
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public double[,] OfParams_assumeRowsSameLength(
 			params IEnumerable<double>[] cols
 		)

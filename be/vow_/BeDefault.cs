@@ -1,17 +1,17 @@
-﻿using nilnul.obj;
+using nilnul.obj;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using R = nilnul.num.RealI;
+using R3 = nilnul.num.RealI;
 
 
 namespace nilnul.num.real.matrix.be.vow_
 {
 	public class BeDefault<TBe>
 		: Vow
-		where TBe : nilnul.obj.BeI1<R[,]>,new()
+		where TBe : nilnul.obj.BeI1<R3[,]>,new()
 	{
 		public BeDefault() : base(
 				 nilnul._obj.typ_.nilable_.unprimable_.singleton_.ByLazy<TBe>.Instance

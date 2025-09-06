@@ -1,30 +1,30 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using R = nilnul.num.RealI;
+using R3 = nilnul.num.RealI;
 
 namespace nilnul.num.real.matrix.be
 {
 	//extern alias num;
 	public class En<TBe>
-		: nilnul.be.Asserted<R[,], TBe>
+		: nilnul.be.Asserted<R3[,], TBe>
 		where TBe : BeI, new()
 	{
-		public En(R[,] v) : base(v)
+		public En(R3[,] v) : base(v)
 		{
 
 		}
-		public En(params R[] args) : base(
-			nilnul.matrix_.square.fro_._StrX.Eval<R>(args).avowed
+		public En(params R3[] args) : base(
+			nilnul.matrix_.square.fro_._StrX.Eval<R3>(args).avowed
 		)
 		{
 
 		}
 
-		public En(IEnumerable<R> args) : base(
-				nilnul.matrix_.square.fro_._StrX.Eval<R>(args).avowed
+		public En(IEnumerable<R3> args) : base(
+				nilnul.matrix_.square.fro_._StrX.Eval<R3>(args).avowed
 			)
 		{
 

@@ -1,10 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 namespace nilnul.num.real.matrix.square
 {
+	[Obsolete(matrix_.Square4dbl)]
 	public  class InDouble
 		:nilnul.bit.op.predicate.unary.Asserted<double[,],nilnul.collection.matrix.twoDimensionalArray._be.Square<double>>
 	{

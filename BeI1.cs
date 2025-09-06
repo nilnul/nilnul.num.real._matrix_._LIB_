@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using R = nilnul.num.RealI;
+//using R = nilnul.num.RealI;
 using RI = nilnul.num.RealI;
 
 using N = nilnul._num.bigint.be.Natural.Asserted;
@@ -15,8 +15,14 @@ using Qr = nilnul.num.real_.Quotient;
 
 namespace nilnul.num.real.matrix
 {
+	public interface IBe
+		:nilnul.obj.IBe<IMatrix>
+	{
+	}
 	public interface BeI2
 		:nilnul.obj.BeI1<RI[,]>
 	{
 	}
+
+
 }
