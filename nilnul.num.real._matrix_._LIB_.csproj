@@ -1,6 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="..\_TEST_(Git\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\_TEST_(Git\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
   <!--<Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />-->
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -107,37 +108,37 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="nilnul.num._integer_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._integer_._LIB_.1.1.250329.142625\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul.num._integer_._LIB_.1.1.250329.142625\lib\net48\nilnul.num._integer_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._quotient_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._quotient_._LIB_.1.1.250804.165609\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
+      <HintPath>..\_TEST_(Git\packages\nilnul.num._quotient_._LIB_.1.1.250907.91443\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul.num._real_._LIB_.2.1.250804.103333\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
+      <HintPath>..\_TEST_(Git\packages\nilnul.num._real_._LIB_.2.1.251005.101051\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._bit_._LIB_.1.1.250417.141758\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
+      <HintPath>..\_TEST_(Git\packages\nilnul._bit_._LIB_.1.1.250927.140056\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._character_._LIB_, Version=2.1.8387.39356, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.250403.154606\lib\net48\nilnul._character_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._character_._LIB_.2.1.250403.154606\lib\net48\nilnul._character_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._num_._LIB_.1.1.250804.164855\lib\net48\nilnul._num_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._num_._LIB_.1.1.250804.164855\lib\net48\nilnul._num_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._num_._LINQ_.1.1.250804.164856\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
+      <HintPath>packages\nilnul._num_._LINQ_.1.1.250804.164856\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.250805.132413\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
+      <HintPath>..\_TEST_(Git\packages\nilnul._obj_._LIB_.1.2.251007.135351\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.250424.44336\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
+      <HintPath>packages\nilnul._rel_._LIB_.1.2.250424.44336\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._set_._LIB_.1.1.250118.94723\lib\net48\nilnul._set_._LIB_.dll</HintPath>
+      <HintPath>..\_TEST_(Git\packages\nilnul._set_._LIB_.1.1.250929.80601\lib\net48\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.250728.52243\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
+      <HintPath>..\_TEST_(Git\packages\nilnul._txt_._LIB_.1.1.250828.14455\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -152,7 +153,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="_nilnul_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\_nilnul_._LIB_.1.1.241016.32119\lib\net48\_nilnul_._LIB_.dll</HintPath>
+      <HintPath>..\_TEST_(Git\packages\_nilnul_._LIB_.1.1.250926.84614\lib\net48\_nilnul_._LIB_.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -166,9 +167,17 @@
     <Compile Include="be\Vow.cs" />
     <Compile Include="be\vow_\BeDefault - Copy.cs" />
     <Compile Include="be\vow_\BeDefault.cs" />
+    <Compile Include="be_\IBasis.cs" />
     <Compile Include="be_\IBity.cs" />
+    <Compile Include="be_\ICanonical.cs" />
+    <Compile Include="be_\indent_\IDedundant.cs" />
+    <Compile Include="be_\indent_\std_\IRegular.cs" />
+    <Compile Include="be_\indent_\std_\regular_\_canon\IDedundant.cs" />
+    <Compile Include="be_\indep_\IBasis.cs" />
     <Compile Include="be_\ISign.cs" />
     <Compile Include="be_\ISparse.cs" />
+    <Compile Include="be_\ITriangular.cs" />
+    <Compile Include="be_\IUnEquilateral.cs" />
     <Compile Include="be_\_DiagonalX.cs" />
     <Compile Include="be_\triag_\_UpperX.cs" />
     <Compile Include="be_\triag_\_LowerX.cs" />
@@ -180,33 +189,152 @@
     <Compile Include="be_\indent_\IStandard.cs" />
     <Compile Include="be_\indent_\std_\canonic_\IColwise.cs" />
     <Compile Include="be_\indent_\std_\canonic_\IRowwise.cs" />
-    <Compile Include="be_\indent_\std_\ICanonical.cs" />
+    <Compile Include="be_\indent_\std_\regular_\ICanonical.cs" />
     <Compile Include="be_\indep_\IColwise.cs" />
     <Compile Include="be_\indep_\IRowwise.cs" />
     <Compile Include="be_\IVain.cs" />
     <Compile Include="be_\triag_\ILower.cs" />
     <Compile Include="be_\triag_\IUpper.cs" />
+    <Compile Include="bi_\mul\at_\_ColRowX.cs" />
+    <Compile Include="cols\op_\_indent\IGaussian.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\ISignal.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\op_\gausses\result\determ\theorem_\IDivided.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\op_\gauss_\skew\result\determ\theorem_\IUnchanged.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\op_\gauss_\shed\result\determ\theorem_\IHomogeneousLinearly.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\op_\gauss_\swap\result\determ\theorem_\INeg.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\op_\_indent\IGaussianElementaryRowOperation.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\diag_\dilute_\IShed.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\IGaussElementaryMatrix.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\isosize\bi_\mul\result\determ\be_\distro\ITauto.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\isosize\bi_\mul\result\determ\be_\IDistro.cs" />
+    <Compile Include="bi_\_SubtractX.cs" />
     <Compile Include="bi_\_mul_\arg_\IBasis.cs" />
     <Compile Include="bi_\_mul_\arg_\IFinal.cs" />
     <Compile Include="bi_\_mul_\by_\_RowsCombinateX.cs" />
     <Compile Include="bi_\_mul_\by_\_ColsCombinateX.cs" />
     <Compile Include="bi_\_mul_\IArg.cs" />
+    <Compile Include="calc_\unary_\transpose\determ\be_\ISemiPositive.cs" />
+    <Compile Include="calc_\unary_\endomul\be_\def_\ISemiPositive.cs" />
+    <Compile Include="calc_\unary_\endomul\be_\def_\semipos\ITauto.cs" />
+    <Compile Include="cels\be_\every_\IUnnegative.cs" />
+    <Compile Include="cols\be_\IIndependent.cs" />
+    <Compile Include="cols\each_\IStd.cs" />
+    <Compile Include="cols\IOp.cs" />
+    <Compile Include="cols\IRe.cs" />
+    <Compile Include="cols\op_\_indent\ISwap.cs" />
+    <Compile Include="col\op_\IShed.cs" />
+    <Compile Include="cols\op_\IShrink.cs" />
+    <Compile Include="cols\op_\IShuffle.cs" />
+    <Compile Include="cols\op_\_shuffle\ISwap.cs" />
+    <Compile Include="cols\re_\IEquiHull.cs" />
+    <Compile Include="cols\re_\IEquiv.cs" />
+    <Compile Include="cols\re_\_equihull_\by_\_ByTransposeX.cs" />
+    <Compile Include="cols_\unnil\_UnialX.cs" />
+    <Compile Include="col\IOp.cs" />
+    <Compile Include="col\op_\_ShedX.cs" />
+    <Compile Include="col\op_\_Unial0nilX.cs" />
+    <Compile Include="col\_PivotX.cs" />
+    <Compile Include="col_\unnil\_UnialX.cs" />
+    <Compile Include="co_\multible\prod\transposed\be_\backdist\ITheorem.cs" />
+    <Compile Include="co_\multible\prod\transposed\be_\IBackwardDistributable.cs" />
+    <Compile Include="co_\multible\prod\_TransposedX.cs" />
+    <Compile Include="factorize_\ICatalyst.cs" />
+    <Compile Include="factorize_\ISimilar.cs" />
+    <Compile Include="IRow.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\IIsohigh.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\IIsosize.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\IIsowide.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\IShrinker.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\IShuffler.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\isosize\re_\ICongruent.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\shuffler_\INoop.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\shuffler_\ISwap.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym_\deF\IInertia.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym_\deF\op_\congru_\IInertia.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym_\deF_\IIi.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\thin\use_\IDimensionEraser.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\fat\use_\IDimensionAdder.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\grid_\indent\IDeterminant.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\diag_\IDilutor.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\IAmbiguous.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\ISemi.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\IExonil.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\INonnegative.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\INonpositive.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\IZero.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\INilsome.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\INilless.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\nilless_\INegative.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\ISemiNegative.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\ISemiPositive.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\nonneg_\IPositive.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\nonneg_\IUnstrict.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\nonpos_\INegative.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\nonpos_\IUnstrict.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\semineg_\IStrict.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\semineg_\IUnStrict.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\semipos_\IUnStrict.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\semipos_\IStrict.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\IBe.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym_\deF\xpn_\IEndoRoot.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym_\deF_\negish\xpn_\IEndoRoot.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym_\deF_\nonneg\IEndoRoot.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\_DiagonalX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\_isosize\IHigh.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\_isohigh\IHigh.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\_isowide\IWide.cs" />
+    <Compile Include="nilnul0\num\real\vec\fn\op_\ILinear.cs" />
+    <Compile Include="op_\endomul\result\be_\equilat_\sym_\IDefinitely.cs" />
+    <Compile Include="op_\endomul\result\theorem_\equilat_\ISymmetric.cs" />
+    <Compile Include="op_\endomul\result\theorem_\equilat_\sym_\deF_\ISemiPositive.cs" />
+    <Compile Include="op_\endomul\result\theorem_\equilat_\sym_\IDefinitelySpeaking.cs" />
+    <Compile Include="op_\endomul\result\theorem_\IEquilateral.cs" />
+    <Compile Include="op_\endomul\result\be_\equilat_\ISymmetric.cs" />
+    <Compile Include="op_\endomul\result\be_\equilat_\sym_\deF_\ISemiPositive.cs" />
+    <Compile Include="op_\endomul\result\be_\equilat_\sym_\deF_\semipos\ITheorem.cs" />
+    <Compile Include="op_\endomul\result\be_\IEquilateral.cs" />
+    <Compile Include="op_\endomul_\_AtTransposedX.cs" />
+    <Compile Include="op_\equilat_\IAppendZeros.cs" />
+    <Compile Include="op_\equilat_\sym_\IEndoMul.cs" />
+    <Compile Include="op_\IEndoMultiply.cs" />
+    <Compile Include="op_\_EndoMultiplyX.cs" />
+    <Compile Include="op_\_shrink\IDilute.cs" />
+    <Compile Include="rows_\unnil\IUnial.cs" />
+    <Compile Include="cols_\unnil\IUnial.cs" />
     <Compile Include="co_\antisize\IProd.cs" />
     <Compile Include="co_\antisize\prod\IDiagonal.cs" />
     <Compile Include="co_\equisize\_HadamardProductX.cs" />
+    <Compile Include="co_\equisize\_DeductX.cs" />
+    <Compile Include="co_\equiwide\be_\IEquihull.cs" />
+    <Compile Include="co_\equiwide\be_\_equihull_\by_\IByIter.cs" />
+    <Compile Include="co_\equiwide\be_\_equihull_\by_\_ByCanonX.cs" />
+    <Compile Include="co_\equiwide\IBe.cs" />
     <Compile Include="co_\equiwide\IUpright.cs" />
     <Compile Include="co_\equihigh\IAugment.cs" />
     <Compile Include="co_\IAntisize.cs" />
+    <Compile Include="co_\IEquiHigh.cs" />
+    <Compile Include="co_\IEquiWide.cs" />
     <Compile Include="co_\multible_\IFlicker.cs" />
+    <Compile Include="co_\multible_\IRow9col.cs" />
+    <Compile Include="factorize_\ILowerUpperDecompose.cs" />
     <Compile Include="grid\be_\IDiagonalization.cs" />
     <Compile Include="grid\be_\IDiagonal.cs" />
     <Compile Include="grid\be_\triag_\ILower.cs" />
     <Compile Include="grid\be_\triag_\IUpper.cs" />
     <Compile Include="grid_\uxp_\IVacant.cs" />
+    <Compile Include="IAsMorph.cs" />
+    <Compile Include="ICel.cs" />
     <Compile Include="ICol.cs" />
+    <Compile Include="IFactorize.cs" />
+    <Compile Include="ISingularValues.cs" />
+    <Compile Include="ISpace.cs" />
     <Compile Include="ITo.cs" />
     <Compile Include="laths\IHull.cs" />
+    <Compile Include="nilnul0\num\real\co\IOp.cs" />
+    <Compile Include="nilnul0\num\real\co\op_\ICross.cs" />
+    <Compile Include="nilnul0\num\real\co\op_\_CrossX.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\IQuadratic.cs" />
+    <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\IDefinite - Copy.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\sign\be_\definite_\INaught.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\sign\be_\degen_\INaught.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\sign\be_\IDefinite.cs" />
@@ -215,7 +343,7 @@
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\sign\categ_\xpn_\IDefinitude.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\sym\op_\IInvertibleOfVars.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\sym\op_\invertible_\IOrthonormalOfVars.cs" />
-    <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\sym\op_\LinearMorphOfVars.cs" />
+    <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\sym\op_\ILinearMorphOfVars.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\sign\be_\definite_\INegative.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\sign\be_\definite_\IPositive.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\sign\be_\definite_\IUnNegative.cs" />
@@ -229,63 +357,246 @@
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\ISymmetric.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\sym\op_\IDiagnalize.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\IMatrixForm.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\canon\co_\equiwide\be_\_EquiHullX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\canon\op_\IKernel.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\canon\op_\_KernelX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\diag\factorize_\IStrech.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\diag\factorize_\streched_\_LandscapeX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\diag\factorize_\streched_\_PortraitX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\diag\factorize_\_StretchedX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\diag_\IPlateau.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\diag_\plat_\IStandard.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\diag_\_LandscapeX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\diag_\_PortraitX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\IBity.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\ICanonical.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\ICel.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\indent_\indep_\IStd.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\indent_\indep_\std_\ICanonical.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\indent_\std_\IRegular.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\inden\op_\IOrthy.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\inden\op_\_orthy_\by_\ISchmidtGram.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\indep\IFreedom.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\indep\IOp.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\indep\op_\IOrthic.cs" />
     <Compile Include="nilnul0\num\real\matrix_\indep\op_\IOrthonormal.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\indep\op_\IUnial.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\indep\op_\_orthy_\by_\ISchmidtGram.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\IOrthic.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\IPseudoPlane.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\IStandard.cs" />
     <Compile Include="nilnul0\num\real\matrix_\ITriangular.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\pseudoplane\to_\vec_\CrossX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\rowly_\indep\op_\IKernel.cs" />
     <Compile Include="nilnul0\num\real\matrix_\rowly_\IOrthic.cs" />
     <Compile Include="nilnul0\num\real\matrix_\rowly_\IOrthonormal.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\IDiagonal.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\IOrthic.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\be_\IToeplitz.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\be_\IUnSymmetric.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\triag_\_LowerX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\triag_\_UpperX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\_CanonicalX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\bi_\add_\_RidgeX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\bi_\_SubtractX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\cel\ICofactor.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\cel\IMinor.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\cel\_minor_\Minor.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\expr_\polynom_\IUnivar.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\expr_\polynom_\univar_\IStd.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\expr_\polynom_\univar_\Std.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\expr_\polynom_\univar_\std\be_\Annihilating.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\expr_\polynom_\univar_\std\_eval_\by_\Std.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\expr_\polynom_\univar_\std_\IAnnihi.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\expr_\prod\determ\theorem_\IDecomposable.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\factorize_\ILowerUpperDecompose.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\IAntiDiagonal.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\IBe.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\IFactorize.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\IOp.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\IPermanent.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\IRidge.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\ITo.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\op_\ICompanion.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\op_\sym_\_MidX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\ridge\ISum.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\IThwart.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\to_\factorize_\ICatalyst.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\to_\factorize_\IQr.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\to_\factorize_\ISimilar.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\to_\factorize_\similar_\xpn_\ITriagonal.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\to_\factorize_\similar_\xpn_\ITriDiagonal.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\factorize_\ICatalyst.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\factorize_\IQr.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\factorize_\ISimilar.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\factorize_\ISpectral.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\factorize_\similar_\xpn_\ITriagonal.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\factorize_\similar_\xpn_\ITriDiagonal.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\to_\IFactorize.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\xpn_\_eigen\IComplexFiledInvolved.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\IBySubmatrix.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\_BySubmatrixX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\_RidgeX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\canon_\IVanity.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\diag\be_\ICanonical.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\diag\_RidgeX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\diag_\IOne0nilIsNotOne.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\diag_\ISign.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\diag_\_UniformX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\IBity.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\ICel.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\idem\theorem_\IDiagible.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\idem\be_\IDiagible.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\idem\IRe.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\idem\re_\ICommute.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\idem_\ISymmetric.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\idem_\IUnSymmetric.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\idem_\unsym\co_\uncommute\IProduct.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\IHouseholder.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\IIdempotent.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\iii_\IOrthonormal.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\IIv.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii\factorize_\ISvd.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii\factorize_\_svd_\by_\IColsRows.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii\_DeterminantX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii_\INegSym.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii_\IOrthonormal.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii_\IRigid.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\invertible\be_\IInvolutory.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\IProjectile.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\IScaler.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\IShafter.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\ITetra.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\ITriDiagonal.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\IUnSymmetric.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\negsym_\ii_\IRotate.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\idem_\unsym\co\IProduct.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\shaft_\_UnvanityX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\nilless_\IPositive.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\co\prod\be_\ICommute.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\IEigen.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym_\deF\ICategorize.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym_\IDefinitly.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym_\idem_\IProjection.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\co_\commute\IProduct.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\eigen\IVal.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\eigen\IVals.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\IEigen.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\IKernel.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\IRank.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\IRe.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\ITrace.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\re_\ICommute.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\re_\IOrthic.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\re_\IOrthicUnoverlap.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\re_\IOverlap.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\re_\IUnCommute.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\re_\IUnoverlap.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\set_\IOrthicUnoverlap.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\set_\orthic_\unoverlap_\complete\ISum.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\proj\set_\orthic_\unoverlap_\IComplete.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\sym_\IDiagonal.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym_\IIdempotent.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\_CelX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\_Centering.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\_DiagonalX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\_ShaftX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\std_\_LandscapeX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\unival_\IOmniOne.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\unival_\_OmniOneX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\unival_\_OmniOneX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\vacant_\_PortraitX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\vacant_\_LandscapeX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\_indep\IAxis.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\_StandardX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\std_\_PortraitX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\triag_\ILower.cs" />
     <Compile Include="nilnul0\num\real\matrix_\triag_\IUpper.cs" />
     <Compile Include="nilnul0\num\real\matrix_\vacant_\colless_\IUnsquare.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\_NaughtX.cs" />
+    <Compile Include="nilnul0\num\real\tro\bi_\_CrossX.cs" />
+    <Compile Include="nilnul0\num\real\vecs_\indep\op_\IOrthic.cs" />
+    <Compile Include="nilnul0\num\real\vec\fn_\linear\of_\ILeastSquare.cs" />
+    <Compile Include="nilnul0\num\real\vec\IOp.cs" />
     <Compile Include="nilnul0\num\real\vec\IPivot.cs" />
+    <Compile Include="nilnul0\num\real\vec\op_\IRebase.cs" />
+    <Compile Include="nilnul0\num\real\vec\op_\rebase_\IMatrix8left.cs" />
+    <Compile Include="nilnul0\num\real\vec\op_\rebase_\IOrthonormal.cs" />
+    <Compile Include="nilnul0\num\real\vec\op_\rebase_\orthonorm_\IMatrix8left.cs" />
+    <Compile Include="nilnul0\num\real\vec\op_\_proj\IReject.cs" />
+    <Compile Include="nilnul0\num\real\vec\op_\_proj\IShade.cs" />
+    <Compile Include="nilnul0\num\real_\prob\IMatrix.cs" />
     <Compile Include="op_\colspan_\IDecline.cs" />
     <Compile Include="op_\colwise_\ISpanful.cs" />
+    <Compile Include="op_\ICanonical.cs" />
     <Compile Include="op_\IColSpan.cs" />
+    <Compile Include="op_\IHull.cs" />
     <Compile Include="op_\IIndependent.cs" />
+    <Compile Include="op_\IKernel.cs" />
+    <Compile Include="op_\IMultiply.cs" />
+    <Compile Include="op_\indent_\echelon_\IStd.cs" />
+    <Compile Include="op_\indent_\echelon_\_std\IDedundant.cs" />
+    <Compile Include="op_\indent_\IEchelon.cs" />
+    <Compile Include="op_\indent_\dedund_\IStd.cs" />
+    <Compile Include="op_\indent_\dedund_\std_\IRegular.cs" />
+    <Compile Include="op_\indent_\IDedundant.cs" />
+    <Compile Include="op_\indent_\dedund_\_StdX.cs" />
+    <Compile Include="op_\indent_\dedund_\_std\IPivotAsOne.cs" />
+    <Compile Include="op_\indent_\echelon_\dedund_\_RegulateX.cs" />
+    <Compile Include="op_\indent_\echelon_\IRegular.cs" />
+    <Compile Include="op_\indent_\echelon_\regula_\_DedundantX.cs" />
+    <Compile Include="op_\indent_\echelon_\_RegulateX.cs" />
+    <Compile Include="op_\indent_\echelon_\_DedundantX.cs" />
+    <Compile Include="op_\indent_\_echelon\IPivotAsBit.cs" />
+    <Compile Include="op_\indent_\_EchelonX.cs" />
+    <Compile Include="op_\_canon_\by_\_GaussianX.cs" />
+    <Compile Include="op_\_indent\gauss_\IShed.cs" />
+    <Compile Include="op_\_indent\gauss_\ISwap.cs" />
+    <Compile Include="op_\_indent\_GaussGramX.cs" />
+    <Compile Include="op_\IOrthic.cs" />
+    <Compile Include="row\co_\unself\ISkew.cs" />
+    <Compile Include="row\IOp.cs" />
+    <Compile Include="row\op_\IShed.cs" />
+    <Compile Include="op_\IShrink.cs" />
+    <Compile Include="op_\_shuffle\ISwap.cs" />
+    <Compile Include="op_\IUnial0nil.cs" />
+    <Compile Include="op_\shrink_\IPivot.cs" />
+    <Compile Include="op_\_canon_\by_\IIter.cs" />
     <Compile Include="op_\IRowSpan.cs" />
-    <Compile Include="op_\IScale.cs" />
+    <Compile Include="op_\_indent\gauss_\ISkew.cs" />
+    <Compile Include="op_\_shrink\IScale.cs" />
     <Compile Include="op_\ISpanful.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_slant_\by_\IElementaryMatrix.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_slant_\by_\_ElementaryMatrixX.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_stretch_\by_\IElementaryMatrix.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_stretch_\by_\_ElementaryMatrixX.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_swap_\by_\IElementaryMatrix.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_swap_\by_\_ElementaryMatrixX.cs" />
-    <Compile Include="op_\rowspan_\IGaussian.cs" />
-    <Compile Include="op_\rowspan_\indent_\std_\canon_\IDedundant.cs" />
-    <Compile Include="op_\rowspan_\indent_\std_\ICanonical.cs" />
+    <Compile Include="op_\ISymmetric.cs" />
+    <Compile Include="op_\_indent\gauss_\_slant_\by_\IElementaryMatrix.cs" />
+    <Compile Include="op_\_indent\gauss_\_slant_\by_\_ElementaryMatrixX.cs" />
+    <Compile Include="op_\_indent\gauss_\_stretch_\by_\IElementaryMatrix.cs" />
+    <Compile Include="op_\_indent\gauss_\_stretch_\by_\_ElementaryMatrixX.cs" />
+    <Compile Include="op_\_indent\gauss_\_swap_\by_\IElementaryMatrix.cs" />
+    <Compile Include="op_\_indent\gauss_\_swap_\by_\_ElementaryMatrixX.cs" />
+    <Compile Include="op_\_indent\IGaussian.cs" />
+    <Compile Include="op_\indent_\_dedund_\IReduced.cs" />
+    <Compile Include="op_\indent_\IUnEchelon.cs" />
+    <Compile Include="op_\indent_\echelon_\std_\canon_\IDedundant.cs" />
+    <Compile Include="op_\indent_\_DedundantX.cs" />
+    <Compile Include="op_\indent_\echelon_\std_\ICanonical.cs" />
+    <Compile Include="op_\indent_\echelon_\std_\IRegular.cs" />
     <Compile Include="op_\rowwise_\IInvertible.cs" />
+    <Compile Include="op_\_ShrinkX.cs" />
     <Compile Include="op_\spanful_\IShuffle.cs" />
+    <Compile Include="op_\endomul_\IMulTransposed.cs" />
+    <Compile Include="op_\endomul_\ITransposedMul.cs" />
+    <Compile Include="op_\sym_\ISelfMul.cs" />
     <Compile Include="op_\uxp_\IExp.cs" />
+    <Compile Include="op_\_indent\IGaussians.cs" />
+    <Compile Include="op_\_orthy_\by_\ISchmidtGram.cs" />
+    <Compile Include="op_\_ShiftX.cs" />
+    <Compile Include="op_\_shrink\_ScaleX.cs" />
+    <Compile Include="op_\_IndentX.cs" />
+    <Compile Include="pred_\linear_\col_\equat\be_\IHomogeneous.cs" />
+    <Compile Include="pred_\linear_\col_\equat\be_\IOverDetermined.cs" />
+    <Compile Include="pred_\linear_\col_\equat\be_\IUnderDetermined.cs" />
+    <Compile Include="pred_\linear_\col_\equat\IBe.cs" />
+    <Compile Include="op_\_kernel_\by_\_ByRowReductionX.cs" />
+    <Compile Include="pred_\linear_\col_\equat_\unirow\be_\IEmptySolvent.cs" />
+    <Compile Include="pred_\linear_\col_\homo_\IEquation.cs" />
+    <Compile Include="pred_\linear_\col_\IHomogeneous.cs" />
+    <Compile Include="pred_\linear_\col_\IUnirow.cs" />
+    <Compile Include="pred_\linear_\equat\be_\IHomogeneous.cs" />
     <Compile Include="pred_\linear_\equat\op_\IIndent.cs" />
     <Compile Include="pred_\linear_\col_\equat\IAsEigenForm.cs" />
     <Compile Include="pred_\linear_\col_\equat\xpn_\IAsEigenForm.cs" />
@@ -313,9 +624,9 @@
     <Compile Include="nilnul0\num\real\matrix_\indent_\indep_\ILandscape.cs" />
     <Compile Include="nilnul0\num\real\matrix_\indent_\indep_\IPortrait.cs" />
     <Compile Include="nilnul0\num\real\matrix_\indent_\IStandard.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\indent_\std_\canon_\IColwise.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\indent_\std_\canon_\IRowwise.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\indent_\std_\ICanonical.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\indent_\std_\regular_\canon_\IColwise.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\indent_\std_\regular_\canon_\IRowwise.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\indent_\std_\regular_\ICanonical.cs" />
     <Compile Include="nilnul0\num\real\matrix_\indep_\rowly_\ICompactToLeft.cs" />
     <Compile Include="nilnul0\num\real\matrix_\IPortrait.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\IInvertible.cs" />
@@ -335,35 +646,47 @@
     <Compile Include="nilnul0\num\real\vecs\scala_\ILinearCombinate.cs" />
     <Compile Include="nilnul0\num\real\vecs\to_\_GramMatrixX.cs" />
     <Compile Include="nilnul0\num\real\vecs\_HullX.cs" />
-    <Compile Include="nilnul0\num\real\vecs_\indep\op_\_SchmidtGramX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\indep\op_\_orthy_\by_\_SchmidtGramX.cs" />
     <Compile Include="nilnul0\num\real\vec\collective\IBe.cs" />
     <Compile Include="nilnul0\num\real\vec\ICollective.cs" />
     <Compile Include="be_\IIndent.cs" />
     <Compile Include="be_\IUnival1.cs" />
     <Compile Include="be_\unival_\AllOnes.cs" />
-    <Compile Include="be_\AllNils.cs" />
+    <Compile Include="be_\_OmniNilX.cs" />
     <Compile Include="be_\_fair_\Square - 复制.cs" />
     <Compile Include="be_\RankDeficient.cs" />
     <Compile Include="nilnul0\num\real\vec\collective\be_\ISubSpace.cs" />
-    <Compile Include="op_\spanful_\gaussian_\IAbsorbScaled.cs" />
-    <Compile Include="op_\spanful_\gaussian_\ISwap.cs" />
-    <Compile Include="op_\spanful_\gaussian_\IUntriviaScale.cs" />
     <Compile Include="op_\IIndent.cs" />
-    <Compile Include="op_\rowspan_\_GaussianX.cs" />
     <Compile Include="pred_\ILinear.cs" />
     <Compile Include="pred_\linear_\col_\IEquation.cs" />
     <Compile Include="pred_\linear_\col_\ILe.cs" />
     <Compile Include="pred_\linear_\IEquatation.cs" />
     <Compile Include="pred_\linear_\IColumnly.cs" />
+    <Compile Include="pred_\linear_\IUnirow.cs" />
     <Compile Include="re_\equiv_\IKernel.cs" />
     <Compile Include="re_\equiv_\ISpan.cs" />
+    <Compile Include="re_\equiwide_\IPerpend.cs" />
     <Compile Include="re_\IEquihigh.cs" />
+    <Compile Include="re_\IEquiRank.cs" />
     <Compile Include="re_\IEquisize.cs" />
+    <Compile Include="re_\equiwide_\IEquiHull.cs" />
     <Compile Include="re_\IEquiwide.cs" />
     <Compile Include="re_\IMultible.cs" />
+    <Compile Include="re_\IOpposize.cs" />
+    <Compile Include="re_\_EquiHullX.cs" />
     <Compile Include="rows\be_\IDependent.cs" />
     <Compile Include="rows\be_\Independent.cs" />
-    <Compile Include="rows\op_\IHull.cs" />
+    <Compile Include="IHull.cs" />
+    <Compile Include="rows_\unnil\_UnialX.cs" />
+    <Compile Include="row\op_\_ShedX.cs" />
+    <Compile Include="row\op_\_Unial0nilX.cs" />
+    <Compile Include="row\_PivotX.cs" />
+    <Compile Include="row_\unnil\_UnialX.cs" />
+    <Compile Include="str\co\to_\_OuterProductX.cs" />
+    <Compile Include="str_\started_\isosize\_SumX.cs" />
+    <Compile Include="str_\started_\productable\_ProductX.cs" />
+    <Compile Include="factorize_\_svd_\by_\IVectorize.cs" />
+    <Compile Include="to_\IDecompose.cs" />
     <Compile Include="to_\IFactorize.cs" />
     <Compile Include="to_\IKernel.cs" />
     <Compile Include="op_\sel_\ILinear.cs" />
@@ -390,8 +713,8 @@
     <Compile Include="bi_\_AddX.cs" />
     <Compile Include="bi_\_MultiX.cs" />
     <Compile Include="Cel.cs" />
-    <Compile Include="cel\Child.cs" />
-    <Compile Include="cel\Remnant.cs" />
+    <Compile Include="cel\_ChildX.cs" />
+    <Compile Include="cel\_RemnantX.cs" />
     <Compile Include="co_\divisible\_DivideX.cs" />
     <Compile Include="co_\horizontal_\Jagged.cs" />
     <Compile Include="co_\IDivisible.cs" />
@@ -411,7 +734,7 @@
     <Compile Include="pred_\linear_\col_\equat\IAugmentedMatrix.cs" />
     <Compile Include="pred_\linear_\col_\equat\ISolve.cs" />
     <Compile Include="pred_\linear_\col_\equat\slv_\Infinite.cs" />
-    <Compile Include="pred_\linear_\col_\equat\_solve_\by_\ByRowReduction.cs" />
+    <Compile Include="pred_\linear_\col_\equat\_solve_\by_\IByRowReduction.cs" />
     <Compile Include="pred_\linear_\col_\equat_\hollow_\IHomogeneous.cs" />
     <Compile Include="pred_\linear_\col_\equat_\hollow_\IUnHomogeneous.cs" />
     <Compile Include="pred_\linear_\col_\equat_\homo\IKernel.cs" />
@@ -458,7 +781,7 @@
     <Compile Include="nilnul0\num\integer\matrix\co_\sociable\Multi.cs" />
     <Compile Include="nilnul0\num\integer\seq_\headed_\nonhead8pos\fractile\convergent\theorem_\ByMatrix.cs" />
     <Compile Include="nilnul0\num\real\expr_\monic\_CompanionMatrixX.cs" />
-    <Compile Include="pred_\linear_\col_\equat\_solve_\by_\ByPseudoInverse.cs" />
+    <Compile Include="pred_\linear_\col_\equat\_solve_\by_\IByPseudoInverse.cs" />
     <Compile Include="nilnul0\num\real\matrix_\IDiagonal.cs" />
     <Compile Include="nilnul0\num\real\matrix_\IIndependent.cs" />
     <Compile Include="nilnul0\num\real\matrix_\indep_\IRowly.cs" />
@@ -478,22 +801,18 @@
     <Compile Include="nilnul0\num\real\matrix_\ILinear.cs" />
     <Compile Include="nilnul0\num\real\matrix_\linear_\ICel.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\Orthonormal.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\be_\_NegSymmetricX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\be_\_AntoSymmetricX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\_orthonorm\ColsOrthonorm.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\_orthonorm\RowsOrthonorm.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\_SymmetricX.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\bi_\Multiply.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\calc_\mul\Determinant.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\calc_\mul\det\theorem_\Distro.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\isosize\calc_\mul\IDeterminant.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\isosize\calc_\mul\det\theorem_\Distro.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\dich_\IQrDecompose.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\op_\_SquareX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\op_\_PonentX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\op_\_SimilarizeX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\op_\_CongruentX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\scala_\_TraceX.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\xpn_\_eigen_\by_\IByQrWithShift.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\xpn_\_eigen_\by_\IPowerIteration.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\xpn_\_eigen_\IValue9vector.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\vanity\IDeterminant.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\Invertible4dbl.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\invertible\op_\_invert_\Invert - Copy.cs" />
@@ -528,26 +847,25 @@
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\ITridiagonal.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\_negsym_\SkewSymmetric.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\Symmetric.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\determinant_\ByReuse.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\determinant_\byTheorem_\ByGaussianRowReduction.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\determinant_\byTheorem_\IByLuDecompose.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\determinant_\byTheorem_\IBySpecial4naive.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\determinant_\IByLoop.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\determinant_\IByTheorem.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\xpn_\eigen\be_\IDefective.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\IByReuse.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\byTheorem_\IByGaussianRowReduction.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\byTheorem_\IByLuDecompose.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\byTheorem_\IBySpecial4naive.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\IByLoop.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\IByTheorem.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\op_\_Congruence4dbl.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\op_\ICongruenceTransform.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\op_\ISimilarTransform.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\_be_\OfArray.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\_be_\_ofArray_\_AssumeSquareI.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\negsym_\secondary\_SqrtX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\negsym_\ii\_SqrtX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\negsym_\oddwide\be_\INoninvertible.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\canon\to_\IOrientate.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\canon\to_\IReSign.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\canon\to_\IShuffle.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\canon\to_\_orient\INegateOne.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\canon\to_\_orient\ISwap.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\diag\Eigen.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\diag\IEigen.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\diag\op_\Ponent.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\hadamard_\IWalsh.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\IDwelt.cs" />
@@ -655,20 +973,20 @@
     <Compile Include="nilnul0\num\real\matrix_\sq_\NewFolder1\INormal.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\invertible\op_\IGramSchmidt.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\sign_\def\ICategorize.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\cel\Remnant.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\cel\IRemnant.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\cel\remnant\Determinant.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\of_\vecs_\Rows.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\of_\Unary4dblI.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\op_\adjugate\ed\theorem_\MultiOriginal.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\op_\Transpose.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\scala_\determinant_\BySignaturedPermutation.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\determinant_\IByTransposesParity.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\Vow4dblI.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\vow\Ee4dbl.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\vow\ee_\VowNeo.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\IIndefinite.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\definite_\INonpos.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\definite_\nonpos_\INegative.cs" />
-    <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\definite_\nonneg_\Positive.cs" />
+    <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\definite_\nonneg_\IPositive.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\diag_\EveryIsOne.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\ISingulary.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\ICanonic.cs" />
@@ -680,21 +998,21 @@
     <Compile Include="nilnul0\num\real\matrix_\sq_\invertible\op_\Invert.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\Secondary4dbl.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\definite_\INonneg.cs" />
-    <Compile Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\mat_\diag_\IDefinite.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\tertiary_\ICanonic.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\tertiary_\invertible_\orthic_\INormal.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\tertiary_\invertible_\orthic_\normal_\axial_\IPositive.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\tertiary_\invertible_\orthic_\normal_\axial_\positive_\ICanonic.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\tertiary_\_CanonicX.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\tertiary_\invertible_\orthic_\normal_\IAxial.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\sym\be_\IDefinitely.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\iii_\ICanonic.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\iii_\invertible_\orthic_\INormal.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\iii_\invertible_\orthic_\normal_\axial_\IPositive.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\iii_\invertible_\orthic_\normal_\axial_\positive_\ICanonic.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\iii_\_CanonicX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\iii_\invertible_\orthic_\normal_\IAxial.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\Tetra4dbl.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\Tertiary4dbl.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\triag_\IUpper.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\triag_\ILower.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\tertiary_\canonic\_ShuffleX.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\tertiary_\canonic\Revolve.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\secondary_\Unital.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq_\secondary_\canonic\Revolve.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\iii_\canonic\_ShuffleX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\iii_\canonic\Revolve.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii_\Unital.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\ii_\canonic\Revolve.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\canon\elementary_\_ShearX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\canon\elementary_\Scaled.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\canon\elementary_\_SwitchedX.cs" />
@@ -728,39 +1046,35 @@
     <Compile Include="op_\_pinv_\by_\Limit.cs" />
     <Compile Include="op_\_Selective.cs" />
     <Compile Include="op_\_transpose_\Transpose.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_swap_\by_\IScaleSkew.cs" />
-    <Compile Include="op_\rowspan_\_gaussian_\basic_\ISlantExceptSubtract.cs" />
-    <Compile Include="op_\rowspan_\_gaussian_\ISwapScaleSkew.cs" />
-    <Compile Include="op_\rowspan_\indent_\IStd.cs" />
-    <Compile Include="op_\rowspan_\IIndent.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\IStretch.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_slant_\ISkew.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\ISlant.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\ISwap.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\slant_\IByNegOne.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_slant_\_BySlantX.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_slant_\subtract_\_BySlantX.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_swap_\_BySlantX.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_SlantExceptSubtract.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_stretch_\by_\xpn_\swap1skew_\OneRow.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_stretch_\_BySlantX.cs" />
+    <Compile Include="op_\_indent\gauss_\_swap_\by_\IScaleSkew.cs" />
+    <Compile Include="op_\_indent\_gaussian_\basic_\ISlantExceptSubtract.cs" />
+    <Compile Include="op_\_indent\_gaussian_\ISwapScaleSkew.cs" />
+    <Compile Include="op_\_indent\gauss_\_shed_\IStretch.cs" />
+    <Compile Include="op_\_indent\gauss_\_slant_\ISkew.cs" />
+    <Compile Include="op_\_indent\gauss_\_slant_\ISlant.cs" />
+    <Compile Include="op_\_indent\gauss_\slant_\IByNegOne.cs" />
+    <Compile Include="op_\_indent\gauss_\_slant_\_BySlantX.cs" />
+    <Compile Include="op_\_indent\gauss_\_slant_\subtract_\_BySlantX.cs" />
+    <Compile Include="op_\_indent\gauss_\_swap_\_BySlantX.cs" />
+    <Compile Include="op_\_indent\gauss_\_SlantExceptSubtract.cs" />
+    <Compile Include="op_\_indent\gauss_\_stretch_\by_\xpn_\swap1skew_\OneRow.cs" />
+    <Compile Include="op_\_indent\gauss_\_stretch_\_BySlantX.cs" />
     <Compile Include="op_\Flop.cs" />
     <Compile Include="op_\Flip.cs" />
     <Compile Include="op_\Unary4dblI.cs" />
     <Compile Include="op_\Clone.cs" />
     <Compile Include="op_\IRowly.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_swap_\_BySlopeX.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_SlantX.cs" />
-    <Compile Include="op_\rowspan_\gaussian_\_stretch_\Scale.cs" />
-    <Compile Include="op_\rowspan_\Shuffle.cs" />
-    <Compile Include="op_\IElementary.cs" />
+    <Compile Include="op_\_indent\gauss_\_swap_\_BySlopeX.cs" />
+    <Compile Include="op_\_indent\gauss_\_SlantX.cs" />
+    <Compile Include="op_\_indent\gauss_\_stretch_\Scale.cs" />
+    <Compile Include="op_\_shuffle_\_ShuffleX.cs" />
+    <Compile Include="op_\_indent\IElementary.cs" />
     <Compile Include="op_\Inverse.cs" />
     <Compile Include="op_\IShuffle.cs" />
-    <Compile Include="op_\shuffle_\Reverse.cs" />
-    <Compile Include="op_\shuffle_\Revolve.cs" />
-    <Compile Include="op_\shuffle_\revolve_\colwise_\Leftward.cs" />
+    <Compile Include="op_\shuffle_\IReverse.cs" />
+    <Compile Include="op_\shuffle_\IRevolve.cs" />
     <Compile Include="op_\_NegX.cs" />
-    <Compile Include="op_\_ScaleX.cs" />
+    <Compile Include="op_\_shrink\_scale_\_ScaleX.cs" />
     <Compile Include="Properties\GlobalUsing.cs" />
     <Compile Include="rank\be_\IDeficient.cs" />
     <Compile Include="rank\be_\IFull.cs" />
@@ -789,7 +1103,7 @@
     <Compile Include="str\re_\_SommableX.cs" />
     <Compile Include="str_\enumerable\BeI.cs" />
     <Compile Include="str_\enumerable\be_\StartedProductable.cs" />
-    <Compile Include="str_\startedProductable\Product.cs" />
+    <Compile Include="str_\started_\productable\NewFolder1\Product.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\_TertiaryX.cs" />
     <Compile Include="co_\multible\%28retiring\Product.cs" />
     <Compile Include="co_\multible\%28retiring\Multi - Copy.cs" />
@@ -803,10 +1117,10 @@
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\DimThree.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\be_\Two.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\cel\_cofactor_\cofactor~\NewFolder1\Cofactor.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\scala_\%28determinant\_determinant\NewFolder1\Determinant - 复制.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\scala_\%28determinant\Determinant.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\NewFolder1\Determinant - 复制.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\%28determinant\Determinant.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\cel\_cofactor_\cofactor~\Cofactor.cs" />
-    <Compile Include="nilnul0\num\real\matrix_\sq\scala_\Determinant.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq\_determ_\by_\_DeterminantX.cs" />
     <Compile Include="be_\_fair_\Square.cs" />
     <Compile Include="co\be\Sociable.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\IQuaternary.cs" />
@@ -814,7 +1128,7 @@
     <Compile Include="nilnul0\num\real\matrix_\sq_\Secondary.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\_SkewSymmetricX.cs" />
     <Compile Include="op_\MoorePenroseInverse.cs" />
-    <Compile Include="nilnul0\num\real\MatrixX%28dbl.cs" />
+    <Compile Include="nilnul0\num\real\_matrix_\MatrixX%28dbl.cs" />
     <Compile Include="op_\NewFolder1\OpX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq\op_\_square_\Square.cs" />
     <Compile Include="co_\multible\_MultiX.cs" />
@@ -839,10 +1153,11 @@
     <Compile Include="nilnul0\num\real\matrix_\sq_\invertible\op_\_invert_\Inverse.cs" />
     <Compile Include="op_\Submatrix.cs" />
     <Compile Include="ICols.cs" />
-    <Compile Include="to_\factorize_\ISingularValueDecomposition.cs" />
-    <Compile Include="to_\factorize_\IQrDecompose.cs" />
+    <Compile Include="factorize_\ISingularValueDecomposition.cs" />
+    <Compile Include="factorize_\IQrDecompose.cs" />
     <Compile Include="cols\ISpan.cs" />
-    <Compile Include="op_\_MulTransposedX.cs" />
+    <Compile Include="op_\_endomul_\_MulTransposedX.cs" />
+    <Compile Include="to_\ToDbl.cs" />
     <Compile Include="txten_\_BySemicolonX.cs" />
     <Compile Include="vec\re_\_SommableX.cs" />
     <Compile Include="vec\co_\multible_\ISummable.cs" />
@@ -870,14 +1185,15 @@
     <Compile Include="_grid\mosaic_\nongrid_\xpN_\ElBlock.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="%28be\be_\" />
+    <Folder Include="be_\indent_\dedund_\" />
     <Folder Include="co\multi_\" />
     <Folder Include="co\op\" />
     <Folder Include="co_\antisize\str\" />
-    <Folder Include="co_\arity\" />
+    <Folder Include="co_\equihigh\be_\" />
     <Folder Include="co_\homo\" />
-    <Folder Include="co_\multible\_multi\" />
+    <Folder Include="co_\NewFolder1\" />
     <Folder Include="expr_\" />
+    <Folder Include="factorize_\xpn_\" />
     <Folder Include="nilnul0\num\integer\matrix\co_\sociable\to_\" />
     <Folder Include="nilnul0\num\integer\matrix_\sq\of_\binary_\" />
     <Folder Include="nilnul0\num\integer\seq_\headed_\nonhead8pos\fractile\convergent\theorem_\_byMatrix\" />
@@ -885,40 +1201,48 @@
     <Folder Include="nilnul0\num\real\expr_\polynom_\homo_\quadra_\_as_\" />
     <Folder Include="nilnul0\num\real\expr_\polynom_\monic\" />
     <Folder Include="nilnul0\num\real\matrix_\%28square\doubleElement\NewFolder1\" />
+    <Folder Include="nilnul0\num\real\matrix_\indent_\indep_\std\" />
     <Folder Include="nilnul0\num\real\matrix_\sq\be_\invertible\vow\" />
-    <Folder Include="nilnul0\num\real\matrix_\sq\cel\remnant\minor_\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq\bi_\_add_\" />
     <Folder Include="nilnul0\num\real\matrix_\sq\cel\_minor_\NewFolder1\" />
     <Folder Include="nilnul0\num\real\matrix_\sq\co_\conformable\op_\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq\expr_\polynom\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq\expr_\polynom_\univar_\std_\annihi_\" />
     <Folder Include="nilnul0\num\real\matrix_\sq\grid\co_\" />
-    <Folder Include="nilnul0\num\real\matrix_\sq\grid_\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq\grid_\indent\determ\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq\grid_\triag_\" />
     <Folder Include="nilnul0\num\real\matrix_\sq\op_\NewFolder1\NewFolder1\" />
-    <Folder Include="nilnul0\num\real\matrix_\sq\scala_\to_\" />
     <Folder Include="nilnul0\num\real\matrix_\sq\vec_\solo\" />
-    <Folder Include="nilnul0\num\real\matrix_\sq\xpn_\eigens_\" />
-    <Folder Include="nilnul0\num\real\matrix_\sq\xpn_\eigen_\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq\_determ_\by_\_submat_\" />
     <Folder Include="nilnul0\num\real\matrix_\sq\_trace\" />
-    <Folder Include="nilnul0\num\real\matrix_\sq_\bi_\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\gauss_\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\idem\be_\diagible\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\idem\theorem_\diagible\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\iii_\invertible_\orthic_\normal_\axial\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\iii_\invertible_\orthic_\normal_\axial_\positive\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\iii_\invertible_\orthic_\normal_\axial_\positive_\canonic\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\iii_\orthonorm_\" />
     <Folder Include="nilnul0\num\real\matrix_\sq_\invertible\as_\op_\" />
-    <Folder Include="nilnul0\num\real\matrix_\sq_\tertiary\" />
-    <Folder Include="nilnul0\num\real\matrix_\sq_\tertiary_\invertible_\orthic_\normal_\axial\" />
-    <Folder Include="nilnul0\num\real\matrix_\sq_\tertiary_\invertible_\orthic_\normal_\axial_\positive\" />
-    <Folder Include="nilnul0\num\real\matrix_\sq_\tertiary_\invertible_\orthic_\normal_\axial_\positive_\canonic\" />
-    <Folder Include="nilnul0\num\real\matrix_\sq_\xpn_\" />
-    <Folder Include="nilnul0\num\real\vecs\hull\" />
-    <Folder Include="op_\rowspan_\gaussian_\_stretch_\by_\_elem_\" />
-    <Folder Include="op_\rowspan_\indent_\_std_\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\proj\co\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\proj\set_\unoverlap_\orthic_\" />
+    <Folder Include="nilnul0\num\real\matrix_\sq_\sym\be_\deF_\demi_\nonneg\" />
+    <Folder Include="nilnul0\num\real\vec\fn_\linear\slv_\" />
+    <Folder Include="op_\endomul\at_\" />
+    <Folder Include="op_\indent_\echelon_\_std_\" />
+    <Folder Include="op_\indent_\indent_\" />
+    <Folder Include="op_\shuffle_\revolve_\" />
+    <Folder Include="op_\_indent\gauss_\_stretch_\by_\_elem_\" />
     <Folder Include="op_\_sel\vec_\" />
     <Folder Include="pred_\linear_\col_\equat\slv\" />
     <Folder Include="pred_\_equat_\" />
+    <Folder Include="rows_\unnil\each_\" />
+    <Folder Include="row\co\" />
     <Folder Include="split\co_\" />
-    <Folder Include="str\co\to_\" />
+    <Folder Include="str_\startedProductable\" />
+    <Folder Include="str_\started\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="License.txt" Pack="true" PackagePath="" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="PostBuildMacros">
@@ -950,18 +1274,19 @@
 if $(ConfigurationName) == Release (
 	"NuGet.exe" pack "$(ProjectPath)" -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
 	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source local
-	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source nuget
-
-	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source my
-
-
-
+	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source nuget.org
 ) ELSE (
 	if  $(ConfigurationName)==Symbol (
 		"NuGet.exe" pack "$(ProjectPath)" -Symbols -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
 		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).symbols.nupkg -SkipDuplicate -Source local
-		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).symbols.nupkg -SkipDuplicate -Source my
 		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).symbols.nupkg -SkipDuplicate -Source nuget
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).symbols.nupkg -SkipDuplicate -Source my
+	)
+	if  $(ConfigurationName)==Fx (
+		"NuGet.exe" pack "$(ProjectPath)" -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)+fx
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)+fx.nupkg -SkipDuplicate -Source local
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)+fx.nupkg -SkipDuplicate -Source my
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)+fx.nupkg -SkipDuplicate -Source nuget
 	)
 	if  $(ConfigurationName)==Nuget (
 		"NuGet.exe" pack "$(ProjectPath)"  -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
@@ -972,7 +1297,7 @@ if $(ConfigurationName) == Release (
 		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)-dev.nupkg -SkipDuplicate -Source nuget.org
 	)
 	if  $(ConfigurationName)==Sym2nuget (
-		"NuGet.exe" pack "$(ProjectPath)"  -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)-sym
+		"NuGet.exe" pack  -Symbols "$(ProjectPath)"  -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)-sym
 		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)-sym.nupkg -SkipDuplicate -Source local
 		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)-sym.nupkg -SkipDuplicate -Source my
 		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)-sym.nupkg -SkipDuplicate -Source nuget.org
@@ -983,15 +1308,18 @@ if $(ConfigurationName) == Release (
     <PropertyGroup>
       <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
     </PropertyGroup>
+    <Error Condition="!Exists('..\_TEST_(Git\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\_TEST_(Git\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\_TEST_(Git\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\_TEST_(Git\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
     <!--<Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
     <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
     <Error Condition="!Exists('packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
-    <Error Condition="!Exists('..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.props'))" />
-    <Error Condition="!Exists('..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.targets'))" />-->
+    <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />-->
   </Target>
   <!--<Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />-->
   <Import Project="packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
-  <Import Project="..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\..\.deps\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+  <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+  <Import Project="..\_TEST_(Git\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\_TEST_(Git\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

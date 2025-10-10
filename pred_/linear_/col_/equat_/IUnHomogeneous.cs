@@ -21,8 +21,7 @@ namespace nilnul.num.real.matrix.pred_.equat_.linear_.col_
 	/// <remarks>
 	/// </remarks>
 
-	public interface IUnHomogeneous:IColumn
-		
+	public interface IUnHomogeneous:IEquatation
 	{
 		
 	}

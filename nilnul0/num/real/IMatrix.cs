@@ -9,6 +9,9 @@ namespace nilnul.num.real
 	/// <summary>
 	/// real[,]
 	/// </summary>
+	/// <remarks>
+	///  
+	/// </remarks>
 	public interface IMatrix
 		:
 		nilnul.obj.IMatrix

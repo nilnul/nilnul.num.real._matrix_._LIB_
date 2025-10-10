@@ -14,6 +14,7 @@ namespace nilnul.num.real.matrix_.sq.op_
 	///;
 	///for <see cref="matrix_.sq_.orthonorm"/>, this is also <see cref="ISimilarTransform"/>
 	/// </remarks>
+	/// <see cref="num.real.matrix_.sq_.isosize"/>
 	internal class ICongruenceTransform
 	{
 	}

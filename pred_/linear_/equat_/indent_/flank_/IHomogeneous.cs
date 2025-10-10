@@ -1,4 +1,4 @@
-namespace nilnul.num.real.matrix.pred_.equat_.linear_.indent_.flank_
+namespace nilnul.num.real.matrix.pred_.linear_.equat_.indent_.flank_
 {
 	/// <summary>
 	/// eg
@@ -10,7 +10,7 @@ namespace nilnul.num.real.matrix.pred_.equat_.linear_.indent_.flank_
 	public interface IHomogeneous
 		:IEchelon
 		,
-		linear_.IHomogeneous
+		linear_.equat_.IHomogeneous
     {
     }
 

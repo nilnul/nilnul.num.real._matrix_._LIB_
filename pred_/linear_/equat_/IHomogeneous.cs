@@ -1,4 +1,4 @@
-namespace nilnul.num.real.matrix.pred_.equat_.linear_
+namespace nilnul.num.real.matrix.pred_.linear_.equat_
 {
 	/// <summary>
 	/// when B = 0

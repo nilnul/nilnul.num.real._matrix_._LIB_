@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix.co_
 {
+	/// <see cref="nilnul.obj.matrix.re_.IChainable"/>
 	/// <summary>
 	/// 
 	/// </summary>
@@ -13,6 +14,7 @@ namespace nilnul.num.real.matrix.co_
 	///		composable
 	///		multiplicable
 	///		sociable
+	///		
 	public interface IMultible
 		:matrix.ICo
 	{

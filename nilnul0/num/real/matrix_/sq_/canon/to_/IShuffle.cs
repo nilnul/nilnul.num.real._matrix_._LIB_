@@ -3,5 +3,7 @@
 	/// <summary>
 	/// swap n times, where n is a natural number.
 	/// </summary>
+	/// alias:
+	///		cyclic permutation matrix
 	interface IShuffle { }
 }

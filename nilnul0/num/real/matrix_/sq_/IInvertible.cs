@@ -11,20 +11,26 @@ namespace nilnul.num.real.matrix_.sq_
 	/// or
 	/// equivalently the determinant is nonnil
 	/// </summary>
+	/// <remarks>
+	/// spanful linear combinate/transformation. 
+	/// </remarks>
+	/// This covers all <see cref="matrix.op_._indent.IElementary"/> operations;
+	/// 
 	/// alias:
 	///		invertible
 	///		nonsingular
-	///		spanful
+	///		spanful linear combinate
 	///		rankful
 	///		basis
 	///		hully
-	///			hully
+	///		
 	///
 	//[Obsolete]
 	public interface IInvertible
 		:ISquare
 	{
-
 	}
+
+
 
 }

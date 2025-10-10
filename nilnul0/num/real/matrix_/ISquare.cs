@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix_
 {
+	/// <summary>
+	/// 
+	/// </summary>
 	public interface ISquare
 		:IMatrix
 		,

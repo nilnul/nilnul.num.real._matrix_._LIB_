@@ -16,4 +16,8 @@ namespace nilnul.num.real.matrix.pred_.equat_.linear_.col.be_
     {
 		/// if the rank of A is less than the rank of Augmented Matrix, as that also means the B is not in subspace of the cols of A
     }
+
+
 }
+
+

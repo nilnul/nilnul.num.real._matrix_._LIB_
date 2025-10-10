@@ -17,6 +17,12 @@ namespace nilnul.num.real.matrix.optim_
 	/// when the solvents are not unique, that is, when there is infinite solutions or there is no solutions.
 	///  
 	/// </remarks>
+	/// 
+	/// we can solve this by project Y onto the plane of X, and b, for Y=aX + b[1,...]
+	/// 
+	/// alias:
+	///		regression
+	///		<see cref="num.real.vec.fn_.linear.of_.ILeastSquare"/>
 	class LinearLeastSquare
     {
     }

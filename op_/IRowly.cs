@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace nilnul.num.real.matrix.op_
 {
 	/// <summary>
-	/// by default rowwise, not colwise.
+	/// by default rowwise, not colwise. for colwise, <see cref="matrix.cols.IOp"/>
 	/// </summary>
 	/// <remarks>
 	/// used to solve linear equations;
@@ -20,6 +20,7 @@ namespace nilnul.num.real.matrix.op_
 	public interface IRowly:matrix.IOp
 	{
 	}
+
 
 
 }

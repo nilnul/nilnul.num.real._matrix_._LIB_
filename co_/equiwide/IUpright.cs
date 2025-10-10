@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix.co_.isowide
+namespace nilnul.num.real.matrix.co_.equiwide
 {
 	/// <summary>
 	/// each col is the concatenation of the two cols of the original two matrixes that are of the same width;

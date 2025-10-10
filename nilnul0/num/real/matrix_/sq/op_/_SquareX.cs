@@ -14,6 +14,12 @@ namespace nilnul.num.real.matrix_.sq.op_
 		}
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static Q[,] _Square_0regular(this Q[,] x) {
+			return nilnul.num.real.matrix.bi_._MultiX._Multiply_1sociable(x, x);
+		}
+
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static int[,] _Square_0regular(this int[,] x) {
 			return nilnul.num.real.matrix.bi_._MultiX._Multiply_1sociable(x, x);
 		}

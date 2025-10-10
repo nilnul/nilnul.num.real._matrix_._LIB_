@@ -17,6 +17,15 @@ namespace nilnul.num.real.matrix_
 
 		}
 
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public Q[,] Init8quotient(int dimension) {
+
+			return nilnul.num.real.matrix_._NaughtX.Generate8quotient(dimension,dimension);
+
+			//return nilnul.obj.matrix_._SquareX._Init_0width<Q>(dimension);
+
+		}
+
 
 		
 	}

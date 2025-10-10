@@ -1,4 +1,4 @@
-namespace nilnul.num.real.matrix.pred_.equat_.linear_.indent_
+namespace nilnul.num.real.matrix.pred_.linear_.equat_.indent_
 {
 	/// <summary>
 	/// A is  <see cref="matrix_.indep_.rowly_.ICompactToLeft"/>;

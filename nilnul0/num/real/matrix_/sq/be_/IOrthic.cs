@@ -5,4 +5,5 @@ namespace nilnul.num.real.matrix_.sq.be_
 	/// A A^T = I
 	/// </summary>
 	public interface IOrthic { }
+
 }

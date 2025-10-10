@@ -12,6 +12,12 @@ namespace nilnul.num.real.matrix.re_
 
 			return nilnul.obj.matrix.re_._EquiHighX.Re(a, b);
 		}
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public bool Re(Q[,] a, Q[,] b) {
+
+			return nilnul.obj.matrix.re_._EquiHighX.Re(a, b);
+		}
+
 	}
 
 

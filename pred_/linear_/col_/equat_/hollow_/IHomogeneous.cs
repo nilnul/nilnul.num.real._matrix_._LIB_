@@ -16,6 +16,6 @@ namespace nilnul.num.real.matrix.pred_.equat_.linear_.col_.hollow_
 	/// </remarks>
 
 	public interface IHomogeneous
-		:matrix.pred_.equat_.linear_.col_.IHollow
+		:matrix.pred_.linear_.col_.equat_.IHollow
 	{ }
 }

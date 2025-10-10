@@ -8,9 +8,11 @@ namespace nilnul.num.real.matrix_.indent_
 {
 	/// <summary>
 	/// <see cref="matrix.be_.indent_.IStandard"/>
-	/// ; each unnil vec is led by 1
+	/// ; each unnil vec is led by 1, which is called <see cref="nilnul.num.real.vec_.unnil.IPivot"/>
 	/// </summary>
-	internal class IStandard:IIndent
+	/// alias:
+	///		std
+	public interface IStandard:IIndent
 	{
 	}
 }

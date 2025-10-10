@@ -18,4 +18,6 @@ namespace nilnul.num.real.matrix.be_.indent_
 	public interface IStandard:IIndent
 	{
 	}
+
+
 }

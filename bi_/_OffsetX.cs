@@ -18,6 +18,12 @@ namespace nilnul.num.real.matrix.bi_
 	///			1,2,0
 	///			0,0,3
 	/// </summary>
+	/// <remarks>
+	///  
+	/// </remarks>
+	/// alias:
+	///		biagonal
+	///		opposite
 	static public class _OffsetX
 	{
 		static public Q[,] Offset(Q[,] a, Q[,] b) {

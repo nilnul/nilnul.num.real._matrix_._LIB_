@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix_.sq.be_
 {
+	///	 if A^T = -A, then A is neg-symmetric.
 	/// <summary>
 	/// A = - transpose of A
 	/// </summary>

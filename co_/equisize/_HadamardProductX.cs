@@ -12,6 +12,9 @@ using R2 = nilnul.num.Real;
 
 namespace nilnul.num.real.matrix.co_.isosize
 {
+	/// <summary>
+	/// 
+	/// </summary>
 	static public class _HadamardProductX
 	{
 

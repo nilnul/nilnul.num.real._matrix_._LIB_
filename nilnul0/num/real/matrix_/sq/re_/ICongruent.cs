@@ -13,6 +13,7 @@ namespace nilnul.num.real.matrix_.sq.re_
 	/// alias:
 	///		合同变换
 	///		合同
+	///	;<see cref="real.matrix_.sq_.isosize.re_."/>
 	public interface ICongruent
 	{
 	}

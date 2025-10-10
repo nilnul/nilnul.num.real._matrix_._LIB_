@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix.be_
+namespace nilnul.num.real.matrix_.sq.be_
 {
 	/// <summary>
 	/// A^2 = A
 	/// </summary>
-	public class IIdempotent
+	/// alias:
+	///		projection matrix
+	public interface IIdempotent
+		:sq.IBe
 	{
 	}
 	/*

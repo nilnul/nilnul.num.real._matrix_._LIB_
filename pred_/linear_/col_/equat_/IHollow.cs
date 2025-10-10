@@ -1,4 +1,4 @@
-namespace nilnul.num.real.matrix.pred_.equat_.linear_.col_
+namespace nilnul.num.real.matrix.pred_.linear_.col_.equat_
 {
 	/// <summary>
 	/// when there is no unknowns shown up in the equation.
@@ -27,8 +27,8 @@ namespace nilnul.num.real.matrix.pred_.equat_.linear_.col_
 	/// </remarks>
 	/// A is 0 cols, hence A is independent.
 	/// 
-	public interface IHollow : linear_.IColumn
-		,linear_.IHollow
+	public interface IHollow : linear_.IColumnly
+		,linear_.equat_.IHollow
     {
     }
 

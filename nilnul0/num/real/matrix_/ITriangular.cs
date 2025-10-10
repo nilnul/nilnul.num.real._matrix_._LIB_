@@ -9,7 +9,7 @@ namespace nilnul.num.real.matrix_
 	/// <summary>
 	/// trapezoid 
 	/// </summary>
-	internal class ITriangular
+	public interface ITriangular:real.IMatrix
 	{
 	}
 }

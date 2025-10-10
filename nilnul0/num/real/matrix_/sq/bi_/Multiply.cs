@@ -12,5 +12,6 @@ namespace nilnul.num.real.matrix_.sq.bi_
 	/// <see cref="real.matrix.bi_._MultiX"/>
 	static  class _MultiplyX
 	{
+
 	}
 }

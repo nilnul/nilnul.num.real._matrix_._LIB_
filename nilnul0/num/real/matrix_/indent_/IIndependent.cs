@@ -9,7 +9,8 @@ namespace nilnul.num.real.matrix_.indent_
 	/// <summary>
 	/// hence zero vecs are removed
 	/// </summary>
-    public interface IIndependent:matrix_.IIndent
+	/// <see cref="matrix_.indent_."/>
+    public interface IIndependent:matrix_.IIndent,matrix_.IIndependent
     {
     }
 }

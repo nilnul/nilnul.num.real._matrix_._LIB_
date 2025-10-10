@@ -17,6 +17,8 @@ namespace nilnul.num.real.matrix_.sq_
 		sq_.ISymmetric
 		,
 		IDiagonal
+		,
+		sq_.IBity
 	{
 
 	}

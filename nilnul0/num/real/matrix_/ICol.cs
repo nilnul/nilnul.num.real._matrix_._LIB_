@@ -24,4 +24,7 @@ namespace nilnul.num.real.matrix_
 		,ILinear
 	{
 	}
+
+
+
 }

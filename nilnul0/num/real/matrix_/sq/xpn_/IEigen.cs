@@ -34,6 +34,8 @@ namespace nilnul.num.real.matrix_.sq.xpn_
 	/// 
 	/// alias:
 	///		eig
+	///		
+	[Obsolete("most matrix has eigen val unsolvable algebraically, and computatation results complex number as eigenval;(let's just image there is a complex element in the word eigen); hence see:nilnul.num.complex.matrix project, where we still can define nilnul.num.real.matrix_.sq.IEigen.")]
     public interface IEigen
     {
 

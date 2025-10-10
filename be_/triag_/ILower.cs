@@ -17,7 +17,7 @@ namespace nilnul.num.real.matrix.be_.triag_
 	///		}
 	/// 
 	/// </summary>
-	internal class ILower
+	public interface ILower:be_.ITriangular
 	{
 	}
 

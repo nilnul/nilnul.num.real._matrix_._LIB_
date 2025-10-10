@@ -43,16 +43,48 @@ namespace nilnul.num.real.matrix.bi_
 
 		public static Q[] _Multiply_1sociable(this Q[] a, Q[,] b)
 		{
-			var c = new Q[b.GetLength(1)];//every element has been initialized to 0.
-			for (uint j = 0; j < c.Length; j++)
+			int cols = b.GetLength(1);
+
+			var c = new Q[cols];
+			int rows = b.GetLength(0);
+
+			for (int j = 0; j < cols; j++)
 			{
-				for (uint i = 0; i < b.GetLength(0); i++)
+				c[j] =0;
+
+				for (int i = 0; i < rows; i++)
 				{
 					c[j] += a[i] * b[i, j];
 				}
 			}
 			return c;
 		}
+
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="a"></param>
+		/// <param name="b">a col</param>
+		/// <returns></returns>
+		public static Q[] _Multiply_1sociable(this Q[,] a, Q[] b)
+		{
+			int rows = a.GetLength(0);
+			var c = new Q[rows];
+
+			int cols = a.GetLength(1);
+
+			for (int j = 0; j < rows; j++)
+			{
+				c[j] =0;
+				for (int i = 0; i < cols; i++)
+				{
+					c[j] += a[j, i]*b[i];
+				}
+			}
+			return c;
+		}
+
+
 
 
 		public static double[,] _Multiply_1sociable(this double[,] a, double[,] b)
@@ -80,7 +112,7 @@ namespace nilnul.num.real.matrix.bi_
 		public static Q[,] _Multiply_1sociable(this Q[,] a, Q[,] b)
 		{
 
-			var c = new Q[a.GetLength(0), b.GetLength(1)];//every element has been initialized to 0.
+			var c = new Q[a.GetLength(0), b.GetLength(1)];
 
 
 			for (int i1 = 0; i1 < c.GetLength(0); i1++)
@@ -92,7 +124,7 @@ namespace nilnul.num.real.matrix.bi_
 						nilnul.obj.matrix._RowsX.Row(a, i1)
 						,
 						nilnul.obj.matrix._ExtensionsX.Col(b, j)
-						
+
 					);
 
 				}
@@ -110,7 +142,7 @@ namespace nilnul.num.real.matrix.bi_
 
 			int cols = b.GetLength(1);
 
-			var c = new R[rows, cols];//every element has been initialized to 0.
+			var c = new R[rows, cols];
 
 
 			for (int i1 = 0; i1 < rows; i1++)
@@ -122,7 +154,7 @@ namespace nilnul.num.real.matrix.bi_
 
 						nilnul.obj.matrix._RowsX.Row(a, i1)
 						,
-						nilnul.obj.matrix._ExtensionsX.Col(b,j)
+						nilnul.obj.matrix._ExtensionsX.Col(b, j)
 					);
 
 				}
@@ -150,7 +182,7 @@ namespace nilnul.num.real.matrix.bi_
 
 						nilnul.obj.matrix._RowsX.Row(a, i1)
 						,
-						nilnul.obj.matrix._ExtensionsX.Col(b,j)
+						nilnul.obj.matrix._ExtensionsX.Col(b, j)
 					);
 
 				}
@@ -209,8 +241,8 @@ namespace nilnul.num.real.matrix.bi_
 		)
 		{
 			return matrix.Select(
-				r=>
-				num.real.str.co_.sameLen._InnerProductX._Eval(r,col)
+				r =>
+				num.real.str.co_.sameLen._InnerProductX._Eval(r, col)
 			);
 		}
 
@@ -270,6 +302,20 @@ namespace nilnul.num.real.matrix.bi_
 
 
 		}
+		public static Q[,] Multiply(this Q[,] a, Q[,] b)
+		{
+
+			if (a.GetLength(1) != b.GetLength(0))
+			{
+				throw new Exception(" the length of a.component is not the same as that of b.component.");
+			}
+
+			return _Multiply_1sociable(a, b);
+
+
+		}
+
+
 		public static uint[,] Multiply(this uint[,] a, uint[,] b)
 		{
 

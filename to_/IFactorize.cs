@@ -12,9 +12,10 @@ namespace nilnul.num.real.matrix.to_
 	/// vs:
 	///		splitting, make it as a sum
 	/*public*/
-	interface IFactorize : num.real.matrix.ITo
+	public interface IFactorize : num.real.matrix.ITo
 	{
 	}
+
 
 
 }

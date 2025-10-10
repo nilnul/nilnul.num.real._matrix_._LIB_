@@ -31,6 +31,24 @@ namespace nilnul.num.real.matrix.bi_
 
 			}
 		}
+		public static void _Augment_1equisize(this Q[,] a, Q[,] b)
+		{
+			int rows = a.GetLength(0);
+			int cols = a.GetLength(1);
+
+			for (int i = 0; i < rows; i++)
+			{
+				for (int j = 0; j < cols; j++)
+				{
+					a[i, j] += b[i, j];
+				}
+
+			}
+		}
+
+
+	
+
 
 		public static void _Augment_1isosize(this R[,] a, R[,] b)
 		{

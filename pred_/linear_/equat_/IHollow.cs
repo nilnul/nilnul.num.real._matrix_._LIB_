@@ -1,4 +1,4 @@
-namespace nilnul.num.real.matrix.pred_.equat_.linear_
+namespace nilnul.num.real.matrix.pred_.linear_.equat_
 {
 	/// <summary>
 	/// when t is 0.
@@ -10,7 +10,7 @@ namespace nilnul.num.real.matrix.pred_.equat_.linear_
 	/// </summary>
 	/// alias:
 	///		hollow, the middle is empty.
-	public interface IHollow
+	public interface IHollow:linear_.IEquatation
 	{
 		
 	}

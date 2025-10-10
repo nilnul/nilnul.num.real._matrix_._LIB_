@@ -29,5 +29,10 @@ namespace nilnul.num.real.matrix_
 	{
 	}
 
+	static public class _VanityX
+	{
+		static public readonly Q[,] Quotient = new Q[0, 0];
+	}
+
 
 }

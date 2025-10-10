@@ -5,7 +5,10 @@ namespace nilnul.num.real.matrix_
 	/// </summary>
 	public interface ILandscape
 		:IMatrix
+		//,
+		//nilnul.obj.matrix_
 	{
+
 	}
 
 

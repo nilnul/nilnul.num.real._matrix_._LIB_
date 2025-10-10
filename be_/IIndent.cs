@@ -27,5 +27,9 @@ namespace nilnul.num.real.matrix.be_
 	///		echelon
 	///		indent
 	///			,to see if it's independent
+	///		<see cref="triag_"/>
 	public interface IIndent:matrix.IBe { }
+
+
+
 }

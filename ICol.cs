@@ -5,8 +5,10 @@
 	/// </summary>
 	public interface ICol
 		:
-		num.real.vec.IStr
+		num.real.IVec
 	{
 	}
+
+
 
 }

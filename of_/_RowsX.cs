@@ -39,7 +39,6 @@ namespace nilnul.num.real.matrix.of_
 		}
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-
 		static public Q[,] _OfRows_0started1unisize(
 			IEnumerable<IEnumerable<Q>> rows
 		)
@@ -47,6 +46,29 @@ namespace nilnul.num.real.matrix.of_
 			return nilnul.obj.matrix.of_.vecs_._OfRowsX._OfVecs_assumeSameArity(rows);
 
 		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public Q[,] _OfRows_0wide(
+			int wide
+			,
+			IEnumerable<IEnumerable<Q>> rows
+		)
+		{
+			return nilnul.obj.matrix.of_._OfRowsX._OfRows_0wide(wide,rows);
+
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public double[,] _OfRows_0wide(
+			int wide
+			,
+			IEnumerable<IEnumerable<double>> rows
+		)
+		{
+			return nilnul.obj.matrix.of_._OfRowsX._OfRows_0wide(wide,rows);
+
+		}
+
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public double[,] OfParams_assumeRowsSameLength(

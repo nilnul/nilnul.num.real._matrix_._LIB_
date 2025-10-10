@@ -1,4 +1,4 @@
-namespace nilnul.num.real.matrix.pred_.equat_.linear_.indent_.flank_
+namespace nilnul.num.real.matrix.pred_.linear_.equat_.indent_.flank_
 {
 	/// <summary>
 	/// the solvent of <see cref="IHomogeneous"/> + a particular solvent of this.
@@ -6,7 +6,7 @@ namespace nilnul.num.real.matrix.pred_.equat_.linear_.indent_.flank_
 	public interface IUnHomogeneous
 		:IEchelon
 		,
-		linear_.IHomogeneous
+		linear_.equat_.IHomogeneous
     {
     }
 

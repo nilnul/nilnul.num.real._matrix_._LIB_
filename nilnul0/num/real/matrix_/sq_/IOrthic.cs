@@ -17,4 +17,6 @@ namespace nilnul.num.real.matrix_.sq_
 	class IOrthic
 	{
 	}
+
+
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix.pred_.equat_.linear_
+namespace nilnul.num.real.matrix.pred_.linear_.equat_
 {
 	/// A x =b, where x is a column vector, A is a matrix, and b is a col.
 	/// <summary>

@@ -11,6 +11,7 @@ namespace nilnul.num.real.matrix_
 	///		nilonly
 	///		allnil
 	///		alnil
+	///		naught
 	public interface INilful:IMatrix
 	{
 	}

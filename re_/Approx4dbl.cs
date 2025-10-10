@@ -80,5 +80,12 @@ namespace nilnul.num.real.matrix.re_
 			 nilnul.num.real.re_.approx_.ratio_.PerKilo4Dbl.Singleton
 		);
 
+		static public readonly Approx4dbl1 HUNDREDTH = new Approx4dbl1(
+			 //nilnul.num.real.re_.approx_.ratio_.PerKilo4Dbl.Singleton
+
+			 0.01
+		);
+
+
 	}
 }

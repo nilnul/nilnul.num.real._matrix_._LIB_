@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix.cols
 {
+	/// <see cref="nilnul.objs.IAggregate"/>
+	/// 
 	/// <summary>
 	/// the matrix multiplies a vec at the right. That is:
 	///		Mv, where v is the coefficients as a col, and M is the matrix.

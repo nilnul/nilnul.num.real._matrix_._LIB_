@@ -10,4 +10,6 @@ namespace nilnul.num.real.matrix.pred_.linear_
 		:pred_.ILinear
 	{
 	}
+
+
 }

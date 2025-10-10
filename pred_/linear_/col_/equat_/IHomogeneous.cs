@@ -32,9 +32,7 @@ namespace nilnul.num.real.matrix.pred_.equat_.linear_.col_
 	/// the solution is called NullSpace/kernel for A.
 	/// X is orthogonal (or perpendicular) to each of the row vectors of A
 	/// </remarks>
-	public interface IHomogeneous:IColumn
-		,
-		linear_.IHomogeneous
+	public interface IHomogeneous:IEquatation
 	{
 		
 	}

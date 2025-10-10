@@ -15,7 +15,12 @@ namespace nilnul.num.real.matrix.be_.triag_
 	///			0,0,2,1,0;
 	///		}
 	/// </summary>
-	internal class IUpper
+	/// <remarks>
+	///  <see cref="IIndent"/>
+	/// </remarks>
+	/// alias:
+	///		right, especially when the matrix is <see cref="num.real.matrix.be_.IUnEquilateral"/>
+	public interface IUpper
 	{
 	}
 

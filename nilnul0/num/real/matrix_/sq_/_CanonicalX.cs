@@ -13,6 +13,13 @@ namespace nilnul.num.real.matrix_.sq_
 	/// </summary>
 	static public class _CanonicalX
 	{
+		/// <summary>
+		/// </summary>
+		/// <remarks>
+		/// some might use I
+		/// 
+		/// </remarks>
+		public const char SYMBOL = 'E';
 		static public double[,] Generate(int size) {
 
 

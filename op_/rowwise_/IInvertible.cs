@@ -14,6 +14,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_
 	/// reserve the span
 	/// </remarks>
 	/// alias:
+	///		<see cref="real.matrix.op_.IRowSpan"/>
 	///		span is conserved
 	///		elementary
 	///		rudimental

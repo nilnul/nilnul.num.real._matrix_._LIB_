@@ -11,8 +11,10 @@ namespace nilnul.num.real.matrix_.sq_
 	/// </summary>
 	/// alias:
 	///		flatTop
-	internal class IUnival
+	public interface IUnival
 		:nilnul.num.real.matrix_.IUnival
 	{
 	}
+
+
 }

@@ -7,4 +7,5 @@ namespace nilnul.num.real.matrix_.sq.be_
 
 
 
+
 }

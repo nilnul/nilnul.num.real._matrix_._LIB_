@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix.pred_.equat_.linear_.col
+namespace nilnul.num.real.matrix.pred_.linear_.col_.equat
 {
 	/// <summary>
 	/// ( A - aE ) V = a V
@@ -13,4 +13,5 @@ namespace nilnul.num.real.matrix.pred_.equat_.linear_.col
 	internal class IAsEigenForm
 	{
 	}
+
 }

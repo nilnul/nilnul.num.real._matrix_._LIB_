@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix.pred_.equat_.linear_.indent_
+namespace nilnul.num.real.matrix.pred_.linear_.equat_.indent_
 {
 	/// <summary>
 	/// A is  <see cref="matrix_.indent_.indep_.ILandscape"/>;
