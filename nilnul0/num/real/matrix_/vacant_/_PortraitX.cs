@@ -9,9 +9,14 @@ namespace nilnul.num.real.matrix_.vacant_
 {
 	static public class _PortraitX
 	{
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="rows"></param>
+		/// <returns></returns>
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		static public Q[,] Quotient(int x) {
-			return new Q[x, 0];
+		static public Q[,] Quotient(int rows) {
+			return new Q[rows, 0];
 		}
 
 

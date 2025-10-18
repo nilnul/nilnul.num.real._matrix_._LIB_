@@ -13,7 +13,7 @@ namespace nilnul.num.real.matrix_.sq_.isosize.calc_.mul.det.theorem_
 	/// </summary>
 	/// <remarks>
 	///  proof:
-	///		for <see cref="matrix_.triag_.IUpper"/>s, the claim holds.
+	///		for <see cref="matrix_.trape_.IRight"/>s, the claim holds.
 	///		for general matrix, we just transform a by:
 	///			ca
 	///				,where c means either: switch two rows, but change the sign of one row

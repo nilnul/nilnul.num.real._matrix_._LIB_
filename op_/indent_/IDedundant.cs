@@ -14,6 +14,7 @@ namespace nilnul.num.real.matrix.op_.indent_
 	/// <remarks>
 	/// the resulted is now unique, and can identify a space that is n dimensional, where n is the count of cols.
 	/// But the rows are not orthonormal. We can further make the rows orthonormal:<see cref="real.vecs_.indep.op_._SchmidtGramX"/>.
+	/// shall be avoided, as new matrix might take time and space.
 	/// </remarks>
 	/// alias:
 	///		echelon

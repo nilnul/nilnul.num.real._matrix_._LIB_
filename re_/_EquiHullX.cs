@@ -2,6 +2,9 @@ using System.Runtime.CompilerServices;
 
 namespace nilnul.num.real.matrix.re_
 {
+	/// <summary>
+	/// <see cref="re_.equiwide_.IEquiHull"/>
+	/// </summary>
 	static public class _EquiHullX
 	{
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]

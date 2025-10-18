@@ -68,11 +68,15 @@ namespace nilnul.num.real.matrix.op_
 	/// ;
 	/// the dimensions count is cols of the original matrix.
 	/// </summary>
+	/// 
+	/// another hull in the same space, but perpendicular. kernel is colwise to emphasize it's perpendicular, not aligned as the hull;
 	/// <remarks>
 	/// 
 	/// 
 	/// Null(A) is all the vectors in the domain that are sent to zero by the transformation.
 	/// </remarks>
+	/// 
+	/// 
 	/// alias:
 	///		kernel
 	///			,ker

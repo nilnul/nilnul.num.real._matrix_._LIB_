@@ -9,7 +9,7 @@ namespace nilnul.num.real.matrix.to_.factorize_
 	/// <summary>
 	/// a QR decomposition, also known as a QR factorization or QU factorization, is a decomposition of a matrix A into a product A = 
 	///		QR
-	///		,of an orthonormal(<see cref="num.real.matrix_.sq_.IOrthoNormal"/>) matrix Q and an upper triangular matrix R. (R means right triag:<see cref="num.real.matrix_.triag_.IUpper"/>)
+	///		,of an orthonormal(<see cref="num.real.matrix_.sq_.IOrthoNormal"/>) matrix Q and an upper triangular matrix R. (R means right triag:<see cref="num.real.matrix_.trape_.IRight"/>)
 	/// </summary>
 	/// <remarks>
 	///  using <see cref="nilnul.num.real.matrix.op_._orthy_.by_.ISchmidtGram"/>;

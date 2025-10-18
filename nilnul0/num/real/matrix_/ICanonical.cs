@@ -1,19 +1,9 @@
+using System;
+
 namespace nilnul.num.real.matrix_
 {
-	/// <summary>
-	/// eg:
-	///		[
-	///			0,1,0
-	///		]
-	///	;
-	///	
-	/// eg:
-	///		[
-	///			0,1,0
-	///			0,0,1
-	///		]
-	///	;
-	/// </summary>
+
+	[Obsolete(nameof(num.real.matrix_.sq_.ICanonic))]
 	public interface ICanonical
 		:matrix_.indent_.indep_.std_.ICanonical
 	{

@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace nilnul.num.real.matrix_.sq_
 {
 	/// <summary>
-	/// <see cref="diag_._UniformX"/>
+	/// <see cref="diag_._ScalerX"/>
 	/// </summary>
-	/// <see cref="diag_.IDilutor"/>
+	/// <see cref="diag_.IInvertible"/>
 	/// alias:
 	///		amplifier
-	public interface IScaler:sq_.diag_.IUniform
+	public interface IScaler:sq_.diag_.IScaler
 	{
 	}
 

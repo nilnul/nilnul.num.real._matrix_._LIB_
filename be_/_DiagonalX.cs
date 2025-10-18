@@ -10,6 +10,7 @@ namespace nilnul.num.real.matrix.be_
 	/// <summary>
 	/// only diagonal cels are immune from nil;
 	/// </summary>
+	/// alias:
 	static public class _DiagonalX
 	{
 		/// <summary>

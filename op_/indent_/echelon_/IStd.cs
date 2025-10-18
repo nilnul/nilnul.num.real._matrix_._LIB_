@@ -17,6 +17,7 @@ namespace nilnul.num.real.matrix.op_.indent_.echelon_
 	/// alias:
 	///		std
 	///			,short for a simplified one
+	///			,meaning std vertically, hence colwise standardized
 	///		simple
 	///		regular
 	///		normal

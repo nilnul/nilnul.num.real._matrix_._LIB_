@@ -9,9 +9,10 @@ namespace nilnul.num.real.matrix_.sq_
 	/// </summary>
 	/// alias:
 	///		stretch
-	///			,like <see cref="matrix_.sq_.diag_.IUniform"/>
+	///			,like <see cref="matrix_.sq_.diag_.IScaler"/>
 	///	vs:
-	///		scaler, which is <see cref="diag_.IUniform"/>
+	///		shrink, which is <see cref="matrix_.sq_.diag_.IInvertible"/>
+	///		scaler, which is <see cref="diag_.IScaler"/>
 	///			,used in scale:<see cref="real.matrix.op_.IScale"/>
 	public interface IDiagonal
 		:
@@ -20,6 +21,7 @@ namespace nilnul.num.real.matrix_.sq_
 		triag_.IUpper
 		//,
 		//ITriangular
+		,real.matrix_.IDiagonal
 	{
 	}
 }

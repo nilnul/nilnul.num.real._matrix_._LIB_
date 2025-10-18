@@ -27,7 +27,7 @@ namespace nilnul.num.real.matrix_.sq.bi_
 
 			return num.real.matrix.bi_._SubtractX._Minus_1equisize(
 				a, 
-				real.matrix_.sq_.diag_._UniformX.Generate_0width(a.GetLength(0), b)	
+				real.matrix_.sq_.diag_._ScalerX.Generate_0width(a.GetLength(0), b)	
 			);
 
 		}

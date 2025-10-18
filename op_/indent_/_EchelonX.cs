@@ -13,7 +13,7 @@ namespace nilnul.num.real.matrix.op_.indent_
 	/// 
 	/// </summary>
 	/// alias:
-	///		echelon:<see cref="matrix.be_.IIndent"/>, <see cref="matrix_.indent_.indep_."/>
+	///		echelon:<see cref="matrix.be_.IIndent"/>, <see cref="matrix_.dent_.indep_."/>
 	///		indent
 	///		gaussian
 	///		Gauss–Jordan elimination
@@ -22,6 +22,13 @@ namespace nilnul.num.real.matrix.op_.indent_
 	static public class _EchelonX
 	{
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="m"></param>
+		/// <returns>
+		/// rank, with which we don't need to remove taping zero rows, but still keep the unzero rows as a std/regula matrix.
+		/// </returns>
 		static public int EchelonForRank(ref Q[,] m)
 		{
 			// get the first col

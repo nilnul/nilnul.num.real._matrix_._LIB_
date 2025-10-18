@@ -4,6 +4,7 @@ namespace nilnul.num.real.matrix.re_.equiwide_
 	/// the space (<see cref="real.matrix.IHull"/>) defined by either one is the same.
 	/// </summary>
 	/// <see cref="nilnul.num.real.matrix.co_.equiwide."/>
+	/// <see cref="matrix.re_._EquiHullX"/>
 	public interface IEquiHull
 		:
 		real.matrix.re_.IEquiv

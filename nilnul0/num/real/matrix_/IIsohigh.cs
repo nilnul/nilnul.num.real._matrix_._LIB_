@@ -11,4 +11,5 @@ namespace nilnul.num.real.matrix_
 
 
 
+
 }

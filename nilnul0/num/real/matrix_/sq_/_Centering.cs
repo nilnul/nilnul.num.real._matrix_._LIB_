@@ -25,7 +25,7 @@ namespace nilnul.num.real.matrix_.sq_
 
 
 			Q[,] denomNonnils = num.real.matrix_.sq_.unival_._OmniOneX.Generate_0wide(wide);
-			denomNonnils.Shrink(
+			denomNonnils.Shred(
 				//nilnul.num.quotient_._InvertX.Invert
 				(wide));
 

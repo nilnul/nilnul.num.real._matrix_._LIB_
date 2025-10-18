@@ -12,6 +12,7 @@ namespace nilnul.num.real.matrix_.sq.be_
 	///		i,h,g,f,a
 	/// 
 	/// ]
+	/// , where diagonally each line is univalued
 	/// </summary>
 	public interface IToeplitz { }
 

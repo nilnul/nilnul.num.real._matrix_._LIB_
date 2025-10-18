@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix_.isowide.bi_.subside
 {
+	/// <summary>
+	/// <see cref="nilnul.obj.matrix_.isowide.bi_"/>
+	/// </summary>
 	static public class _CumulateX
 	{
 		static public Q[,] Subsides(int wide, IEnumerable<Q[,]> ms) {

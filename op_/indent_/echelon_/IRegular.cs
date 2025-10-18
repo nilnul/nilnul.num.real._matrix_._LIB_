@@ -10,6 +10,7 @@ namespace nilnul.num.real.matrix.op_.indent_.std_
 	///		reduced
 	///		regularized
 	///		shaft
+	///		chimney form
 	///	vs:
 	///		std
 	///		canonical
@@ -19,6 +20,8 @@ namespace nilnul.num.real.matrix.op_.indent_.std_
 	internal class IRegular:IEchelon
 	{
 	}
+
+
 
 
 

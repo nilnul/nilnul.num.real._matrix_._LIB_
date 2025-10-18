@@ -1,4 +1,4 @@
-namespace nilnul.num.real.matrix.op_.rowspan_
+namespace nilnul.num.real.matrix.op_._indent
 {
 	/// <summary>
 	/// basic operations that can be recursively applied to make <see cref="IIndent"/> or <see cref="indent_.IStd"/> or <see cref="indent_.std_.ICanonical"/>
@@ -9,7 +9,7 @@ namespace nilnul.num.real.matrix.op_.rowspan_
 	///		
 	/// </summary>
 	/// <remarks>
-	///
+	/// even <see cref="gaussian_.ISkew"/> is enough for <see cref="op_._indent.gauss_.IShed"/> and <see cref="gauss_.ISwap"/>, in algorithm <see cref="op_.indent_._EchelonX"/>, three operations are used.
 	/// </remarks>
 	/// alias:
 	///		elementray

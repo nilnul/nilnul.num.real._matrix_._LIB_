@@ -2,9 +2,10 @@
 {
 	public interface ICel
 		:
-		num.real.IMatrix
+		num.real.matrix_.IRow,ICol
 	{
 	}
+
 
 
 

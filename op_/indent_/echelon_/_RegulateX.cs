@@ -14,7 +14,7 @@ namespace nilnul.num.real.matrix.op_.indent_.echelon_
 	/// 
 	/// </summary>
 	/// alias:
-	///		echelon:<see cref="matrix.be_.IIndent"/>, <see cref="matrix_.indent_.indep_."/>
+	///		echelon:<see cref="matrix.be_.IIndent"/>, <see cref="matrix_.dent_.indep_."/>
 	///		indent
 	///		gaussian
 	///		Gauss–Jordan elimination

@@ -23,6 +23,20 @@ namespace nilnul.num.real.matrix_.sq_.invertible.op_
 
 			);
 		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public  Q[,] _Inverse_0invertible(this Q[,] nonsinglularSqMatrix) {
+
+
+			return num.real.matrix.op_._ShredX.ShredAsNew(
+				matrix_.sq.op_._AdjugateX._Adjugate_0equilat(nonsinglularSqMatrix)
+				,
+
+				sq._DeterminantX._Determinant_0square(nonsinglularSqMatrix)
+
+			);
+		}
+
 		
 	}
 

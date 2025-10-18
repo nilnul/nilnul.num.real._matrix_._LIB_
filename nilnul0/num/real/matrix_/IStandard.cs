@@ -7,17 +7,19 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix_
 {
+	/// 
 	/// <summary>
-	/// all 1s on the diagonal; 0s otherwise.
+	/// <see cref="num.real.matrix_.vent.op_.IStd"/>
+	/// ; it's the expansion of <see cref="matrix_.sq_.ICanonic"/>
 	/// </summary>
 	/// alias:
-	///		dimension Eraser/adder
-	///			,as in:  
-	///				youtube.com/watch?v=vSczTbgc8Rc
-	///				SVD Visualized, Singular Value Decomposition explained | SEE Matrix , Chapter 3 #SoME2
-	///				,by Visual Kernel
+	/// 
+	/// vs:
+	///		regular
+	///		regulated:<see cref="matrix_.vent_.colwise_.IFarleft"/>
 
-	public interface IStandard:matrix_.diag_.plat_.IStandard
+
+	public interface IStandard:real.IMatrix
 	{
 	}
 

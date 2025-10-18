@@ -49,6 +49,20 @@ namespace nilnul.num.real.matrix_.sq
 			{
 				return 1;
 			}
+			#region for performance
+
+			if ( width == 1)
+			{
+				return square[0,0];
+			}
+			if ( width == 2)
+			{
+				return square[0,0] * square[1,1] -square[0,1] * square[1,0];
+			}
+
+
+			#endregion
+
 
 			return Enumerable.Range(0, width).AsParallel().Select(
 				i=> matrix_.sq. cel.remnant.minor._CofactorX._AssumeValid(

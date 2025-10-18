@@ -9,6 +9,7 @@ namespace nilnul.num.real.matrix_.sq_
 	///			but unital might be taken as unitray, analog to <see cref="sq_.secondary_"/> or <see cref="sq_.tertiary_"/>
 	///		abrrivated as C
 	///	<seealso cref="matrix_.sq_.invertible_.orthic_.normal_.std_.Cannonical"/>
+	///		identity,I
 	///	
 	public interface ICanonic
 		:

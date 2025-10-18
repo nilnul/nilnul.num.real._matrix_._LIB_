@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.expr_.polynom_.homo_.quadra.mat_.diag_
 {
-	/// <see cref="real.matrix_.sq_.diag_.IUniform"/>
+	/// <see cref="real.matrix_.sq_.diag_.IScaler"/>
 	/// <summary>
 	/// 
 	/// </summary>

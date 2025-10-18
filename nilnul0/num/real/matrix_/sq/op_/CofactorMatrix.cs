@@ -8,6 +8,8 @@ namespace nilnul.num.real.matrix_.sq.op_.unary_
 	/// <summary>
 	/// 代数余子式矩阵
 	/// </summary>
+	/// 
+	[Obsolete(nameof(sq.op_._adjugate._CofactorMatrixX))]
 	public  class CofactorMatrix
 		:
 		nilnul.num.real.matrix_.sq.op_.Unary4dblI

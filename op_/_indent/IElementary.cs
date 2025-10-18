@@ -24,6 +24,7 @@ namespace nilnul.num.real.matrix.op_._indent
 	///		rudimental
 	///		fundamental
 	///		elementary
+	///			,elem, in short
 	///		gaussian gram
 	///		
 	public interface IElementary:matrix.IOp

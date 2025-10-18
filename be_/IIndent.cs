@@ -24,10 +24,13 @@ namespace nilnul.num.real.matrix.be_
 	/// used in <see cref="matrix.equat_.linear_.IIndent"/>
 	/// </remarks>
 	/// alias:
+	///		dent
+	///			,vs: vent, 
 	///		echelon
 	///		indent
 	///			,to see if it's independent
-	///		<see cref="triag_"/>
+	///		upper
+	///		<see cref="triag_.IUpper"/>
 	public interface IIndent:matrix.IBe { }
 
 

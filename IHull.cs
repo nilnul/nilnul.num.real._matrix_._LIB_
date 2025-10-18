@@ -10,7 +10,7 @@ namespace nilnul.num.real.matrix
 
 	///<see cref="nilnul.num.real.matrix.rows.ILinearCombinate"/>
 	/// <summary>
-	/// <see cref="real.matrix.op_.rowspan_.indent_.std_.ICanonical"/>, but any nil rows are dropped.
+	/// <see cref="real.matrix.op_.rowspan_.indent_.std_.IChimney"/>, but any nil rows are dropped.
 	/// by default the span of matrix means the span of rows, not cols.
 	/// </summary>
 	/// <remarks>

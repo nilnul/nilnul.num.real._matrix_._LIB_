@@ -12,13 +12,13 @@ namespace nilnul.num.real.matrix.rows
 	/// </summary>
 	/// <remarks>
 	/// this forms a subspace (<see cref="real.vec.set.LinearSpan"/>)
-	/// ; the canonical form is <see cref="matrix.op_.rowspan_.indent_.std_.ICanonical"/>
+	/// ; the canonical form is <see cref="matrix.op_.rowspan_.indent_.std_.IChimney"/>
 	/// </remarks>
 	/// <see cref="num.real.matrix."/>
 	/// 
 	/// alias:
 	///		rows.span
-	///		<see cref="real.vecs.ILinearSpan"/>
+	///		<see cref="real.vecs.IHull"/>
 	///	vs:
 	///		<see cref="matrix.cols.ILinearCombinate"/>
     class ILinearCombinate

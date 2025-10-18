@@ -10,8 +10,13 @@ namespace nilnul.num.real.matrix_.diag_
 	/// all the values on the diagonal are the same.
 	/// </summary>
 	/// alias:
+	///		evenly
+	///		
+	///		iron
 	///		prairie
 	///		mesa
+	///		uniridge
+	///		
 	public interface IPlateau:real.matrix_.IDiagonal
 	{
 	}

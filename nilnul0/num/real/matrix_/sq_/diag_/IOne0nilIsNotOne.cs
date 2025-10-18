@@ -1,7 +1,7 @@
 namespace nilnul.num.real.matrix_.sq_.diag_
 {
 	/// <summary>
-	/// the cels that are not 1, are at most 1. 
+	/// at most one cels on the diagonal can have a val that is not 1
 	/// eg:
 	///		[]
 	///		[1]
@@ -16,7 +16,11 @@ namespace nilnul.num.real.matrix_.sq_.diag_
 	/// that is: all are 1, or n-1 cels are 1.
 	/// 
 	/// </remarks>
+	/// alias:
+	///		shaft
 	/// <see cref="real.matrix_.sq_.IShafter"/>
+	/// vs:
+	///		<see cref="real.matrix.op_.IShred"/>
 	public interface IUnonesOptional
 		:matrix_.sq_.IDiagonal
 	{

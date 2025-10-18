@@ -9,4 +9,7 @@ namespace nilnul.num.real.matrix.op_.colwise_
 	public interface ISpanful:IColwise
 	{
 	}
+
+
+
 }

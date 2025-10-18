@@ -20,7 +20,7 @@ namespace nilnul.num.real.matrix.op_.sel_.linear_
 	/// ;
 	/// </summary>
 	/// <remarks>
-	/// conserving the <see cref="nilnul.num.real.vecs.ILinearSpan"/>
+	/// conserving the <see cref="nilnul.num.real.vecs.IHull"/>
 	/// eg:
 	///	returning the new column/row by:
 	///			aX 

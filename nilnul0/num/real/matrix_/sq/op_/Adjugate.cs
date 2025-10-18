@@ -16,6 +16,8 @@ namespace nilnul.num.real.matrix_.sq.op_.unary_
 	///		 adjoin
 	///			was used historically, but now is reserved for other use as conjugate transpose for complex matrix
 	///		classical adjoint
+	///		
+	[Obsolete(nameof(sq.op_._AdjugateX))]
 	public  class Adjugate
 		:
 		op_.Unary4dblI

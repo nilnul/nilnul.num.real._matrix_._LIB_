@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix.op_
 {
+	public interface ITranspose:matrix.IOp { }
 	 public  class Transpose:Unary4dblI
 	{
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]

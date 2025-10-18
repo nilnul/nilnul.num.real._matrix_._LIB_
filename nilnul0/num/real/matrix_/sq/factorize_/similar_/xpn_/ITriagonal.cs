@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix_.sq.to_.factorize_.similar_.xpn_
+namespace nilnul.num.real.matrix_.sq.factorize_.similar_.xpn_
 {
-	///
+	/// <see cref="sq.be_.ITriagible"/>
 	/// <summary>
 	/// A real matrix is not always similar (over ℝ) to an upper triangular matrix.
 	/// 

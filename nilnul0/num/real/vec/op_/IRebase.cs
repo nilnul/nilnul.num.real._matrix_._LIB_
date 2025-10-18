@@ -12,4 +12,5 @@ namespace nilnul.num.real.vec.op_
 	internal class IRebase:nilnul.num.real.vec.IOp
 	{
 	}
+
 }

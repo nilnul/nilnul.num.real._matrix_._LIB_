@@ -15,6 +15,11 @@ namespace nilnul.num.real.matrix.op_
 	/// alias:
 	///		offset
 	///		drift
+	///		summon
+	///			,sumon
+	///	vs:
+	///		shaft, subtract
+	///		subside, which means add?
 	static public  class _ShiftX
 	{
 		public static void Shift(this double[,] matrix, double a)

@@ -15,4 +15,5 @@ namespace nilnul.num.real.matrix_
 	public interface IIndependent:real.IMatrix
     {
     }
+
 }
