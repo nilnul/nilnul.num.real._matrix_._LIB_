@@ -12,7 +12,7 @@ namespace nilnul.num.real.matrix_.sq_.invertible.op_._invert_.by_
 	/// and A* / |A| is an inverse. This proves the existence of invert.
 	/// for uniqueness <see cref="invertible.op_.IInvert"/>
 	/// </summary>
-	internal class IAdjugate
+	public interface IAdjugate
 	{
 	}
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.vecs
 {
-	/// this is bettered defined as <see cref="real.matrix.rows.ILinearCombinate"/>
+	/// this is bettered defined as <see cref="real.matrix.rows.IHull"/>
 	/// how to define a space?
 	///		we can use the linear combination of vecs.
 	///	how to find the regular/std/normal/canonical form of a space?
@@ -40,7 +40,7 @@ namespace nilnul.num.real.vecs
 	///		beam
 	///		simplex, which means boundaried.
 	///
-	///		<see cref="num.real.matrix.rows.ILinearCombinate"/>
+	///		<see cref="num.real.matrix.rows.IHull"/>
 	///	vs:
 	///		span
 	///			,<see cref="real.matrix.to_.ISpan"/> which means only columns hull, not rows hull

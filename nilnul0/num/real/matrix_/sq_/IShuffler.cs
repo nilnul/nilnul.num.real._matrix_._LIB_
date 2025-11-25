@@ -4,7 +4,7 @@ namespace nilnul.num.real.matrix_.sq_
 	/// <see cref="real.matrix.op_.IShuffle"/>
 	/// </summary>
 	/// alias:
-	///		permutation matrix
+	///		permutation matrix:<see cref="IPermutational"/>
 	///		
 	public interface IShuffler
 		: IOrient

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix_.dent_.echelon_.vent_
+namespace nilnul.num.real.matrix_.vent_
 {
 	/// 
 	/// <summary>
@@ -31,7 +31,7 @@ namespace nilnul.num.real.matrix_.dent_.echelon_.vent_
 	/// </remarks>
 	/// alias:
 	///		std, where 's' leads 'set', excluding zero vecs;
-	///		
+	///		paragon
 	///	vs:
 	///		<see cref="matrix_.ICanonical"/>
 	///		<see cref="matrix_.indep_"/>

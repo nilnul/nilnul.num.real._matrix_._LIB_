@@ -9,36 +9,6 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix_.sq_.invertible.op_
 {
-	static public class _InvertX
-	{
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		static public  double[,] _Inverse_0invertible(this double[,] nonsinglularSqMatrix) {
-
-
-			return num.real.matrix.op_.unary_._ScaleX.Divide2new(
-				Adjugate.Matrix(nonsinglularSqMatrix)
-				,
-
-				sq.to_.scalar_._DeterminantX._Determinant_assumeSquare(nonsinglularSqMatrix)
-
-			);
-		}
-
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		static public  Q[,] _Inverse_0invertible(this Q[,] nonsinglularSqMatrix) {
-
-
-			return num.real.matrix.op_._ShredX.ShredAsNew(
-				matrix_.sq.op_._AdjugateX._Adjugate_0equilat(nonsinglularSqMatrix)
-				,
-
-				sq._DeterminantX._Determinant_0square(nonsinglularSqMatrix)
-
-			);
-		}
-
-		
-	}
 
 	public class Invert
 		:

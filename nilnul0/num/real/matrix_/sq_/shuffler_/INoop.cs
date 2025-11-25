@@ -4,6 +4,8 @@
 	/// no rows are switched;
 	/// <see cref="sq_.ICanonic"/>
 	/// </summary>
+	/// alias:
+	///		noncycle
 	internal class INoop
 	{
 	}

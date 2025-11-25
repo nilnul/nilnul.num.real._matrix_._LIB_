@@ -12,8 +12,10 @@ namespace nilnul.num.real.matrix.be_
 	///  upper left submatrix is canonical; other cels are 0;
 	/// 
 	/// </summary>
+	/// 
 	/// alias:
 	/// 
+	/// <see cref="real.matrix.op_.IStd"/>
 
 	static public class _StdX
 	{

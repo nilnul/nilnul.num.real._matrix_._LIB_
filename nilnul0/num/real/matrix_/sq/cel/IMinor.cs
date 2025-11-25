@@ -14,7 +14,7 @@ namespace nilnul.num.real.matrix_.sq.cel
 	///			,second minor means removal of two rows*two cols
 	///		principal minor
 	///			, 
-	public interface IMinor
+	public interface IMinor:cel.remnant.IDeterminant
 	{
 	}
 

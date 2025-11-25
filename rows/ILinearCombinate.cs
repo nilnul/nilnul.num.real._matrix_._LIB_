@@ -19,9 +19,11 @@ namespace nilnul.num.real.matrix.rows
 	/// alias:
 	///		rows.span
 	///		<see cref="real.vecs.IHull"/>
+	///		ILinearCombinate
 	///	vs:
 	///		<see cref="matrix.cols.ILinearCombinate"/>
-    class ILinearCombinate
+	///		
+    public interface IHull:nilnul.num.real.vecs.IHull
     {
     }
 }

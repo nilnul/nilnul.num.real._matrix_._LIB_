@@ -10,6 +10,7 @@ namespace nilnul.num.real.matrix_.sq_
 	/// alias:
 	///		stretch
 	///			,like <see cref="matrix_.sq_.diag_.IScaler"/>
+	///			,<see cref="real.matrix.op_.IStretch"/>
 	///	vs:
 	///		shrink, which is <see cref="matrix_.sq_.diag_.IInvertible"/>
 	///		scaler, which is <see cref="diag_.IScaler"/>

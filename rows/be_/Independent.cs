@@ -22,7 +22,7 @@ namespace nilnul.num.real.matrix.rows.be_
 	///  
 	/// 
 	/// </summary>
-	internal class IIndependent
+	public interface IIndependent
 	{
 	}
 

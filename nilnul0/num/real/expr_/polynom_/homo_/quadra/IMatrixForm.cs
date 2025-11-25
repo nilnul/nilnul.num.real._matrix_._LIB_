@@ -16,7 +16,7 @@ namespace nilnul.num.real.expr_.polynom_.homo_.quadra._as_
 	/// <see cref="real.matrix_.sq_.sym_.IDefinite"/>
 	///
 	/// vs:
-	///		<see cref="real.matrix.pred_.ILinear"/>
+	///		<see cref="real.matrix.pred_.IRudic"/>
 	/// vs:
 	///		<see cref="nilnul.obj.ITensor"/> might be used to solve cubic form?
 	internal class IMatrixForm

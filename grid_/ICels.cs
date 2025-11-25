@@ -1,5 +1,6 @@
 ﻿namespace nilnul.num.real.matrix.grid_
 {
+
 	/// <summary>
 	/// partition the matrix into cells.
 	/// theoretically this is always feasible, and might be fun.

@@ -13,7 +13,7 @@ namespace nilnul.num.real.vec.fn.op_
 	/// alias:
 	///		regression/coercion
 	///		<see cref="num.real.vec.fn_.linear.of_.ILeastSquare"/>
-	///		<see cref="num.real.matrix.optim_.LinearLeastSquare"/>
+	///		<see cref="num.real.matrix.optim_.ILinearLeastSquare"/>
 	internal class IToLinear
 	{
 	}

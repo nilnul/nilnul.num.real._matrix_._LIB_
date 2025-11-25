@@ -1,33 +1,51 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace nilnul.num.real.str.be_
 {
 	/// <summary>
-	/// it's <see cref="_ZeroX"/> or the pivotValue is 1.
+	/// led by one. <see cref="nilnul.num.real.vec_.std_.IOtherNils"/>
 	/// </summary>
-	/// alias:
-	///		paragon
-	///			,para means best is tried
-	///		parapivot
 	static public class _ParagonX
 	{
+		static public bool _Be_0str(
+			in IEnumerator<Q> reals
+		)
+		{
+
+			while (reals.MoveNext())
+			{
+				var c = reals.Current;
+				if (c == 0)
+				{
+					continue;
+				}
+				if (c!=1)
+				{
+					return false;
+				}
+
+				return true;
+
+			}
+			return false; /// when the str is empty. for 0d, there is 0 ideals. or when the str is all nils;
+		}
+
+
 		/// <summary>
-		/// the pivot is 1
 		/// </summary>
 		/// <returns></returns>
-		static public bool Be(
-			IEnumerable<double> reals	
-		) {
-			var x = reals.SkipWhile(x => x ==0).Take(1);
-			if (x.Any()) {
-				return x.First() ==1;
-			}
-			return true;
-
+		/// 
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public bool _Be_0str(
+			in IEnumerable<Q> reals
+		)
+		{
+			return _Be_0str(reals.GetEnumerator());
 		}
 	}
 

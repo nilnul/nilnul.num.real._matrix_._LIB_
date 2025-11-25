@@ -9,6 +9,9 @@ namespace nilnul.num.real.matrix_.sq_
 	/// <summary>
 	/// <see cref="diag_._ScalerX"/>
 	/// </summary>
+	/// <remarks>
+	/// used in <see cref="sq.fn_.IPolynomial"/>
+	/// </remarks>
 	/// <see cref="diag_.IInvertible"/>
 	/// alias:
 	///		amplifier

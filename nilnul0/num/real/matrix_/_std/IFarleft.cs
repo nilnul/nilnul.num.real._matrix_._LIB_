@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace nilnul.num.real.matrix_._std
 {
 	public interface IFarleft
-		:num.real.matrix_.vent_.colwise_.IFarleft
+		:num.real.matrix_.vent_.colly_.IFarleft
 	{
 	}
 }

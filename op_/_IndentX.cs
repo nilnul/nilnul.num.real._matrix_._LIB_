@@ -12,6 +12,9 @@ namespace nilnul.num.real.matrix.op_
 	/// <see cref="matrix.op_.IIndent"/>
 	/// 
 	/// </summary>
+	/// <remarks>
+	/// 
+	/// </remarks>
 	/// alias:
 	///		echelon:<see cref="matrix.be_.IIndent"/>, <see cref="matrix_.dent_.indep_."/>
 	///		indent
@@ -25,18 +28,16 @@ namespace nilnul.num.real.matrix.op_
 
 
 		/// <summary>
-		/// each row is leading by 1. this is the reduced row echelon
-		/// and the col with the leading 1 is  axial or not;
 		/// </summary>
 		/// <remarks>
-		///  row echelon form may vary
+		/// the main use for this is to <see cref="matrix.factorize_.catalyst_.ILowerUpperDecompose"/>, whence <see cref="dent_.IEchelon"/> is not used, as it involves <see cref="matrix.op_.basic_.sheds_.IShrink"/>
 		/// </remarks>
 		/// <param name="m"></param>
 		/// <returns> rank</returns>
 		/// alias:
 		///		right/upper triangle
 		/// vs:
-		///		echelon, where the leading can be not 1.
+		///		echelon, where the leading can be only 1.
 		static public int Indent(ref Q[,] m)
 		{
 			// get the first col
@@ -66,11 +67,11 @@ namespace nilnul.num.real.matrix.op_
 							Q toCancel = m[remained, col];
 							//if (toCancel != 0)
 							//{
-								_indent._GaussGramX._Skew_12row_3nilish(ref m, remained, rank,
+							_indent._GaussGramX._Skew_12row_3nilish(ref m, remained, rank,
 
 
-									- toCancel/head								
-								);   ///<see cref="nilnul.num.real.matrix.op_."/>
+								-toCancel/head
+							);   ///<see cref="nilnul.num.real.matrix.op_."/>
 							//}
 						}
 						rank++;

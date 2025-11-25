@@ -30,7 +30,7 @@ namespace nilnul.num.real.matrix.be_
 	///		indent
 	///			,to see if it's independent
 	///		upper
-	///		<see cref="triag_.IUpper"/>
+	///		<see cref="trape_.IUpper"/>
 	public interface IIndent:matrix.IBe { }
 
 

@@ -18,6 +18,7 @@ namespace nilnul.num.real.matrix_.sq_.diag_
 	///		ridge
 	///		scaler
 	///		uniridge
+	///		unidiag
 	public interface IScaler
 		:matrix_.sq_.IDiagonal
 	{

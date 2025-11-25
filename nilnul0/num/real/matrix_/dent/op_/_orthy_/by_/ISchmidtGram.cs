@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix_.inden.op_._orthy_.by_
+namespace nilnul.num.real.matrix_.dent.op_._orthy_.by_
 {
 	/// <see cref="real.matrix.op_.rowspan_.indent_.std_.canon_.IDedundant"/>
 	/// <see cref="real.vecs_.indep.op_._SchmidtGramX"/>

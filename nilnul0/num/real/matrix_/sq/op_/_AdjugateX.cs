@@ -20,6 +20,8 @@ namespace nilnul.num.real.matrix_.sq.op_
 	///		 adjoin
 	///			was used historically, but now is reserved for other use as conjugate transpose for complex matrix
 	///		classical adjoint
+	///		
+	/// <see cref="nilnul.num.real.matrix_.sq.op_.unary_.Adjugate"/>
 	static public class _AdjugateX
 	{
 
@@ -38,6 +40,17 @@ namespace nilnul.num.real.matrix_.sq.op_
 			);
 		
 		}
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public double[,] _Adjugate_0equilat(double[,] matrix) {
+
+			return num.real.matrix.op_.Transpose.Op(
+				op_._adjugate._CofactorMatrixX._CofactorMatrix_0equilat(matrix)
+				//CofactorMatrix.Matrix4dbl(matrix)
+			);
+		
+		}
+
+
 
 
 	}

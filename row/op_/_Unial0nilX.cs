@@ -2,6 +2,13 @@
 
 namespace nilnul.num.real.matrix.row.op_
 {
+	/// <summary>
+	/// try to normalize. 
+	/// </summary>
+	/// alias:
+	///		regularize
+	///		standardize
+	///		
 	static public class _Unial0nilX
 	{
 		/// <summary>

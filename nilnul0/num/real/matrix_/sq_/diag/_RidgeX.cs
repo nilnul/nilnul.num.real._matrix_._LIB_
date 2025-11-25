@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix_.sq_.diag
 {
+	/// <summary>
+	/// <see cref="real.matrix_.sq._RidgeX"/>
+	/// </summary>
 	static public class _RidgeX
 	{
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]

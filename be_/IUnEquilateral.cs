@@ -6,7 +6,7 @@ namespace nilnul.num.real.matrix.be_
 	/// alias:
 	///		scalene
 	///		heterolateral
-	///		skew, reserved for <see cref="matrix.op_.elem_.ISkew"/>
+	///		skew, reserved for <see cref="matrix.op_.basic_.ISkew"/>
 	/// 
 	public interface IUnEquilateral:matrix.IBe { }
 

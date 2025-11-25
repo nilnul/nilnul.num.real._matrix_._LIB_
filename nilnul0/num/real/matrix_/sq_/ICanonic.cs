@@ -10,6 +10,8 @@ namespace nilnul.num.real.matrix_.sq_
 	///		abrrivated as C
 	///	<seealso cref="matrix_.sq_.invertible_.orthic_.normal_.std_.Cannonical"/>
 	///		identity,I
+	///		ideal, <see cref="num.real.matrix_"/>
+	///			,vs <see cref="num.real.matrix_.INilful"/>
 	///	
 	public interface ICanonic
 		:

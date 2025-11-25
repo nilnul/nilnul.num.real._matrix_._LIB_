@@ -10,6 +10,9 @@ namespace nilnul.num.real.matrix_
 	/// either rowly independent or columnly independent.
 	/// by default this means rows, not cols. for cols, <see cref="real.matrix.cols.be_"/>
 	/// </summary>
+	/// <remarks>
+	///  then each row is a basis vec 
+	/// </remarks>
 	/// alias:
 	///		<see cref="real.matrix.be_.IBasis"/>
 	public interface IIndependent:real.IMatrix

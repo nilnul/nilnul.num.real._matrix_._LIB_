@@ -12,7 +12,7 @@ namespace nilnul.num.real.vecs
 	static public class _HullX
 	{
 		/// <summary>
-		/// <see cref="real.matrix.rows.ILinearCombinate"/>
+		/// <see cref="real.matrix.rows.IHull"/>
 		/// </summary>
 		/// <param name="a"></param>
 		/// <returns></returns>
@@ -20,7 +20,7 @@ namespace nilnul.num.real.vecs
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public Q[,] HullOfRows( Q[,] a) {
 			//var cloned = (Q[,]) a.Clone();
-			return nilnul.num.real.matrix.op_._canon_.by_._GaussianX.ToCanonical(a);
+			return nilnul.num.real.matrix.op_.vent_._indep_.by_._GaussianX.ToIndepVent(a);
 			//return cloned;
 
 

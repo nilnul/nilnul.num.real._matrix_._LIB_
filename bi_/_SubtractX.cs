@@ -116,10 +116,7 @@ namespace nilnul.num.real.matrix.bi_
 			return cloned;
 
 		}
-
-	
-
-
+		
 
 
 	}

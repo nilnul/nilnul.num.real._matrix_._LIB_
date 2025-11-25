@@ -13,6 +13,7 @@ namespace nilnul.num.real.matrix_.trape.be_
 	/// alias:
 	///		unitriangular
 	///		unitriag
+	///		unidiag
 	///		unit (lower or upper) triangular
 	///			,not the same as the unit matrix,
 	///		normed (lower or upper) triangular

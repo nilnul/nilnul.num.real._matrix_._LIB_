@@ -13,7 +13,9 @@ namespace nilnul.num.real.matrix_
 	///			,vertical
 	///			, with 0s, it can reach both sides to vent
 	///		funnel
-	///		haust
+	///		hoist
+	///		
+	///		echelon
 	///	vs:
 	///		<see cref="matrix_.IVacant"/>
 	///		

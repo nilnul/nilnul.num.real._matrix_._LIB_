@@ -52,7 +52,7 @@ namespace nilnul.num.real.matrix.op_
 	///				0,0,1
 	///				
 	///			}, which are the subspace that are orthic to the rowspan.
-	/// ;<see cref="pred_.linear_.col_.IEquation"/> is to find the kernel.
+	/// ;<see cref="pred_.rudic_.col_.IEquation"/> is to find the kernel.
 	/// 
 	/// 
 	/// 
@@ -81,16 +81,18 @@ namespace nilnul.num.real.matrix.op_
 	///		kernel
 	///			,ker
 	///			, the preimg/src of 0s in the target of the <see cref="matrix.op_.IMultiply"/>
+	///		husk
+	///			,<see cref="matrix.pred_.rudic_.col_.equat._slv_.by_._ByRowReductionX._Solve_0indepVent(quotient_.DenomNonnil[,])"/>
 	///		nullspace
 	///		null space
 	///			,vs:<see cref="IRowSpan"/> which is also called <see cref="matrix.rows.op_.IHull"/>
 	///	vs:
 	///		<see cref="real.matrix_.sq.IEigen"/>, whichs scale the matrix when the matrix is transformed by the matrix.
-	///		<see cref="num.real.matrix.rows.ILinearCombinate"/>
+	///		<see cref="num.real.matrix.rows.IHull"/>
 	///	
 	/// <see cref="num.real.matrix.to_.IKernel"/>
 	/// 
-	/// <see cref="num.real.matrix.op_._kernel_.by_._ByRowReductionX"/>
+	/// <see cref="num.real.matrix.op_._husk_.by_._ByRowReductionX"/>
 	public interface IKernel: num.real.matrix.IOp 
 	{
 	}

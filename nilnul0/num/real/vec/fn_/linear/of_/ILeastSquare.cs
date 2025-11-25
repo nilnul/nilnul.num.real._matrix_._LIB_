@@ -28,7 +28,7 @@ namespace nilnul.num.real.vec.fn_.linear.of_
 	/// [a,b] = (W^T W )\W^T Y
 	///		,where W = [1 X]
 	/// 
-	/// <see cref="num.real.matrix.optim_.LinearLeastSquare"/>
+	/// <see cref="num.real.matrix.optim_.ILinearLeastSquare"/>
 	internal class ILeastSquare
 	{
 	}

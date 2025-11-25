@@ -1,15 +1,16 @@
 ﻿//using nilnul.obj.matrix;
-using static nilnul.obj.matrix._RowsX;
+using nilnul.num.quotient.matrix.prop;
+using nilnul.obj.matrix;
 using System.Collections.Generic;
 using System.Linq;
-using nilnul.obj.matrix;
 using System.Runtime.CompilerServices;
+using static nilnul.obj.matrix._RowsX;
 //using nilnul.obj.matrix;
 
 namespace nilnul.num.real.matrix_.vent_.indep.to_
 {
 	/// <summary>
-	/// the returned is also <see cref="vent_.IIndependent"/>
+	/// the returned is also <see cref="matrix_.trape_.right_.colly_.drape_.IParagon"/>
 	/// </summary>
 	static public class _KernelX
 	{
@@ -17,16 +18,18 @@ namespace nilnul.num.real.matrix_.vent_.indep.to_
 		/// <summary>
 		/// 
 		/// </summary>
-		/// <param name="canon">
+		/// <param name="indepVent">
 		/// <see cref="num.real.matrix_.ICanon"/>
 		/// </param>
 		/// <returns>
 		/// 
 		/// </returns>
-		static public IEnumerable<Q[]> _KernelAsVecs_0indepVent(Q[,] canon)
+		static public IEnumerable<Q[]> _KernelAsVecs_0indepVent(Q[,] indepVent)
 		{
-			var cols = canon.GetLength(1);
-			var rows = canon.GetLength(0);
+			//return vent.to_._KernelX._Kernel_0vent(canon, canon.GetLength(0));
+
+			var rows = indepVent.GetLength(0);
+			var cols = indepVent.GetLength(1);
 
 			/// eg: the indep vent?
 			/// 0, 1, 2,0,0,3,1
@@ -47,134 +50,83 @@ namespace nilnul.num.real.matrix_.vent_.indep.to_
 
 			var pivots = new int[rows]; /// <see cref="nilnul.num.real.matrix.row._PivotX"/>
 
-			int b = 0;
-			var c00 = 0;
+			var c = 0;
 
-coreCols1:
-
-			while (b < rows)
+			for (int r = 0; r < rows; r++)
 			{
-
-				for (; ; c00++)
+				while (indepVent[r, c] ==0)
 				{
-					for (var r000 = 0; r000<rows; r000++)
-					{
-						if (canon[r000, c00] !=0)
-						{
-							//nonCoreCols[i] =c00;
-							pivots[b] = c00;
-							b++;
-							c00++;
-							goto coreCols1;
-						}
-					}
+					c++;
 				}
-
-
+				pivots[r] = c;
+				c++;
 			}
 
-			var freeCols = Enumerable.Range(0, cols).Except(pivots).ToArray
+
+			var unpivots = Enumerable.Range(0, cols).Except(pivots).ToArray
 ();
-			int free = cols-rows;
-			//nilnul.num.real.matrix_.sq_.canon._RowsX._Rows8int_0wide(
-			//	free
+			int unpivotsCount = cols-rows;
 
-			//);
-
-			//IEnumerable<Q> f()
-			//{
-			//	for (int i = 0; i < free; i++)
-			//	{
-			//		yield return slv[
-			//			coreCols[i]
-			//		];
-			//	}
-			//}
-			IEnumerable<Q> frees(IEnumerator<Q> iter)
-			{
-				int j = 0;
-				for (int i = 0; i < free; i++)
-				{
-					int core = freeCols[i];
-
-					for (; j <=core; j++)
-					{
-						iter.MoveNext();
-
-					}
-
-					yield return iter.Current;
-				}
-
-			}
-			IEnumerable<Q> frees1(Q[] slv)
-			{
-				return frees(
-					(
-						(IEnumerable<Q>)
-						slv
-					)
-					.GetEnumerator());
-			}
 			/// 1,0,0,0
 			/// 0,1,0,0
 			/// ...
 			/// ...
 			/// 
-			for (int f0 = 0; f0 < free; f0++)
+			for (int u = 0; u < unpivotsCount; u++)
 			{
+				int unpivot = unpivots[u];
 
-
-				var slv = new Q[cols];
+				var slt = new Q[cols];
 
 				int i00 = 0;
-				while ( i00 < f0)
+				while (i00 < u)
 				{
-					slv[
-						freeCols[
+					slt[
+						unpivots[
 							i00++
 						]
 					] =0;
 				}
 
-				slv[
-					freeCols[
-							i00++
-						]
+				slt[
+					unpivot
 				] =1;
 
-				while ( i00 < free)
+				while (++i00 < unpivotsCount)
 				{
-					slv[
-						freeCols[
-							i00++
+					slt[
+						unpivots[
+							i00
 						]
 					] =0;
 				}
-				///  :the free part filled
+
+
+				///  eg:
+				///		[
+				///			0,1,2,0,2
+				///			0,0,0,1,1
+				///		]
+				///	;
+				///	the slt is:
+				///		1,0,0,0,0
+				///		0,-2,1,0,0
+				///		0,-1,0,-1,1
 				///  
 
-				var frees5slv = frees1(slv).ToArray();	/// while not null
-
-				//var r = 0;
 				for (int r = 0; r < rows; r++)
 				{
-					slv[
-						pivots[r]	
-					] = -nilnul.num.real.vec.co._InnerProductX._InnerProduct_1equisize(
-							frees5slv
-							,
-							frees(
-								nilnul.obj.matrix._RowsX.Row(
-									canon, r
-								).GetEnumerator()
-							)
-						)
+
+					slt[
+						pivots[r]
+					]
+					=
+					-indepVent[r, unpivot]
 					;
-					
 				}
 
-				yield return slv;
+
+				yield return slt;
 			}
 
 		}

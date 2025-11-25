@@ -6,6 +6,15 @@
 	/// alias:
 	///		degenerate
 	///		uninvertible
+	///		
+	///		degress
+	///		regress
+	///		singular
+	///	antonym:
+	///		invertible
+	///		unsingular
+	///		progress
+	///		uphold
 	public interface IDegenerate
 		:ISquare
 		,

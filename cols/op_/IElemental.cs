@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace nilnul.num.real.matrix.cols.op_
 {
 	/// <summary>
-	/// <see cref="matrix.op_.colwise_.IElementary"/>
+	/// <see cref="matrix.op_.colwise_.IBasic"/>
 	/// </summary>
-	public interface IElemental:matrix.op_.IElemental
+	public interface IElemental:matrix.op_.IBasic
 	{
 	}
 }

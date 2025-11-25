@@ -7,4 +7,5 @@ namespace nilnul.num.real.matrix
 	/// vs:
 	///		<see cref="nilnul.num.real.matrix.IHull"/> is a subspace
 	public interface ISpace { }
+
 }

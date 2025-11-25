@@ -10,7 +10,9 @@ namespace nilnul.num.real.matrix.co_.multible_
 	/// 1*n  with n*1.
 	/// the result is 1*1, a <see cref="matrix_."/>
 	/// </summary>
-	internal class IRow9col
+	public interface IRow9col
 	{
 	}
+
+
 }

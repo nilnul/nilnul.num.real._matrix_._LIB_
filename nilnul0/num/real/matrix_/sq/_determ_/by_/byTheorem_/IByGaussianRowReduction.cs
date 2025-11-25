@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix_.sq.determinant_.byTheorem_
+namespace nilnul.num.real.matrix_.sq.determ_.byTheorem_
 {
 	internal class IByGaussianRowReduction
 	{

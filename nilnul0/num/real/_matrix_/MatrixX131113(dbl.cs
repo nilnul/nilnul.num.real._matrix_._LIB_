@@ -49,7 +49,13 @@ namespace nilnul.num.real.matrix
 		}
 
 
-
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="matrix"></param>
+		/// <param name="m"></param>
+		/// <param name="n"></param>
+		/// <returns></returns>
 		public static double[,] Cofactor(this double[,] matrix, int m, int n)
 		{
 			double[,] r = new double[matrix.GetLength(0) - 1, matrix.GetLength(1) - 1];

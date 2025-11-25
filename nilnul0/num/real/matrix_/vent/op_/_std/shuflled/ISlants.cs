@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace nilnul.num.real.matrix_.vent.op_._std.shuffled
 {
 
-	/// <see cref="real.matrix.op_.elem_.skews_.ISlant"/>
-	/// <see cref="real.matrix_.sq_.elem_.skews_.colwise_.ISlant"/>
+	/// <see cref="real.matrix.op_.basic_.skews_.ISlant"/>
+	/// <see cref="real.matrix_.sq_.basic_.skews_.colwise_.ISlant"/>
 	/// 
 	/// <summary>
 	/// multiple colwise slants;

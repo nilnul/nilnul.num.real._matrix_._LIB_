@@ -12,10 +12,12 @@ namespace nilnul.num.real.matrix.cols
 	/// <see cref="num.real.vecs.IHull"/>
 	/// alias:
 	///		columnSpace
+	///		space
 	///		colSpace
 	///		colspan
 	///		hull
 	///		husk, the hull of cols
+	///		husk
 	public interface IHull:nilnul.num.real.vecs.IHull // of the cols;
 	{
 	}

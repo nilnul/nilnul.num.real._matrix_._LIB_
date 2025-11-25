@@ -1,7 +1,8 @@
 namespace nilnul.num.real.matrix.op_
 {
 	/// <summary>
-	/// 
+	/// eg:
+	///		row . col
 	/// </summary>
 	/// alias:
 	///		automultiply

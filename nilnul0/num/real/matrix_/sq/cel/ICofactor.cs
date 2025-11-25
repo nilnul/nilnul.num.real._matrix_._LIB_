@@ -3,7 +3,7 @@
 	/// <summary>
 	/// signed minor
 	/// </summary>
-	public interface ICofactor
+	public interface ICofactor:minor.IPro0con
 	{
 	}
 

@@ -17,7 +17,7 @@ namespace nilnul.num.real.matrix.be_
 		/// all upper cels are 0;
 		/// </summary>
 		/// <remarks>
-		/// both <see cref="triag_._LowerX"/> and <see cref="triag_._UpperX"/>
+		/// both <see cref="trape_._LowerX"/> and <see cref="trape_._UpperX"/>
 		/// </remarks>
 		/// <param name="m"></param>
 		/// <returns></returns>

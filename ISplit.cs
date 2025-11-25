@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 namespace nilnul.num.real.matrix
 {
 	/// <summary>
-	/// split this into rows
+	/// 
 	/// </summary>
+	/// <see cref="real.matrix.rows."/>
+	/// split this into rows
+	/// 
 	public interface ISplit
 		:
 		//obj.matrix.ISplit

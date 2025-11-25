@@ -1,8 +1,8 @@
-﻿namespace nilnul.num.real.matrix_.sq_.triag_.unidiag_
+﻿namespace nilnul.num.real.matrix_.sq_.triag_.uniridge_
 {
 	public interface ISkew
 		:triag_.IUnidiag
-		, sq_.elem_.ISkew
+		, sq_.basic_.ISkew
 	{
 	}
 

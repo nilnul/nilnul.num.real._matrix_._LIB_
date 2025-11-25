@@ -21,7 +21,7 @@ namespace nilnul.num.real.matrix.pred_.equat_
 	/// alias:
 	///		pseudolinear
 	///
-	[Obsolete(nameof(pred_.linear_.IEquatation))]
+	[Obsolete(nameof(pred_.rudic_.IEquatation))]
 	public interface ILinear :matrix.pred_.IEquatation
     {
     }

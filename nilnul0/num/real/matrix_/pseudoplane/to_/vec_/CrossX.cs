@@ -87,7 +87,7 @@ namespace nilnul.num.real.matrix_.pseudoplane.to_.vec_
 			for (var i = 0; i < wide; i++) {
 				if (neg)
 				{
-					cross[i] =  -nilnul.num.real.matrix_.sq._determ_.by_._BySubmatrixX._Determinant_0equilat_1rows_2cols(
+					cross[i] =  -nilnul.num.real.matrix_.sq._determ_.by_._BySubmatrixX._Determinant_0sq_1rows_2cols(
 							pseudoplane,
 							rows
 							,
@@ -96,7 +96,7 @@ namespace nilnul.num.real.matrix_.pseudoplane.to_.vec_
 				}
 				else
 				{
-					cross[i] =  nilnul.num.real.matrix_.sq._determ_.by_._BySubmatrixX._Determinant_0equilat_1rows_2cols(
+					cross[i] =  nilnul.num.real.matrix_.sq._determ_.by_._BySubmatrixX._Determinant_0sq_1rows_2cols(
 							pseudoplane,
 							rows
 							,

@@ -8,7 +8,7 @@ namespace nilnul.num.real.matrix_.sq.op_
 {
 	static public class _PonentX
 	{
-		public static R[,] _Ponent_0regular_1unneg(R[,] x, int pon) {
+		public static R[,] _Ponent_0equilat_1unneg(R[,] x, int pon) {
 			var width = x.GetLength(0);
 
 			if (width==0)
@@ -28,20 +28,20 @@ namespace nilnul.num.real.matrix_.sq.op_
 
 			if (pon ==2)
 			{
-				return matrix_.sq.op_._SquareX._Square_0regular(x);
+				return matrix_.sq.op_._SquareX._Square_0equilat(x);
 			}
 
 			if (pon == 3)
 			{
-				return matrix.bi_._MultiX._Multiply_1sociable( matrix_.sq.op_._SquareX._Square_0regular(x),x);
+				return matrix.bi_._MultiX._Multiply_1sociable( matrix_.sq.op_._SquareX._Square_0equilat(x),x);
 			}
 
 			var half = pon / 2;
 
 			var remainder = pon % 2;
 
-			var sq = matrix_.sq.op_._SquareX._Square_0regular(
-				_Ponent_0regular_1unneg(x, half)
+			var sq = matrix_.sq.op_._SquareX._Square_0equilat(
+				_Ponent_0equilat_1unneg(x, half)
 			);
 
 			if (remainder==0)
@@ -54,7 +54,7 @@ namespace nilnul.num.real.matrix_.sq.op_
 			);
 		}
 
-		public static int[,] _Ponent_0regular_1unneg(int[,] x, int pon)
+		public static int[,] _Ponent_0equilat_1unneg(int[,] x, int pon)
 		{
 			var width = x.GetLength(0);
 
@@ -75,20 +75,20 @@ namespace nilnul.num.real.matrix_.sq.op_
 
 			if (pon == 2)
 			{
-				return matrix_.sq.op_._SquareX._Square_0regular(x);
+				return matrix_.sq.op_._SquareX._Square_0equilat(x);
 			}
 
 			if (pon == 3)
 			{
-				return matrix.bi_._MultiX._Multiply_1sociable(matrix_.sq.op_._SquareX._Square_0regular(x), x);
+				return matrix.bi_._MultiX._Multiply_1sociable(matrix_.sq.op_._SquareX._Square_0equilat(x), x);
 			}
 
 			var half = pon / 2;
 
 			var remainder = pon % 2;
 
-			var sq = matrix_.sq.op_._SquareX._Square_0regular(
-				_Ponent_0regular_1unneg(x, half)
+			var sq = matrix_.sq.op_._SquareX._Square_0equilat(
+				_Ponent_0equilat_1unneg(x, half)
 			);
 
 			if (remainder == 0)

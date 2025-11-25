@@ -11,6 +11,8 @@ namespace nilnul.num.real.matrix_.sq_.triag_
 	/// </summary>
 	/// alias:
 	///		
+	/// vs:
+	///		<see cref="ILower"/>, whileas this is the supertype of <see cref="matrix_.IIndent"/>, so is preferred to <see cref="ILower"/>
 	public interface IUpper:
 		ITriangular
 		,

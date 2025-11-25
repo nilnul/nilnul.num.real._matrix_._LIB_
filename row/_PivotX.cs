@@ -26,9 +26,10 @@ namespace nilnul.num.real.matrix.row
 		/// </returns>
 		/// alias:
 		///		firstUnnil
-		static public long Pivot(ref Q[,] matrix, long row)
+		static public long Pivot(in Q[,] matrix, long row)
 		{
-			for (long i = 0; i < matrix.GetLongLength(1); i++)
+			long w = matrix.GetLongLength(1);
+			for (long i = 0; i < w; i++)
 			{
 				if (matrix[row, i] != 0)
 				{
@@ -42,9 +43,17 @@ namespace nilnul.num.real.matrix.row
 
 		}
 
-		static public int Pivot(ref Q[,] matrix, int row)
+		/// <summary>
+		/// -1 if no unnil cel is found;
+		/// </summary>
+		/// <param name="matrix"></param>
+		/// <param name="row"></param>
+		/// <returns></returns>
+		static public int Pivot(in Q[,] matrix, int row)
 		{
-			for (var i = 0; i < matrix.GetLength(1); i++)
+			int w = matrix.GetLength(1);
+
+			for (var i = 0; i < w; i++)
 			{
 				if (matrix[row, i] != 0)
 				{
@@ -55,12 +64,26 @@ namespace nilnul.num.real.matrix.row
 			}
 			return -1;
 
+		}
+		static public int _Pivot_1wide_2row(in Q[,] matrix,in int width,in int row)
+		{
+			for (var i = 0; i < width; i++)
+			{
+				if (matrix[row, i] != 0)
+				{
+					return i;
+				}
+			}
+			return -1;
 
 		}
 
-		static public int Pivot(ref double[,] matrix, int row)
+
+		static public int Pivot(in double[,] matrix, int row)
 		{
-			for (var i = 0; i < matrix.GetLength(1); i++)
+			int w = matrix.GetLength(1);
+
+			for (var i = 0; i < w; i++)
 			{
 				if (matrix[row, i] != 0)
 				{

@@ -12,7 +12,7 @@ namespace nilnul.num.real.matrix_.sq.be_._orthonorm
 	/// <remarks>
 	/// this implies <see cref="RowsOrthonorm"/> in that:
 	///		A^T A = I
-	///		, by <see cref="sq.re_.reciprocal.theorem_.Swappable"/>, A A^T = I
+	///		, by <see cref="sq.re_.reciprocal.theorem_.ISwappable"/>, A A^T = I
 	///		, so the rows of A are also orthonorm.
 	/// </remarks>
 	internal class ColsOrthonorm

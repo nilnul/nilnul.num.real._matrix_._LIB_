@@ -12,7 +12,7 @@ namespace nilnul.num.real.matrix.op_
 	/// <see cref="nilnul.num.real.matrix.bi_._MultiX"/> of <see cref="num.real.matrix_.sq_.IScaler"/>, and <see cref="nilnul.num.real.IMatrix"/>
 	/// </summary>
 	/// <remarks>
-	/// for dilution, <see cref="matrix.op_._ShredX"/>
+	/// for dilution, <see cref="matrix.op_._ShrinkX"/>
 	/// </remarks>
 	static public  class _ScaleX
 	{
@@ -88,9 +88,26 @@ namespace nilnul.num.real.matrix.op_
 
 		}
 
+		public static void Dilute(this Q[,] matrix, Q a)
+		{
+
+			int rows = matrix.GetLength(0);
+			int cols = matrix.GetLength(1);
 
 
-		[Obsolete(nameof(_ShredX._ShredAsNew_1divisor))]
+			for (int i = 0; i < rows; i++)
+			{
+				for (int j = 0; j < cols; j++)
+				{
+					matrix[i, j] /= a;
+				}
+
+			}
+
+		}
+
+
+		[Obsolete(nameof(_ShrinkX._ShrinkAsNew_1divisor))]
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static double[,] DivideAsNew(this double[,] matrix, double a)

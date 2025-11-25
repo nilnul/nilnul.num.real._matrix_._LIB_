@@ -6,7 +6,7 @@ namespace nilnul.num.real.matrix_.sq_.invertible.op_
 	///  
 	/// Given A,
 	/// , Suppose we can find another B such that AB=I
-	/// , then <see cref="real.matrix_.sq.re_.reciprocal.theorem_.Swappable"/>, so BA =I
+	/// , then <see cref="real.matrix_.sq.re_.reciprocal.theorem_.ISwappable"/>, so BA =I
 	/// , so B is a inverse.
 	///   BA /A = I /A
 	///   ,hence B =  1/A. arises the condradiction where we assume B is different from 1/A

@@ -13,68 +13,38 @@ using Qr = nilnul.num.real_.Quotient;
 using R3 = nilnul.num.RealI;
 using R2 = nilnul.num.Real;
 using System.Numerics;
+using System.Runtime.CompilerServices;
 
 namespace nilnul.num.real.matrix_.sq
 {
 
 	public static class _DeterminantX
 	{
-		static public double _Determinant_0square(
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public double _Determinant_0sq(
 			double[,] square
 		)
 		{
-			var width = square.GetLength(0);
-			if ( width == 0)
-			{
-				return 1;
-			}
-
-			return Enumerable.Range(0, width).AsParallel().Select(
-				i=> matrix_.sq. cel.remnant.minor._CofactorX._AssumeValid(
-					square,  0,i
-				)*square[0,i]
-			).Sum()
-			//	.Aggregate(
-			//	(a,c) => a+c
-			//)
-				;
+			return _determ_.by_._BySubmatrixX._Determinant_0sq(square);
+	
 		}
 
-		static public Q _Determinant_0square(
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public Q _Determinant_0sq(
 			Q[,] square
 		)
 		{
-			var width = square.GetLength(0);
-			if ( width == 0)
-			{
-				return 1;
-			}
-			#region for performance
+			return _determ_.by_._BySubmatrixX._Determinant_0sq(square);
+		}
 
-			if ( width == 1)
-			{
-				return square[0,0];
-			}
-			if ( width == 2)
-			{
-				return square[0,0] * square[1,1] -square[0,1] * square[1,0];
-			}
-
-
-			#endregion
-
-
-			return Enumerable.Range(0, width).AsParallel().Select(
-				i=> matrix_.sq. cel.remnant.minor._CofactorX._AssumeValid(
-					square,  0,i
-				)*square[0,i]
-			)
-				.Aggregate(
-				(a, c) => a + c
-			)
-				;
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public Q _Determinant_0sq(
+			int[,] square
+		)
+		{
+			return _determ_.by_._BySubmatrixX._Determinant_0sq(square);
 		}
 
 
-	}//class
+	}
 }

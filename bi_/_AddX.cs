@@ -67,6 +67,16 @@ namespace nilnul.num.real.matrix.bi_
 			}
 		}
 
+		public static Q[,]  _Add_1isosize(this Q4[,] a, Q4[,] b)
+		{
+
+			var cloned = a.Clone() as Q[,];
+
+			_Augment_1equisize(cloned, b);
+			return cloned;
+
+		}
+
 		public static R[,]  _Add_1isosize(this R[,] a, R[,] b)
 		{
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix_.vent_.colwise_
+namespace nilnul.num.real.matrix_.vent_.colly_
 {
 	/// <see cref="real.matrix_.IStandard"/>
 	/// <summary>
@@ -19,7 +19,7 @@ namespace nilnul.num.real.matrix_.vent_.colwise_
 	/// </summary>
 	/// alias:
 	///		regula
-	public interface IFarleft:vent_.IColly
+	public interface IFarleft:vent_.IColwise
 	{
 	}
 }

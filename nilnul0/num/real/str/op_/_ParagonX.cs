@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace nilnul.num.real.str.op_
 {
 	/// <see cref="nilnul.num.real.vec_.unnil.op_._StandardizeX"/>
-	/// <see cref="nilnul.num.real.str.be_._ParagonX"/>
+	/// <see cref="nilnul.num.real.str.be_._Paragon0nilX"/>
 	/// the result is <see cref="nilnul.num.real.vec_.ICanonical"/>
 	/// <summary>
 	/// make the pivot (if there is one) to be 1.

@@ -9,10 +9,12 @@
 	///		spear ,but we need it to be retractable
 	///		stick
 	///		shed
-	///		<see cref="real.matrix.op_.IShed"/>
+	///		shred
+	///		<see cref="sq_.diag_.IShred"/>
+	///		<see cref="real.matrix.op_.IShrink"/>
 	///		
 	///		
-	public interface IShafter:sq_.diag_.IUnonesOptional
+	public interface IShafter:sq_.diag_.IShred
 	{
 	}
 

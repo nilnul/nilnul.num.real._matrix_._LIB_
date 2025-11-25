@@ -18,5 +18,6 @@ namespace nilnul.num.real.matrix_.sq_.isosize.re_
 	{
 	}
 
+
 	
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix_.sq.determinant_
+namespace nilnul.num.real.matrix_.sq.determ_
 {
 	/// <summary>
 	/// noticing that some small submatrix might be recalculated in large submatrix, we compute the determinant from bottom in anticipation it might be reused in upper larger scaled calculations;

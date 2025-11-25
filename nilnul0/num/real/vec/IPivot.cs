@@ -4,9 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix.nilnul0.num.real.vec
+namespace nilnul.num.real.vec
 {
-	internal class IPivot
+	/// <summary>
+	/// the index of the first unnil component;
+	/// if there is no unnil component, then it's -1, or +inf
+	/// </summary>
+	/// alias:
+	///		paragon
+	public interface IPivot
+		:nilnul.num.IInteger
 	{
 	}
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix_.sq.determinant_
+namespace nilnul.num.real.matrix_.sq.determ_
 {
 	/// <summary>
 	/// by loop, not by recursion, for perf;
@@ -12,4 +12,5 @@ namespace nilnul.num.real.matrix_.sq.determinant_
 	internal class IByLoop
 	{
 	}
+
 }

@@ -12,6 +12,9 @@ namespace nilnul.num.real.matrix_.sq.grid_
 	public interface ITriag
 		:
 		matrix_.sq.IGrid
+		,IPlaid
 	{
 	}
+
+
 }

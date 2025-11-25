@@ -9,7 +9,7 @@ namespace nilnul.num.real.matrix_.vent.op_
 
 	/// <summary>
 	/// 
-	/// make the <see cref="IVent"/> as <see cref="be_.IStd"/>, by <see cref="real.matrix.op_.colwise_.IElementary"/>:
+	/// make the <see cref="IVent"/> as <see cref="matrix.be_.IStd"/>, by <see cref="real.matrix.op_.colwise_.IBasic"/>:
 	///		,shed one column:
 	///			[
 	///				1,	0	,2
@@ -101,6 +101,10 @@ namespace nilnul.num.real.matrix_.vent.op_
 	///				= x0` -2 x2`, x1` - 3x2`, x2`	
 	///  
 	/// </summary>
+	/// <remarks>
+	///  like <see cref="matrix.op_.dent_.echelon_.IVent"/> which keeps the <see cref="pred.ISlv"/> unchanged, this will change <see cref="pred.ISlv"/> but the change is a <see cref="nilnul._relation.map_.IBijection"/>, hence we can map back to the original slv.
+	/// </remarks>
+	/// <see cref="matrix_.sq.grid_.triag_.ISkew"/>
 	/// 
 	public interface IStd
 	{

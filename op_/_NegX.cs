@@ -7,6 +7,9 @@ using M = nilnul.num.real.Matrix4dbl;
 
 namespace nilnul.num.real.matrix.op_.unary_
 {
+	/// <summary>
+	/// shrink by -1
+	/// </summary>
 	static public class _NegX
 	{
 		public static void NegateSelf(this double[,] matrix)

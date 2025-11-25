@@ -8,7 +8,7 @@ namespace nilnul.num.real.matrix_.vent_._std
 {
 	/// <inheritdoc/>
 	public interface IFarleft
-		:colwise_.IFarleft
+		:colly_.IFarleft
 	{
 	}
 }

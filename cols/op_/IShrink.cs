@@ -3,7 +3,7 @@
 	/// <summary>
 	/// divide all cels by one single number.
 	/// </summary>
-	/// <see cref="num.real.matrix.op_._ShredX"/>
+	/// <see cref="num.real.matrix.op_._ShrinkX"/>
 	public interface IShrink:cols.IOp
 	{
 	}

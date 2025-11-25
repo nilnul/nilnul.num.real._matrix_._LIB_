@@ -5,9 +5,11 @@ using System.Text;
 
 namespace nilnul.num.real.matrix_.sq.be_
 {
+
 	public  class Singular
 		:
 		matrix_.sq.Be4dblI
+		,IDegenerate
 	{
 
 		public bool be(Square4dbl obj)

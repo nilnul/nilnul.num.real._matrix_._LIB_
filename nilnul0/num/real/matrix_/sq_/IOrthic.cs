@@ -19,4 +19,5 @@ namespace nilnul.num.real.matrix_.sq_
 	}
 
 
+
 }

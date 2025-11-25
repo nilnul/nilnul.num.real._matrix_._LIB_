@@ -13,7 +13,7 @@ namespace nilnul.num.real.matrix.op_.unary_.elementary_.rowwise_
 	/// 
 	static public class _ShuffleX
 	{
-		[Obsolete(nameof(real.matrix.op_.elem_.ISwap))]
+		[Obsolete(nameof(real.matrix.op_.basic_.ISwap))]
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public void _Shuffle_assumeValid(in double[,] m, in int r, in int r1) {

@@ -9,17 +9,18 @@ namespace nilnul.num.real.matrix_.std_
 	/// <summary>
 	/// <see cref="nilnul.num.real.matrix_.ILandscape"/>
 	/// </summary>
-	static public  class _LandscapeX
+	static public class _LandscapeX
 	{
-		static public Q[,] OfRowsCols(
+		static public Q[,] _OfRowsCols_2rank(
 			int rows
 			,
 			int cols
+			, int rank
 		)
 		{
 			var r = new Q[rows, cols];
-
-			for (var i = 0; i < rows; i++)
+			var i = 0;
+			for (; i < rank; i++)
 			{
 				var j = 0;
 				while (j<i)
@@ -39,6 +40,15 @@ namespace nilnul.num.real.matrix_.std_
 
 
 			}
+
+			for (; i < rows; i++)
+			{
+				for (int j = 0; j < cols; j++)
+				{
+					r[i, j] =0;
+				}
+			}
+
 
 			return r;
 		}

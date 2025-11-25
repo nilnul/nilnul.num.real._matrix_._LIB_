@@ -3,7 +3,7 @@
 	/// <summary>
 	/// square and independent
 	/// </summary>
-	class IInvertible
+	public interface IInvertible
     {
     }
 

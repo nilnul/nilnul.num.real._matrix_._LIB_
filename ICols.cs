@@ -19,12 +19,26 @@ namespace nilnul.num.real.matrix
 	///		XA = (A^T X^T )^T
 	///	; AB, and BA are in different superspace.
 	/// </remarks>
-	/// 
+	/// alias:
+	///		<see cref="real.matrix.op_.ITranspose"/>
+	///		<see cref="matrix.ITransposed"/>
+	///		colset
+	///			,which neglects the order.
+	///		<see cref=""/>
+	///		
+	///	vs:
+	///		colspan,which means the hull of the cols
+	/// vs:colspace
+	///			,which means the full space
 
 	public interface ICols
 		:
-		num.real.vec.IStr
+		num.real.matrix.op_.transpose.IRet
+		//,
+		//num.real.vec.IStr
 	{
 	}
+
+
 
 }

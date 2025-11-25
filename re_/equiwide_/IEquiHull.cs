@@ -5,6 +5,7 @@ namespace nilnul.num.real.matrix.re_.equiwide_
 	/// </summary>
 	/// <see cref="nilnul.num.real.matrix.co_.equiwide."/>
 	/// <see cref="matrix.re_._EquiHullX"/>
+	/// <see cref="nilnul.num.real.matrix.co_.equiwide.be_._equihull_.by_._ByIndepVentX"/>
 	public interface IEquiHull
 		:
 		real.matrix.re_.IEquiv

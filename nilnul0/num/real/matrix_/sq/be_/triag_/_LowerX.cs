@@ -10,7 +10,7 @@ namespace nilnul.num.real.matrix_.sq.be_.triag_
 	/// <summary>
 	/// only lower are immune from nil;
 	/// </summary>
-	/// <see cref="matrix.be_.triag_._LowerX"/>
+	/// <see cref="matrix.be_.trape_._LowerX"/>
 	static public class _LowerX
 	{
 		/// <summary>
@@ -18,7 +18,7 @@ namespace nilnul.num.real.matrix_.sq.be_.triag_
 		/// </summary>
 		/// <param name="m"></param>
 		/// <returns></returns>
-		static public bool _IsLower_0fair(Q[,] m) {
+		static public bool _IsLower_0equilat(in Q[,] m) {
 
 			int rows = m.GetLength(0);
 
@@ -36,5 +36,25 @@ namespace nilnul.num.real.matrix_.sq.be_.triag_
 			return true;
 
 		}
+
+		static public bool _IsLower_0equilat(in int[,] m) {
+
+			int rows = m.GetLength(0);
+
+			for (int i = 0, iP=1; i < rows; i++, iP++)
+			{
+				for (int j = iP; j < rows; j++)
+				{
+					if (m[i,j]!=0)
+					{
+						return false;
+					}
+				}
+			}
+
+			return true;
+
+		}
+
 	}
 }

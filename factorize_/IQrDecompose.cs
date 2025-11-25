@@ -16,7 +16,7 @@ namespace nilnul.num.real.matrix.to_.factorize_
 	///  useful to solve overdetermined systems;
 	/// </remarks>
 	/// decomose a matrix into: rotational * indent (which is gaussian)
-	/// <see cref="real.matrix.op_._canon_.by_._GaussianX"/>
+	/// <see cref="real.matrix.op_._vent_.by_._GaussianX"/>
     class IQrDecompose
     {
     }

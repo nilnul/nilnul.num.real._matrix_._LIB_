@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace nilnul.num.real.matrix_.trape_
 {
 	/// <summary>
-	/// all cells under the diagonal are 0
+	/// all cells under the far diagonal are 0
 	/// </summary>
 	/// <see cref="nilnul.num.real.matrix_.IIndent"/>
 	/// alias:

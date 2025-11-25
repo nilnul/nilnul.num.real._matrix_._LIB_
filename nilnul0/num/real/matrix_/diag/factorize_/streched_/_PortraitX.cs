@@ -44,7 +44,7 @@ namespace nilnul.num.real.matrix_.diag.factorize_.streched_
 		) {
 
 			return (
-				nilnul.num.real.matrix_.std_._PortraitX.OfRowsCols(rows, cols)
+				nilnul.num.real.matrix_.std_.indep_._PortraitX.OfRowsCols(rows, cols)
 				,
 				nilnul.num.real.matrix_.sq_._DiagonalX.OfDiagonal(diag)
 			);

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix_.dent_.echelon_.vent.be_
+namespace nilnul.num.real.matrix_.vent.be_
 {
 
 	/// <summary>
@@ -13,7 +13,8 @@ namespace nilnul.num.real.matrix_.dent_.echelon_.vent.be_
 	/// <remarks>
 	///  <see cref="real.matrix.be_.IStd"/>
 	/// </remarks>
-	internal class IStd
+	public interface IStd
+		:matrix_.vent.IBe
 	{
 	}
 }

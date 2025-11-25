@@ -12,6 +12,7 @@ namespace nilnul.num.real.matrix.co_.equihigh
 	/// <remarks>
 	///Used for performing the same row operations on two matrices
 	/// </remarks>
+	/// <see cref="real.matrix.be_._AugmentedX"/>
 	internal class IAugment
 	{
 	}

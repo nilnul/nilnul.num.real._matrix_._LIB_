@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix.cols.be_
 {
-	internal class IIndependent
+	public interface IIndependent
+		:real.matrix.cols.IBe
 	{
 	}
+
 }

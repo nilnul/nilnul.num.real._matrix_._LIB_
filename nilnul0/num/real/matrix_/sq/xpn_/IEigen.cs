@@ -27,7 +27,8 @@ namespace nilnul.num.real.matrix_.sq.xpn_
 	/// 
 	/// </summary>
 	/// <remarks>
-	/// deferrable to complex matrix, as solving the polynomial might get complex number
+	/// deferrable to complex matrix, as solving the polynomial might get complex number;
+	/// by deferring this, we defer the <see cref="nilnul.num.real.expr_.IRadicandal"/> operation; and only <see cref="real.matrix_.sq.expr_.IPolynomial"/> will be closed on <see cref="nilnul.num.quotient.IMatrix"/>, thus here we can tackle quotient matrix in closure, and this makes strict math possible, helping researchers and learners
 	/// </remarks>
 	///
 	///

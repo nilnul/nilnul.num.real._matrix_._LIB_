@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix_.sq_.diag_.dilute_
+namespace nilnul.num.real.matrix_.sq_.diag_.invertible_
 {
 	/// <summary>
 	/// at most one cel at the diagonal is not 1
@@ -34,7 +34,8 @@ namespace nilnul.num.real.matrix_.sq_.diag_.dilute_
 	///		diminish
 	///		
 	///		
-	internal class IShed
+	public interface IShed
+		:diag_.IShred
 	{
 	}
 

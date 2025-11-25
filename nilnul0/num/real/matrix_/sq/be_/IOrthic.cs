@@ -6,4 +6,5 @@ namespace nilnul.num.real.matrix_.sq.be_
 	/// </summary>
 	public interface IOrthic { }
 
+
 }

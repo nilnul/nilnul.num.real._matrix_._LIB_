@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix.be_.indent_
+namespace nilnul.num.real.matrix.be_.dent_
 {
 	/// <summary>
 	/// colwise echelon;
@@ -20,7 +20,8 @@ namespace nilnul.num.real.matrix.be_.indent_
 	///	}
 	/// </summary>
 	/// vs:
-	///		<see cref="matrix.be_."/>
+	///		<see cref="matrix.be_.colwise_"/>
+	///		<see cref="matrix.cols.be_."/>
 	internal class IColwise:IIndent
 	{
 	}

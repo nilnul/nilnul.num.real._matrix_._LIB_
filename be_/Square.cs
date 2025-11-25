@@ -10,6 +10,7 @@ using RI = nilnul.num.RealI;
 // Remove or rename the conflicting alias
 // For example, rename the alias to avoid conflict:
 using R1 = nilnul.num.Real;
+using System.Runtime.CompilerServices;
 //using R = nilnul.num.Real;
 
 
@@ -23,16 +24,18 @@ namespace nilnul.num.real.matrix.be_
 		real.matrix.Be4dblI
 
 	{
-
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public bool be(RI[,] obj) {
 			return nilnul.matrix.be_._SquareX.Square(obj);
 		}
 		 
 
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public bool be(R1[,] obj) {
 			return nilnul.matrix.be_._SquareX.Square(obj);
 		}
 
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public bool be(double[,] obj) {
 			return nilnul.matrix.be_._SquareX.Square(obj);
 

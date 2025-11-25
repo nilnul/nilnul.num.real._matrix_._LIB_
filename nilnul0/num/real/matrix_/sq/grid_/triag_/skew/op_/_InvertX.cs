@@ -9,8 +9,8 @@ namespace nilnul.num.real.matrix_.sq.grid_.triag_.skew.op_
 {
 	/// <see cref="real.matrix_.sq_.triag_."/>
 	/// <summary>
-	/// <see cref="real.matrix_.sq_.elem_.ISkew"/>
-	/// <see cref="real.matrix_.sq_.elem_.skew.op_._InvertX"/>
+	/// <see cref="real.matrix_.sq_.basic_.ISkew"/>
+	/// <see cref="real.matrix_.sq_.basic_.skew.op_._InvertX"/>
 	/// </summary>
 	static public class _InvertX
 	{
@@ -21,7 +21,7 @@ namespace nilnul.num.real.matrix_.sq.grid_.triag_.skew.op_
 		/// 
 		/// </remarks>
 		/// <param name="_skewGrid">
-		///  the <see cref="sq_.elem_.ISkew"/>
+		///  the <see cref="sq_.basic_.ISkew"/>
 		/// </param>
 		/// <param name="row">
 		///  the row of the cel which is used to scale the other row/col

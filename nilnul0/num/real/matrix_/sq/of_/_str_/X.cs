@@ -5,6 +5,9 @@ using System.Text;
 
 namespace nilnul.num.real.matrix.square
 {
+	/// <summary>
+	/// by sqrt
+	/// </summary>
 	public partial class X
 	{
 		

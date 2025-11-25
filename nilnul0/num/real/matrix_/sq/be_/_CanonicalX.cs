@@ -10,6 +10,9 @@ namespace nilnul.num.real.matrix_.sq.be_
 	///		
 	/// </summary>
 	/// <see cref="num.real.matrix.be_.ICanonical"/>
+	/// alias:
+	///		ideal
+	public interface ICanonical { }
 	static public class _CanonicalX
 	{
 

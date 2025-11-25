@@ -19,4 +19,6 @@ namespace nilnul.num.real.matrix
 		:nilnul.obj.BeI1<double[,]>
 	{
 	}
+
+
 }

@@ -17,6 +17,9 @@ namespace nilnul.num.real.matrix_.sq_.ii
 	/// <summary>
 	/// aka: 2x2
 	/// </summary>
+	/// <remarks>
+	/// it's the signed area (surrounded);
+	/// </remarks>
 	static public class _DeterminantX
 	{
 

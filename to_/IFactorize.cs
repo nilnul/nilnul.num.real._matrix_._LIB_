@@ -13,6 +13,7 @@ namespace nilnul.num.real.matrix.to_
 	///		splitting, make it as a sum
 	/*public*/
 	public interface IFactorize : num.real.matrix.ITo
+		,IDecompose
 	{
 	}
 

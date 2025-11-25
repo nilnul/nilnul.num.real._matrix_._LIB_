@@ -50,7 +50,7 @@ namespace nilnul.num.real.matrix.op_.sel_.linear_
 		/// <summary>
 		/// absorb the other vec.
 		/// 
-		///  <see cref="matrix.op_.elem_.IAbsorbScaled"/> is a special case of this one by using the coefs(1, k)
+		///  <see cref="matrix.op_.basic_.IAbsorbScaled"/> is a special case of this one by using the coefs(1, k)
 		/// </summary>
 		/// 
 		/// <param name="vec">

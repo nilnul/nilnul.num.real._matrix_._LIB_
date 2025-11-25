@@ -22,4 +22,6 @@ namespace nilnul.num.real.matrix.op_
 
 
 
+
+
 }

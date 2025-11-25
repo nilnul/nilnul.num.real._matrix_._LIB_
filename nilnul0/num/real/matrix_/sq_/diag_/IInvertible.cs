@@ -9,10 +9,12 @@ namespace nilnul.num.real.matrix_.sq_.diag_
 	/// </remarks>
 	/// alias:
 	///		divisor
-	///		dilute,where 'd' leas divisor and diag, <see cref="matrix.op_.IDilute"/>
+	///		dilute,where 'd' leas divisor and diag, <see cref="matrix.op_.ISquash"/>
 	///			,which is an operation rather than a data structure;
 	///			,dilutor
+	///		<see cref="matrix.op_.stretch_.INonnil"/>
 	///		shrink
+	///		squash <see cref="matrix.op_.stretch_.squash_"/>
 	public interface IInvertible
 		:
 		nilnul.num.real.matrix_.sq_.IDiagonal

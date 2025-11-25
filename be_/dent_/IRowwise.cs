@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix.be_.indent_
+namespace nilnul.num.real.matrix.be_.dent_
 {
 	/// <summary>
 	/// rowwise echelon

@@ -10,7 +10,7 @@ namespace nilnul.num.real.matrix.cols.re_._equihull_.by_
 
 			return num.real.matrix.re_._EquiHighX.Re(a,b) 
 				&&
-				num.real.matrix.co_.equiwide.be_._equihull_.by_._ByCanonX._Be_1equiwide(
+				num.real.matrix.co_.equiwide.be_._equihull_.by_._ByIndepVentX._Be_1equiwide(
 					a.Transpose()
 					,
 					b.Transpose()

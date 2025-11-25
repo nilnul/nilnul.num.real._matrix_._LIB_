@@ -12,7 +12,7 @@ using System.Runtime.CompilerServices;
 
 
 
-namespace nilnul.num.real.matrix_.sq.cel.remnant
+namespace nilnul.num.real.matrix_.sq.cel
 {
 	/// <summary>
 	/// first minor. minor means minus something: here we remove some rows and columns. 
@@ -28,17 +28,20 @@ namespace nilnul.num.real.matrix_.sq.cel.remnant
 	{
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		static public double _AssumeValid(double[,] matrix,int i,int j) {
+		static public double _AssumeValid(in double[,] matrix,int i,int j) {
 
-			return num.real.matrix_.sq.to_.scalar_._DeterminantX._Determinant_assumeSquare(nilnul.obj.matrix.cel._RemnantX._Remnant_celAssumeValid(matrix, i, j));
+			return _minor_.by_._BySubindicesX._AssumeValid(in matrix, i, j);
+			//return num.real.matrix_.sq._DeterminantX._Determinant_0equilat(nilnul.obj.matrix.cel._RemnantX._Remnant_celAssumeValid(matrix, i, j));
 		
 			//return num.real.matrix.square.Determinant._Eval_laplace(nilnul.collection.matrix.MatrixX.Delete(matrix, i, j));
 		}
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		static public Q _AssumeValid(Q[,] matrix,int i,int j) {
+		static public Q _AssumeValid(in Q[,] matrix,int i,int j) {
 
-			return num.real.matrix_.sq._DeterminantX._Determinant_0square(nilnul.obj.matrix.cel._RemnantX._Remnant_celAssumeValid(matrix, i, j));
+			return _minor_.by_._BySubindicesX._AssumeValid(in matrix, i, j);
+
+			//return num.real.matrix_.sq._DeterminantX._Determinant_0equilat(nilnul.obj.matrix.cel._RemnantX._Remnant_celAssumeValid(matrix, i, j));
 		
 			//return num.real.matrix.square.Determinant._Eval_laplace(nilnul.collection.matrix.MatrixX.Delete(matrix, i, j));
 		}
