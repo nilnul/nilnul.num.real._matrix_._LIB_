@@ -315,6 +315,7 @@
     <Compile Include="nilnul0\num\quotient\matrix\IRow.cs" />
     <Compile Include="nilnul0\num\quotient\matrix\of_\_OfIntegersX.cs" />
     <Compile Include="nilnul0\num\quotient\matrix\cols\IHull.cs" />
+    <Compile Include="nilnul0\num\quotient\matrix\op_\_NegateX.cs" />
     <Compile Include="nilnul0\num\quotient\matrix\pred_\IRudimental.cs" />
     <Compile Include="nilnul0\num\quotient\matrix\pred_\rudic_\IUnivariate.cs" />
     <Compile Include="nilnul0\num\quotient\matrix\pred_\rudic_\univar_\col_\equit\ISolve.cs" />
@@ -845,6 +846,7 @@
     <Compile Include="op_\stretch_\_shaft\IOneRow.cs" />
     <Compile Include="op_\transpose\IRet.cs" />
     <Compile Include="op_\_husk\by_\_ByVentX.cs" />
+    <Compile Include="op_\_NegateX.cs" />
     <Compile Include="op_\_squash_\IByMultiInverse.cs" />
     <Compile Include="op_\squash_\IShed.cs" />
     <Compile Include="op_\squash_\IUniform.cs" />
