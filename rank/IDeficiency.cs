@@ -13,4 +13,5 @@ namespace nilnul.num.real.matrix.rank
     class IDeficiency
     {
     }
+
 }

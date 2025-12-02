@@ -7,7 +7,10 @@ namespace nilnul.num.real.matrix.op_.colwise_.basic_
 	///			,where x` = ax, and x = x`/a
 	/// 
 	/// </summary>
-	interface IShed :colwise_.IBasic
+	/// <remarks>
+	/// <see cref="real.matrix.op_.basic_.shed_.IColwise"/>
+	/// </remarks>
+	public interface IShed :colwise_.IBasic
 	{
 	}
 

@@ -18,6 +18,7 @@ namespace nilnul.num.real.matrix.bi_.mul.at_
 	/// </summary>
 	/// alias:
 	///		outer product
+	///		<see cref="num.real.str.co.to_.matrix_.IOuterProduct"/>
 	static public class _ColRowX
 	{
 
@@ -44,6 +45,13 @@ namespace nilnul.num.real.matrix.bi_.mul.at_
 			return c;
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="a"></param>
+		/// <param name="b"></param>
+		/// <returns>
+		/// </returns>
 		public static int[,] Multiply(this int[] a, int[] b)
 		{
 			int rows = a.Length;

@@ -25,9 +25,9 @@ namespace nilnul.num.real.matrix_.sq.be_
 
 		static public bool _Be_0square(int[,] sq) {
 			int rows = sq.GetLength(0);
-			for (int i = 0; i < rows; i++)
+			for (int i = 1; i < rows; i++)
 			{
-				for (int j = i+1; j < rows; j++)
+				for (int j = 0; j < i; j++)
 				{
 					if (sq[i,j] != sq[j,i] )
 					{
@@ -40,10 +40,16 @@ namespace nilnul.num.real.matrix_.sq.be_
 		}
 
 		static public bool _Be_0square(Q[,] sq) {
+
+
 			int rows = sq.GetLength(0);
-			for (int i = 0; i < rows; i++)
+
+
+
+
+			for (int i = 1; i < rows; i++)
 			{
-				for (int j = i+1; j < rows; j++)
+				for (int j = 0; j < i; j++)
 				{
 					if (sq[i,j] != sq[j,i] )
 					{

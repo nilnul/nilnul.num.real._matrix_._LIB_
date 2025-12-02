@@ -14,7 +14,7 @@ namespace nilnul.num.real.matrix_.sq_.isosize.calc_.mul.det.theorem_
 	/// </summary>
 	/// <remarks>
 	///  proof:
-	///		<see cref="num.quotient.matrix.factorize_.co_._GaussianVentX"/> of a:
+	///		<see cref="num.quotient.matrix.factorize_.co_._VertibleVentX"/> of a:
 	///		when a is not invertible, 
 	///		
 	///			ab = gv b =g vb

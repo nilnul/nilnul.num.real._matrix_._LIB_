@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace nilnul.num.real.matrix_.sq_.invertible.factors_
 {
 	/// <see cref="real.matrix_.sq.factorize_.co_.IGaussianVent"/>
-	/// <see cref="num.quotient.matrix_.sq_.isosize.co.op_.div_.quota_._InvertX._Divide_0divisor(quotient_.DenomNonnil[,])"/>
+	/// <see cref="num.quotient.matrix_.sq_.isosize.co.op_.div_.quota_._ReduceX._Divide_0divisor(quotient_.DenomNonnil[,])"/>
 	/// <summary>
 	/// it can be factored as the product of finite number of elementary matrix.
 	/// ;proof:

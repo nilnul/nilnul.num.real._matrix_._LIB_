@@ -1,5 +1,6 @@
 namespace nilnul.num.real.matrix_.sq_
 {
+	/// <see cref="real.matrix_.sq.be_.IUnimodular"/>
 	/// <summary>
 	/// 
 	/// </summary>

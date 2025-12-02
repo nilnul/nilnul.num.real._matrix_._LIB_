@@ -22,7 +22,7 @@ namespace nilnul.num.real.matrix.be_.trape_
 			int rows = m.GetLength(0);
 			int cols = m.GetLength(1);
 
-			for (int i = 0, iP=1; i < rows; i++, iP++)
+			for (int i = 0; i < rows; i++)
 			{
 				var min = Math.Min(cols, i);
 				for (int j = 0; j < min; j++)

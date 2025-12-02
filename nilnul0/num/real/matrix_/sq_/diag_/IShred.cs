@@ -30,6 +30,7 @@ namespace nilnul.num.real.matrix_.sq_.diag_
 	///		shard
 	/// <see cref="real.matrix_.sq_.IShafter"/>
 	///		shred
+	///			,similar to shed, with 'r' added in the middle
 	///			,where r means any real.
 	/// vs:
 	///		<see cref="real.matrix.op_.IShrink"/>

@@ -44,7 +44,7 @@ namespace nilnul.num.real.matrix.pred_.rudic_.col_.equat._slv_.by_
 			/// 
 			if (high ==0)
 			{
-
+				/// []x=[]
 				return (
 					nilnul.num.real.vec_._NaughtX._Quotients_0arity(wideMinus) /// actually any one would make the slv equivalent; but this is the simplest;
 					,
@@ -74,6 +74,12 @@ namespace nilnul.num.real.matrix.pred_.rudic_.col_.equat._slv_.by_
 
 			/// get the drift:
 			/// 
+			/// Ix = b -Ny
+			/// ,where I is <see cref="real.matrix_.sq_.ICanonic"/>
+			/// 
+			/// we make y 0 to get the drift:d.
+			/// 
+			/// 
 
 			var drift = new Q[
 				wideMinus
@@ -86,7 +92,7 @@ namespace nilnul.num.real.matrix.pred_.rudic_.col_.equat._slv_.by_
 			for (int j = 0; j < high; j++)
 			{
 				var p = nilnul.num.real.matrix.row._PivotX.Pivot(
-					ref indepVent, j
+					in indepVent, j
 				);
 
 				while (i< p)
@@ -101,12 +107,19 @@ namespace nilnul.num.real.matrix.pred_.rudic_.col_.equat._slv_.by_
 			{
 				drift[i++] = 0;
 			}///  eg:[0,0,2,0,5,0,0  ] 
-				/// where the b is: [2,5]
+			 /// where the b is: [2,5]
 
 
 
 			/// now get the homo slv:
+			/// Ad =b
+			/// Ax -Ad =0
+			///		A(x-d£© =0
+			///		Ay=0
+			///	,then:
+			///		d+y is the x.
 			/// 
+
 
 			return (
 				drift

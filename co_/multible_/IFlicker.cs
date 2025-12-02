@@ -13,6 +13,7 @@ namespace nilnul.num.real.matrix.co_.multible_
 	///		flick
 	///		flip
 	///		<see cref="co_.IAntisize"/>
+	///		<see cref="matrix.re_.IOpposize"/>
 	internal class IFlicker
 	{
 	}

@@ -28,7 +28,7 @@ namespace nilnul.num.real.matrix_.rowly_.indep
 			return transposed._Multiply_1sociable(
 				x._Multiply_1sociable(
 					transposed
-				)._Inverse_0invertible()
+				)._Invert_0invertible()
 			);
 		}
     }

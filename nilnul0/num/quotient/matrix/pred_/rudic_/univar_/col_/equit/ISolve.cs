@@ -10,6 +10,9 @@ namespace nilnul.num.quotient.matrix.pred_.rudic_.univar_.col_.equit
 	/// solve the equit
 	/// ,by <see cref="num.real.matrix.pred_.rudic_.col_.equat._slv_.by_._ByRowReductionX"/>
 	/// </summary>
+	/// todo: investigate:
+	///			<see cref="nilnul.num.quotient.matrix_.sq_.isosize.ratio.op_.IReduce"/>
+
 	public interface ISolve
 	{
 	}

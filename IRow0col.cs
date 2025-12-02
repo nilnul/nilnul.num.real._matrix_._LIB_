@@ -7,6 +7,8 @@ namespace nilnul.num.real.matrix
 	///		strip
 	///			,straight
 	///			,hints a dependency
+	///		sprint
+	///		
 	///		streak
 	///		stripe
 	///		strand
@@ -47,6 +49,8 @@ namespace nilnul.num.real.matrix
 	///		tine
 	///		prong
 	///		pillar
+	///		
+	///		framework
 	///	vs:
 	///		staight, unangulated
 	///		diagonal

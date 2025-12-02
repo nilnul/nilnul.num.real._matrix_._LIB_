@@ -16,7 +16,10 @@ namespace nilnul.num.real.matrix_.sq_.diag_.scaler_
 	///		shrink:<see cref="matrix_.sq_.IShrinker"/>
 	///		
 	///		shred, reserved for <see cref="diag_.IShred"/>
+	///			,like shrink
 	///		shard
+	///		scold
+	///		squeeze
 	///		
 	///	vs:
 	///		<see cref="real.matrix.op_.stretch_.squash_"/>, implying arbitrary/random/various/disproportion

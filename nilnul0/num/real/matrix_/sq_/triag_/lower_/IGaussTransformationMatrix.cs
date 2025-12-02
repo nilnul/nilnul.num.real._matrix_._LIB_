@@ -8,6 +8,7 @@ namespace nilnul.num.real.matrix_.sq_.triag_.lower_
 	/// </summary>
 	/// <see cref="matrix_.sq_.triag_.lower_.IGauss"/>
 	/// or <see cref="matrix_.sq_.triag_.upper_.IGauss"/>
+	/// <see cref="num.real.matrix_.sq_.canon.to_.upper_.ISlant"/>
 	public interface IGaussTransformationMatrix
 		//:matrix_.sq_.triag_.ILower
     {

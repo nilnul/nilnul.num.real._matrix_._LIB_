@@ -33,7 +33,7 @@ namespace nilnul.num.real.matrix.op_.basic_.shed_
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public void _Shed_2divisor(ref Q[,] m, int row, Q divisor)
 		{
-			nilnul.num.real.matrix.row.op_.shred_._ByDivideX._Divide(ref m, row, divisor);
+			nilnul.num.real.matrix.row.op_.scale_._ByDivideX._Divide(ref m, row, divisor);
 
 			//for (var c = 0; c < m.GetLength(1); c++)
 			//{
@@ -45,7 +45,7 @@ namespace nilnul.num.real.matrix.op_.basic_.shed_
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public void _Shed_2divisor(ref Q[,] m, long row, Q divisor)
 		{
-			nilnul.num.real.matrix.row.op_.shred_._ByDivideX._Divide(ref m, row, divisor);
+			nilnul.num.real.matrix.row.op_.scale_._ByDivideX._Divide(ref m, row, divisor);
 
 			//for (var c = 0l; c < m.GetLongLength(1); c++)
 			//{
@@ -65,7 +65,7 @@ namespace nilnul.num.real.matrix.op_.basic_.shed_
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public void _Shed_2divisorUnish(ref Q[,] m, int row, Q divisor)
 		{
-			nilnul.num.real.matrix.row.op_.shred_._ByDivideX._Divide_2unish(ref m, row, divisor);
+			nilnul.num.real.matrix.row.op_.scale_._ByDivideX._Divide_2unish(ref m, row, divisor);
 			//if (divisor == 1) { return; }
 
 			//_Shed_2divisor(ref m, row, divisor);
@@ -74,7 +74,7 @@ namespace nilnul.num.real.matrix.op_.basic_.shed_
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public void _Shed_2divisorUnish(ref Q[,] m, long row, Q divisor)
 		{
-			nilnul.num.real.matrix.row.op_.shred_._ByDivideX._Divide_2unish(ref m, row, divisor);
+			nilnul.num.real.matrix.row.op_.scale_._ByDivideX._Divide_2unish(ref m, row, divisor);
 			//if (divisor == 1) { return; }
 
 			//_Shed_2divisor(ref m, row, divisor);

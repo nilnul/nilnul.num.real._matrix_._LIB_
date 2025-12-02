@@ -13,7 +13,7 @@ namespace nilnul.num.real.matrix_.sq_
 	///		zero
 	///		Initializing
 	///		init
-	public interface INaught
+	public interface INaught:num.real.matrix_.ISquare
 	{
 	}
 }

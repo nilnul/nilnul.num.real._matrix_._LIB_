@@ -16,7 +16,7 @@ namespace nilnul.num.real.matrix_.sq_.isosize.expr_.polynom_.unary_.std._eval_.b
 			int size = x.GetLength(0);
 			var monic = nilnul.num.real.matrix_.sq_._CanonicalX.Generate8quotient(size);
 
-			var r = nilnul.num.real.matrix_.sq_._DefaultedX.Generate8quotient(
+			var r = nilnul.num.real.matrix_.sq_._NilX.Generate8quotient(
 				size	
 			);
 

@@ -6,7 +6,7 @@ namespace nilnul.num.real.matrix.op_._indent
 	/// 
 	/// 
 	/// alias:
-	///		<see cref="IBasics"/>
+	///		<see cref="IInvertible"/>
 	///		Gauss–Jordan elimination
 	///		
 	/// vs:

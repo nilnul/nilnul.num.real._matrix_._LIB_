@@ -17,4 +17,5 @@ namespace nilnul.num.real.matrix.bi_.mul.at_
 	public interface IRowCol
 	{
 	}
+
 }

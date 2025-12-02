@@ -112,20 +112,23 @@ namespace nilnul.num.real.matrix.bi_
 		public static Q[,] _Multiply_1sociable(this Q[,] a, Q[,] b)
 		{
 
-			var c = new Q[a.GetLength(0), b.GetLength(1)];
+			int height = a.GetLength(0);
+			int width = b.GetLength(1);
+
+			var c = new Q[height, width];
 
 
-			for (int i1 = 0; i1 < c.GetLength(0); i1++)
+			for (int i1 = 0; i1 < height; i1++)
 			{
 
-				for (int j = 0; j < c.GetLength(1); j++)
+				for (int j = 0; j < width; j++)
 				{
 					c[i1, j] = nilnul.num.real.vec.co._InnerProductX._InnerProduct_1equisize(
 						nilnul.obj.matrix._RowsX.Row(a, i1)
 						,
 						nilnul.obj.matrix._ExtensionsX.Col(b, j)
 
-					);
+					);	/// this would be 0, when each arg is empty.
 
 				}
 

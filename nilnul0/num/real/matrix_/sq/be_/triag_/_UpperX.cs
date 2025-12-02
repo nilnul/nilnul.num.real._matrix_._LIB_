@@ -18,11 +18,11 @@ namespace nilnul.num.real.matrix_.sq.be_.triag_
 		/// </summary>
 		/// <param name="m"></param>
 		/// <returns></returns>
-		static public bool _IsUpper_0fair(Q[,] m) {
+		static public bool _IsUpper_0fair(in Q[,] m) {
 
 			int rows = m.GetLength(0);
 
-			for (int i = 0, iP=1; i < rows; i++, iP++)
+			for (int i = 0; i < rows; i++)
 			{
 				for (int j = 0; j < i; j++)
 				{
@@ -40,7 +40,7 @@ namespace nilnul.num.real.matrix_.sq.be_.triag_
 
 			int rows = m.GetLength(0);
 
-			for (int i = 0, iP=1; i < rows; i++, iP++)
+			for (int i = 0; i < rows; i++)
 			{
 				for (int j = 0; j < i; j++)
 				{

@@ -9,7 +9,7 @@ namespace nilnul.num.real.matrix.factorize_.co_
 
 
 	/// <summary>
-	/// <see cref="num.quotient.matrix.factorize_.co_._GaussianVentX"/>
+	/// <see cref="num.quotient.matrix.factorize_.co_._VertibleVentX"/>
 	/// </summary>
 	public interface IGaussianVent:IGaussian
 	{

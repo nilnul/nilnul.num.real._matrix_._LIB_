@@ -27,7 +27,7 @@ namespace nilnul.num.real.matrix_.colly_.indep
 			var transposed = x.Transpose();
 
 			return transposed._Multiply_1sociable(
-				x)._Inverse_0invertible()._Multiply_1sociable(
+				x)._Invert_0invertible()._Multiply_1sociable(
 					transposed
 				
 			);

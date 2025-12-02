@@ -17,7 +17,7 @@ namespace nilnul.num.real.matrix_.sq_.diag_.invertible.op_
 		///		]
 		/// </param>
 		/// <returns></returns>
-		static public void _Invert_0diagInvertible(Q[,] m)
+		static public void _Invert_0diagInvertible(ref Q[,] m)
 		{
 			var h = m.GetLength(0);
 
@@ -25,7 +25,6 @@ namespace nilnul.num.real.matrix_.sq_.diag_.invertible.op_
 					m[i, i] = m[i, i].toInverse(); /// todo: invert quotient in place
 		
 			}
-
 
 		}
 	}

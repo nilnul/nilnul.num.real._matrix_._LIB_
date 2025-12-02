@@ -23,7 +23,7 @@ namespace nilnul.num.real.matrix_.sq_
 		static public double[,] Generate(int size) {
 
 
-			var raw = _DefaultedX.Generate(size);
+			var raw = _NilX.Generate(size);
 
 			for (int i = 0; i < size; i++)
 			{

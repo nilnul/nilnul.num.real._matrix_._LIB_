@@ -11,6 +11,8 @@ namespace nilnul.num.real.matrix.op_
 	///		stepwise
 	///		fundamental
 	///		rudimental
+	///		rudic
+	///		
 	///		gauss
 	///			<see cref="real.matrix_.sq_.IGaussTransformationMatrix"/>
 	public interface IBasic:real.matrix.op_.IRowSpan { }

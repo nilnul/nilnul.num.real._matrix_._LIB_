@@ -30,14 +30,26 @@ namespace nilnul.num.real.matrix_.sq_.basic_
 			return r;
 
 		}
-		static public Q[,] _Generate8quotient_0wide_1row_2other(int wide, int row, int other) {
+
+		/// <summary>
+		/// this can be used at the left to swap rows, or at the right to swap cols.
+		/// </summary>
+		/// <remarks>
+		/// for determinant to unchange, negate one row;
+		/// the inverse of this is itelf, <see cref="matrix_.sq_.basic_.swap.op_.IInvert"/>
+		/// </remarks>
+		/// <param name="wide"></param>
+		/// <param name="row0col"></param>
+		/// <param name="other"></param>
+		/// <returns></returns>
+		static public Q[,] _Generate8quotient_0wide_1original_2other(int wide, int row0col, int other) {
 			var r = nilnul.num.real.matrix_.sq_._CanonicalX.Generate8quotient(wide);
 
-			r[row, row] = 0;
+			r[row0col, row0col] = 0;
 			r[other, other] = 0;
 
-			r[row, other] = 1;
-			r[other, row] = 1;
+			r[row0col, other] = 1;
+			r[other, row0col] = 1;
 			return r;
 		}
 	}

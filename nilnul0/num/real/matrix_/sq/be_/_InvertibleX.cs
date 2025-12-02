@@ -11,10 +11,16 @@ namespace nilnul.num.real.matrix_.sq.be_
 	{
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		static public bool _Be_0sq(in Q4[,] obj)
+		static public bool _Be_0sq( ref Q4[,] obj)
 		{
 			
-			return num.quotient.matrix_.sq.be_._InvertX._IsInvertible_0sq(in obj);
+			return num.quotient.matrix_.sq.be_._InvertibleX._IsInvertible_0sq(ref obj);
+		}
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public bool _Be_0sq( Q4[,] obj)
+		{
+			
+			return num.quotient.matrix_.sq.be_._InvertibleX._IsInvertible_0sq( obj);
 		}
 
 	}

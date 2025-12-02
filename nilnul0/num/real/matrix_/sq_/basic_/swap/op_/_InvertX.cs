@@ -15,8 +15,8 @@ namespace nilnul.num.real.matrix_.sq_.basic_.swap.op_
 
 		[Obsolete("nop:nothing needs doing;")]
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		static void _Invert_0swap(ref Q[,] _skew) {
-			
+		static Q4[,] _Invert_0swap(in Q[,] _skew) {
+			return _skew;
 		}
 	}
 }

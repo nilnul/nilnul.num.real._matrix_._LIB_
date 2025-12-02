@@ -11,7 +11,7 @@ namespace nilnul.num.real.matrix.be_.dent_.paragon_
 {
 	/// <summary>
 	/// </summary>
-	///	
+	///	<see cref="num.real.matrix_.dent_.IVent"/>
 
 	static public class _ReducedEchelonX
 	{

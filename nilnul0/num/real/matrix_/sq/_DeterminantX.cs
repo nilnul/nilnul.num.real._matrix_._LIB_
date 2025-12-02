@@ -25,8 +25,20 @@ namespace nilnul.num.real.matrix_.sq
 			double[,] square
 		)
 		{
-			return _determ_.by_._BySubmatrixX._Determinant_0sq(square);
+			return _determ_.by_._ByPermuteX._Determ_0sq(square);
+			//return _determ_.by_._BySubmatrixX._Determinant_0sq(square);
 	
+		}
+
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public Q _Determinant_0sq(
+			ref Q[,] square
+		)
+		{
+			return num.quotient.matrix_.sq._DeterminantX._Determinant_0sq(ref square);
+
+			//return _determ_.by_._BySubmatrixX._Determinant_0sq(square);
 		}
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -34,15 +46,23 @@ namespace nilnul.num.real.matrix_.sq
 			Q[,] square
 		)
 		{
-			return _determ_.by_._BySubmatrixX._Determinant_0sq(square);
+			return num.quotient.matrix_.sq._DeterminantX._Determinant_0sq(square);
+
+			//return _determ_.by_._BySubmatrixX._Determinant_0sq(square);
 		}
 
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		//[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public Q _Determinant_0sq(
 			int[,] square
 		)
 		{
-			return _determ_.by_._BySubmatrixX._Determinant_0sq(square);
+			Q4[,] square1 = nilnul.num.quotient.matrix.of_._OfIntegersX.OfIntegers(square);
+
+			return _Determinant_0sq(
+				ref square1
+			);
+
+			//return _determ_.by_._BySubmatrixX._Determinant_0sq(square);
 		}
 
 

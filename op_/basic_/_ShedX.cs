@@ -15,7 +15,7 @@ namespace nilnul.num.real.matrix.op_.basic_
 	/// </summary>
 	/// <remarks>
 	/// </remarks>
-	/// for nilable scale one row, <see cref="real.matrix.row.op_._Unial0nilX"/>, <see cref="real.matrix.row.op_._ShedX"/> 
+	/// for nilable scale one row, <see cref="real.matrix.row.op_._ParagonizeX"/>, <see cref="real.matrix.row.op_._ShedX"/> 
 	/// 
 
 	static public class _ShedX
@@ -31,7 +31,7 @@ namespace nilnul.num.real.matrix.op_.basic_
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public void _Shed_2unnil(ref Q[,] m, int row, Q amplifier)
 		{
-			real.matrix.row.op_._ShredX._Shred_1row(ref m, row,amplifier);
+			real.matrix.row.op_._ScaleX._Shred_1row(ref m, row,amplifier);
 			//for (var i = 0; i < m.GetLength(1); i++)
 			//{
 			//	m[row, i] *= amplifier;
@@ -41,7 +41,7 @@ namespace nilnul.num.real.matrix.op_.basic_
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public void _Shed_2unnil(ref Q[,] m, long row, Q amplifier)
 		{
-			real.matrix.row.op_._ShredX._Shred_1row(ref m, row,amplifier);
+			real.matrix.row.op_._ScaleX._Shred_1row(ref m, row,amplifier);
 
 			//for (var i = 0l; i < m.GetLongLength(1); i++)
 			//{
@@ -61,7 +61,7 @@ namespace nilnul.num.real.matrix.op_.basic_
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public void _Shed_2unnilUnish(ref Q[,] m, int row, Q unnil)
 		{
-			real.matrix.row.op_._ShredX._Shred_2unish(ref m, row,unnil);
+			real.matrix.row.op_._ScaleX._Shred_2unish(ref m, row,unnil);
 			//if (unnil == 1) { return; }
 
 			//_Shed_2unnil(ref m, row, unnil);
@@ -70,7 +70,7 @@ namespace nilnul.num.real.matrix.op_.basic_
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public void _Shed_2unnilUnish(ref Q[,] m, long row, Q unnil)
 		{
-			real.matrix.row.op_._ShredX._Shred_2unish(ref m, row,unnil);
+			real.matrix.row.op_._ScaleX._Shred_2unish(ref m, row,unnil);
 
 			//if (unnil == 1) { return; }
 

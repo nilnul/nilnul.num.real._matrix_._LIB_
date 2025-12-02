@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix_.sq_
 {
-	/// <see cref="matrix_.sq.be_.IClaw"/>
+	/// <see cref="matrix_.sq.be_.IPaw"/>
 	/// <summary>
 	/// <see cref="claw.IDeterminant"/>
 	/// </summary>

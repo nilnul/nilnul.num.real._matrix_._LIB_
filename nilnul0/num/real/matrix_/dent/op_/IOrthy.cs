@@ -12,4 +12,6 @@ namespace nilnul.num.real.matrix_.dent.op_
 	internal class IOrthic
 	{
 	}
+
+
 }
