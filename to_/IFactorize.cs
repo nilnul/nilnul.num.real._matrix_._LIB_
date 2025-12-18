@@ -10,7 +10,7 @@ namespace nilnul.num.real.matrix.to_
 	/// <see cref="matrix_.sq.to_.IFactorize"/>
 	///
 	/// vs:
-	///		splitting, make it as a sum
+	///		splitting, make it as a sum:<see cref="matrix.ISplit"/>
 	/*public*/
 	public interface IFactorize : num.real.matrix.ITo
 		,IDecompose

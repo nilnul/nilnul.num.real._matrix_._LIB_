@@ -18,7 +18,7 @@ namespace nilnul.num.real.matrix_.trape_.left_.colly_.cascade_
 	///		]
 	/// </summary>
 	/// <remarks>
-	///  this is <see cref="real.matrix.op_._husk_.by_._ByRowReductionX"/>
+	///  this is <see cref="real.matrix.op_._kernel_.by_._ByRowReductionX"/>
 	/// </remarks>
 	public interface IParagon:ICascade
 	{

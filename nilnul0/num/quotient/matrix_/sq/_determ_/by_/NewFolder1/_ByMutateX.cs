@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.quotient.matrix_.sq._determ_.by_
 {
+	/// <summary>
+	/// mutate the matrix, making it triag.
+	/// </summary>
 	static public class _ByMutateX
 	{
 		/// <summary>

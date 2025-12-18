@@ -13,4 +13,6 @@ namespace nilnul.num.real.matrix_.sq_.sym_
 		nilnul.num.real.matrix_.sq_.IUniridge
 	{
 	}
+
+
 }

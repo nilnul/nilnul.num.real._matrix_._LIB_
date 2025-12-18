@@ -3,12 +3,17 @@ using System;
 namespace nilnul.num.quotient.matrix_.sq.op_._invert_.by_
 {
 
-	/// <see cref="num.real.matrix_.sq.op_._invert_.by_.IGaussian"/>
+	/// <see cref="num.real.matrix_.sq.op_._invert_.by_.IByRatio"/>
 	/// <see cref="num.quotient.matrix_.sq_.isosize.co.op_.IDivide"/>
 	/// <see cref="num.quotient.matrix_.sq_.isosize.ratio.op_.IReduce"/>
 	/// <see cref="num.quotient.matrix_.sq_.isosize.ratio_.quota_.invert.to_._ReduceX"/>
 	/// 
 	/// <summary>
+	/// A\I
+	/// =>
+	/// GA\GI
+	/// =>
+	///		I\ (A\1)
 	/// </summary>
 	static public class _ByRatioX
 	{
@@ -41,7 +46,6 @@ namespace nilnul.num.quotient.matrix_.sq.op_._invert_.by_
 					var pivot = m[r, c];
 					if (pivot != 0)     /// 
 					{
-
 
 						m[rank, c] =1;
 
@@ -146,7 +150,7 @@ namespace nilnul.num.quotient.matrix_.sq.op_._invert_.by_
 						$"{m} is not invertible"	
 					);
 					///  for invert, this shall throw exception. 
-					///  
+					///  to move on without throwing, <see cref="sq_.isosize.ratio_.quota_.invert.to_._ReduceX"/>
 				}
 			}
 			return o;

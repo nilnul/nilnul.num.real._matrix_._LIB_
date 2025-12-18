@@ -20,6 +20,7 @@ namespace nilnul.num.real.vecs.be_
 	/// 线性无关
 	///
 	/// trivia vec ([] when it's in 0d) can be presented by summing of empty collection of vecs. Hence its appearance means, like matrix {[]}, not independent in that it's dependable on other vecs, an empty collection. <see cref="matrix.rows.be_.IIndependent"/>
+	/// 
 
     public interface IIndependent
     {

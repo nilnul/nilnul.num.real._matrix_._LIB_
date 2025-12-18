@@ -59,7 +59,7 @@ namespace nilnul.num.real.matrix_.sq_.paw_.nilsome8torso5diag
 					quotient.bi_.mul._CumulaX._Cumulate_0str(
 						Enumerable.Range(1, heightMinus).Where( j=> j!=index).Select(
 									k=> paw[k,k]
-						)
+						) /// others in the permutation.
 					)
 			;  /// only this permutation is not 0. 
 			/// per another perspective, if a[p,p] is 0, then for the r[p], we have only m[p,0] as not 0. and once we choose m[p,0], the for col p, the only unnil is m[0,p]. Then the only permutation is:

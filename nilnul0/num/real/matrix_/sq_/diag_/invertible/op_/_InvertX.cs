@@ -21,9 +21,11 @@ namespace nilnul.num.real.matrix_.sq_.diag_.invertible.op_
 		{
 			var h = m.GetLength(0);
 
-			for (int i = 0; i < h; i++) { 
-					m[i, i] = m[i, i].toInverse(); /// todo: invert quotient in place
-		
+			for (int i = 0; i < h; i++) {
+				//m[i, i].inverse();// = m[i, i].toInverse(); /// todo: invert quotient in place
+				m[i, i] = m[i, i].toInverse(); /// 
+
+
 			}
 
 		}

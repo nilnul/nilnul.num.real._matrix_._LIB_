@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix.be_
 {
+	/// 
 	/// <summary>
 	/// when cols is counted 0, or when rows is counted 0.
 	/// That is there is only skeleton, no flesh.
@@ -34,6 +35,7 @@ namespace nilnul.num.real.matrix.be_
     public interface IVacant:num.real.matrix.IBe
     {
     }
+
 
 
 }

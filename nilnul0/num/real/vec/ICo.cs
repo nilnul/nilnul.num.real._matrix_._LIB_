@@ -12,4 +12,5 @@ namespace nilnul.num.real.vec
 		nilnul.obj.ICo<nilnul.num.real.IVec>
 	{
 	}
+
 }

@@ -8,7 +8,7 @@ namespace nilnul.num.real.matrix
 {
 
 
-	///<see cref="nilnul.num.real.matrix.rows.IHull"/>
+	///<see cref="nilnul.num.real.matrix.rows.ISpan"/>
 	/// <summary>
 	/// <see cref="real.matrix.op_.rowspan_.indent_.std_.IChimney"/>, but any nil rows are dropped.
 	/// by default the span of matrix means the span of rows, not cols.
@@ -31,9 +31,12 @@ namespace nilnul.num.real.matrix
 	///		<see cref="to_.IKernel"/>
 	///		<see cref="matrix.op_.IKernel"/>
 	///		space, which is full while this is subspace.
-	///		husk, which is <see cref="cols.IHull"/>
+	///		husk, which is <see cref="cols.ISpan"/>
 	///		
-	public interface IHull:matrix.rows.IHull, real.vecs.IHull
+	public interface IHull:matrix.rows.ISpan
+		///, real.vecs.ISpan
 	{
 	}
+
+
 }

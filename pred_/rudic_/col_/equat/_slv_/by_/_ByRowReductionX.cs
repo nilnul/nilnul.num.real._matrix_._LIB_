@@ -1,4 +1,5 @@
 using nilnul.num.real.stream_.slider._series_._nextAugend_;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.CompilerServices;
@@ -11,11 +12,16 @@ namespace nilnul.num.real.matrix.pred_.rudic_.col_.equat._slv_.by_
 	/// </summary>
 	/// <remarks>
 	/// </remarks>
+	/// 
+	[Obsolete(nameof(real.matrix.op_._kernel_.by_._ByRowReductionX) + " is inefficient;")]
 	static public class _ByRowReductionX
 	{
 		/// <summary>
 		/// 
 		/// </summary>
+		/// <remarks>
+		///  <see cref="pred_.rudic_.equat."/>
+		/// </remarks>
 		/// <param name="indepVent">
 		///  the augmented matrix
 		/// </param>

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix_.sq.grid_.plaid_.ii_.bloc1stInvertible
 {
+	///	;<see cref="nilnul.num.real.matrix_.sq.grid_.plaid_.ii_.iabi.factorize_.tro_.ISchur"/>
 	/// <summary>
 	/// AB
 	/// CD
@@ -17,7 +18,7 @@ namespace nilnul.num.real.matrix_.sq.grid_.plaid_.ii_.bloc1stInvertible
 	/// <remarks>
 	/// 
 	/// </remarks>
-	internal class IDeterminant
+	public interface IDeterminant
 	{
 	}
 }

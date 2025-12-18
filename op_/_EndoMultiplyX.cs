@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix.op_
 {
+	/// <see cref="real.matrix.op_.IEndoMultiply"/>
 	/// <summary>
 	/// 
 	/// </summary>
@@ -16,6 +17,7 @@ namespace nilnul.num.real.matrix.op_
 	///		promulgate
 	///		, 
 	///		mulTranspose: A A^T is more canonical as it has same count of rows as A
+	///		<see cref="num.real.vecs.to_._GramMatrixX"/>
 	static public class _EndoMultiplyX
 	{
 

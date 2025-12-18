@@ -23,6 +23,11 @@ namespace nilnul.num.real.expr_.polynom.matrix_.sq_.companion_
 	///		, it's negated
 	///		, the var as a scaler is added
 	/// </summary>
+	/// <remarks>
+	/// here as the coef is not constant, but var, the resulted is not a univar, but a multivar polynomial;
+	/// the cel is var or constant, or linear; in other words, the cel is <see cref="real.expr_.polynom_.ISubliminary"/>
+	/// </remarks>
+	/// <see cref="polynom_.univar_.std.to_.companion_._ColumnwiseX"/>
 	static public class _RowwiseX
 	{
 
@@ -56,13 +61,6 @@ namespace nilnul.num.real.expr_.polynom.matrix_.sq_.companion_
 
 			var m = nilnul.num.real.expr_.polynom.matrix_.sq_._NilX.Generate(n);
 
-
-			/// supdiag :
-			/// 
-			for (int i = 0; i < n-1; i++)
-			{
-				m[i, i+1] = -1;
-			}
 
 
 			/// supdiag:

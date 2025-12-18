@@ -18,6 +18,8 @@ namespace nilnul.num.real.matrix
 		//,
 
 		real.vec.str.ISplit
+		,
+		real.matrix.to_.IDecompose
 	{
 	}
 

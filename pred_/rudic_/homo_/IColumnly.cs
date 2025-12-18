@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix.pred_.rudic_.homo_
 {
+	/// <summary>
+	/// 
+	/// </summary>
 	public interface IColumnly
 		:pred_.rudic_.IHomogeneous
 		,
 		pred_.rudic_.IColumnly
 	{
 	}
+
+
 
 
 }

@@ -34,7 +34,7 @@ namespace nilnul.num.real.matrix_.sq.be_
 	///			,from isomorphism	A map with inverse ¡ª mathematically accurate.
 	///		
 	///	<see cref="real.matrix.be_.IInvertible"/>
-	public interface IInvertible {
+	public interface IInvertible:sq.IBe {
 
 	}
 

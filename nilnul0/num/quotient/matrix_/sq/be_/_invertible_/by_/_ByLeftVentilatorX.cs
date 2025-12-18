@@ -4,7 +4,7 @@ namespace nilnul.num.quotient.matrix_.sq.be_._invertible_.by_
 {
 	/// 
 
-	[Obsolete(nameof(_ByDeterminantX) + " is more efficient")]
+	[Obsolete(nameof(_ByRankX) + " is more efficient")]
 	static public class _ByLeftVentilatorX
 	{
 		static public bool _IsInvertible_0sq(ref Q4[,] m)

@@ -11,6 +11,8 @@ namespace nilnul.num.real.matrix.pred_.equat_.linear_.col
 	/// , the augmented matrix is:
 	///		A |B, where the cols of B is appended to the cols of A, to form a new matrix, of which A, B is submatrix.
 	/// </summary>
+	/// alias:
+	///		<see cref="num.real.matrix.IRatio"/>
 	/// <see cref="num.real.matrix_.aug"/>
     class IAugmentedMatrix:linear.IAugmentedMatrix
     {

@@ -50,7 +50,7 @@ namespace nilnul.num.real.matrix_.sq.op_._invert.semi
 	/// ;proof:
 	///		per <see cref="matrix_.sq_.invertible.op_._InvertX"/>, if its determinant is unnil, we can find its inverse. hence (determinant is not 0) derives invert.
 	///		on the other hand, if it is invertible, then is its determinant unnil?
-	///		<see cref="matrix_.sq.op_._invert_.by_.IGaussian"/>
+	///		<see cref="matrix_.sq.op_._invert_.by_.IByRatio"/>
 	///		,GA =I ( byproduct:  GI = 1/A )
 	///		but <see cref="matrix_.sq.op_.basic.ret.determ.be_.distro.ITauto"/>, 
 	///		hence |G||A| = |I|, hence |A| !=0.

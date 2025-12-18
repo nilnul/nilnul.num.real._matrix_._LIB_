@@ -10,9 +10,12 @@ namespace nilnul.num.real.matrix.be_.indep_
 	/// they span the whole space.
 	/// </summary>
 	/// <remarks>
-	/// <see cref="nilnul.num.real.matrix_.sq.be_.IInvertible"/>
 	/// 
 	/// </remarks>
+	/// alias:
+	///		span
+	///		<see cref="nilnul.num.real.matrix_.sq.be_.IInvertible"/>
+	///		
 	internal class IBasis
 	{
 	}

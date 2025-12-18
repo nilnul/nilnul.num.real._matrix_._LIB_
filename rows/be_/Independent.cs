@@ -22,6 +22,9 @@ namespace nilnul.num.real.matrix.rows.be_
 	///  
 	/// 
 	/// </summary>
+	/// <remarks>
+	/// <see cref="real.matrix.be_.rowly_.IIndependent"/>
+	/// </remarks>
 	public interface IIndependent
 	{
 	}

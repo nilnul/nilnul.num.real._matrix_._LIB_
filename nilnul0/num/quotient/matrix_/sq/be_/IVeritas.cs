@@ -8,8 +8,10 @@
 	///		veritas
 	///		vertible
 	///		verity
+	///		invertible
 	///		
 	public interface IVeritas:sq.IBe { }
+
 
 
 }

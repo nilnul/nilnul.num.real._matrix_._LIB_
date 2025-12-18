@@ -27,7 +27,7 @@ namespace nilnul.num.real.matrix.pred_.rudic_.col_.equat._slv_.by_
 	/// <remarks>
 	/// 
 	/// </remarks>
-	/// <see cref="num.real.matrix.op_.IKernel"/>:<see cref="real.matrix.op_._husk_.by_._ByRowReductionX"/>
+	/// <see cref="num.real.matrix.op_.IKernel"/>:<see cref="real.matrix.op_._kernel_.by_._ByRowReductionX"/>
 	class IByRowReduction
     {
     }

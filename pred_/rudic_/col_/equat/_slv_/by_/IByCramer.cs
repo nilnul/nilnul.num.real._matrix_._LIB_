@@ -11,10 +11,4 @@ namespace nilnul.num.real.matrix.pred_.rudic_.col_.equat._slv_.by_
 	class IByCramer
     {
     }
-
-
-
-
-
-
 }

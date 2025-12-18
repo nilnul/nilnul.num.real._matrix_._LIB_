@@ -1,7 +1,7 @@
 namespace nilnul.num.quotient.matrix_.sq_.isosize.ratio_.quota_.invert.to_
 {
 
-	/// <see cref="num.real.matrix_.sq.op_._invert_.by_.IGaussian"/>
+	/// <see cref="num.real.matrix_.sq.op_._invert_.by_.IByRatio"/>
 	/// <see cref="num.quotient.matrix_.sq_.isosize.co.op_.IDivide"/>
 	/// <summary>
 	///  note this is quota: A\I
@@ -15,7 +15,7 @@ namespace nilnul.num.quotient.matrix_.sq_.isosize.ratio_.quota_.invert.to_
 		/// <summary>
 		/// try to make the divisor to be I, by multiplying both dividend and divisor by a invertible matrix.
 		/// if divisor becomes I, then dividend becomes inverse. 
-		/// if divisor cannot becomes I, then dividend is not inversible.
+		/// if divisor cannot become I, then dividend is not inversible.
 		/// 
 		/// the input will be transformed as <see cref="matrix_.sq_.ICanonic"/>; if the input fails such transformation, then the input is uninvertible, and this shall throw.
 		/// 
@@ -70,11 +70,9 @@ namespace nilnul.num.quotient.matrix_.sq_.isosize.ratio_.quota_.invert.to_
 				for (var r = rank; r < width; r++)
 				{
 					var pivot = m[r, c];
-					if (pivot != 0)     /// as the input is invertible, hence at least one pivot is unnil
+					if (pivot != 0)     ///  when no such pivot is found, we go on to the next column; to throw, <see cref="sq.op_._invert_.by_._ByRatioX"/>
 					{
-						//obj.matrix.op_._SwapX._Swap_12row(
-						//	ref m, diag, r
-						//);
+
 
 						m[rank, c] =1;
 

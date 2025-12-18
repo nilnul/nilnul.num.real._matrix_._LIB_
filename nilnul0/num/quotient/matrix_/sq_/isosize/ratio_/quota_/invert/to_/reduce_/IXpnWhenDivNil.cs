@@ -8,6 +8,7 @@ namespace nilnul.num.quotient.matrix_.sq_.isosize.ratio_.quota_.invert.to_.reduc
 {
 	/// <summary>
 	/// <see cref="quotient.matrix_.sq.op_._invert_.by_._ByLeftVentilatorX"/>
+	/// <see cref="sq.op_._invert_.by_._ByRatioX"/>
 	/// </summary>
 	public interface IXpnWhenDivNil
 	{

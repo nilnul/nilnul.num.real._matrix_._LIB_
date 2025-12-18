@@ -38,7 +38,7 @@ namespace nilnul.num.real.matrix_.sq.grid_.plaid_.ii_.diagLastInvertible
 	/// <remarks>
 	/// 
 	/// </remarks>
-	internal class IDeterminant
+	public interface IDeterminant
 	{
 	}
 }

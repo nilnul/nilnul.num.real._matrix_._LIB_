@@ -12,6 +12,7 @@ namespace nilnul.num.real.vec
 	/// </summary>
 	/// alias:
 	///		paragon
+	///		,pargon
 	public interface IPivot
 		:nilnul.num.IInteger
 	{

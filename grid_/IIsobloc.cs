@@ -12,6 +12,7 @@ namespace nilnul.num.real.matrix.grid_
 	public interface IIsoblok
 	{
 	}
+
 	static public class _IsoblokX
 	{
 		static public double[,][,] _Of_inited(int belts,int buncs, int rows, int cols) {

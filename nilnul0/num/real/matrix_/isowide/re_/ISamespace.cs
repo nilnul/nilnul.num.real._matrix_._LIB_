@@ -6,7 +6,8 @@
 	///	;
 	///	the two hulls are equivalent.
 	/// </summary>
-	internal class ISamespace
+	/// <see cref="real.matrix.co_.equiwide.be_._equihull_.by_._ByIndepVentX"/>
+	public interface IEquihull
 	{
 	}
 

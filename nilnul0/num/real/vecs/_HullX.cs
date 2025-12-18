@@ -12,7 +12,7 @@ namespace nilnul.num.real.vecs
 	static public class _HullX
 	{
 		/// <summary>
-		/// <see cref="real.matrix.rows.IHull"/>
+		/// <see cref="real.matrix.rows.ISpan"/>
 		/// </summary>
 		/// <param name="a"></param>
 		/// <returns></returns>

@@ -12,6 +12,7 @@ namespace nilnul.num.real.matrix.pred_.univar_
 	///	eg:
 	///		yA=b
 	/// </summary>
+	/// <see cref=""/>
 	public interface IRatio
 	{
 	}

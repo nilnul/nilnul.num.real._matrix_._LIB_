@@ -68,6 +68,8 @@ namespace nilnul.num.real.matrix.op_.basic_
 	///		slay
 	///		slant
 	///		<see cref="op_._indent.gauss_.ISkew"/>
+	///		斜切
+	///		
 	///		
 	/// use "-=", not "-", to eliminate ambiguity
 

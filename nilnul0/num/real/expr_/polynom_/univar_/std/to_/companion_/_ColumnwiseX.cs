@@ -55,9 +55,9 @@ namespace nilnul.num.real.expr_.polynom_.univar_.std.to_.companion_
 
 			for (int i = 1, j=0; i < degree; i++, j++)
 			{
-				r[i, j] = 1 ;
+				r[i, j] = 1 ; /// subdiag is 1
 
-				r[i, degreeMinus] = -coefficients[ i] ;
+				r[i, degreeMinus] = -coefficients[ i] ; /// last col is -coef
 
 
 			}

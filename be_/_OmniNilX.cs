@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 namespace nilnul.num.real.matrix.be_
 {
 	/// <summary>
-	/// 
+	/// every cel is 0.
+	/// eg:
+	///		<see cref="matrix_.IVacant"/> is 0.
 	/// </summary>
 	/// alias:
 	///		nilful
@@ -22,6 +24,13 @@ namespace nilnul.num.real.matrix.be_
 	///		naught
 	static public class _OmniNilX
 	{
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="x"></param>
+		/// <returns>
+		/// true when input is the <see cref="real.matrix_.IVacant"/>, such as [], or 0*3 matrix, etc.
+		/// </returns>
 		static public bool Be(int[,] x){
 			int rows = x.GetLength(0);
 			int cols = x.GetLength(1);

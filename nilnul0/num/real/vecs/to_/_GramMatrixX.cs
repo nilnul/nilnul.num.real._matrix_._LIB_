@@ -10,6 +10,8 @@ namespace nilnul.num.real.vecs.to_
 	/// Converts a collection of vector sequences into a Gram matrix.
 	/// </summary>
 	/// <remarks>The Gram matrix is a symmetric matrix where each element is the inner product of two vectors. This method assumes that all input vectors have the same dimensionality.</remarks>
+	/// alias:
+	///		<see cref="num.real.matrix.op_._EndoMultiplyX"/>
 	static public class _GramMatrixX
 	{
 		/// <summary>

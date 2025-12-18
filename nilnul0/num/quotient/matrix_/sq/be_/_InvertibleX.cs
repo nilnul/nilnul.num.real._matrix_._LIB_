@@ -18,7 +18,7 @@ namespace nilnul.num.quotient.matrix_.sq.be_
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public bool _IsInvertible_0sq(ref Q4[,] m)
 		{
-			return _invertible_.by_._ByDeterminantX._IsInvertible_0sq(ref m);
+			return _invertible_.by_._ByRankX._IsInvertible_0sq(ref m);
 
 			//return _invert_.by_._ByLeftVentilatorX._IsInvertible_0sq(m);
 		}
@@ -26,7 +26,7 @@ namespace nilnul.num.quotient.matrix_.sq.be_
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public bool _IsInvertible_0sq( Q4[,] m)
 		{
-			return _invertible_.by_._ByDeterminantX._IsInvertible_0sq(m);
+			return _invertible_.by_._ByRankX._IsInvertible_0sq(m);
 
 			//return _invert_.by_._ByLeftVentilatorX._IsInvertible_0sq(m);
 		}

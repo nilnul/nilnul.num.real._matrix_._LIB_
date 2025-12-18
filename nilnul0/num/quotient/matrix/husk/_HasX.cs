@@ -27,10 +27,10 @@ namespace nilnul.num.quotient.matrix.husk
 			/// ,<see cref="quotient.matrix.hu"/>
 			/// 
 
-			var frac = nilnul.obj.matrix_.isohigh.bi_._JuxtaposeX._Juxtapose_1isohighCol(matrix, col);  /// A\b
+			var ratio = nilnul.obj.matrix_.isohigh.bi_._JuxtaposeX._Juxtapose_1isohighCol(matrix, col);  /// A\b
 
 			var rank = 
-				nilnul.num.real.matrix.op_.dent_.echelon_._VentX.Vent(ref frac)
+				nilnul.num.real.matrix.op_.dent_.echelon_._VentX.Vent(ref ratio)
 				///nilnul.num.real.matrix.op_.vent_._indep_.by_._GaussianX.ToIndepVent(frac)
 				;
 
@@ -50,7 +50,7 @@ namespace nilnul.num.quotient.matrix.husk
 
 			if (
 				nilnul.num.real.matrix.row._PivotX.Pivot(
-				in frac, rank - 1
+				in ratio, rank - 1
 				) == matrix.GetLength(1))
 			{
 				/// 0 \1;

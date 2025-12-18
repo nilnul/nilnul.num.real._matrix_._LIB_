@@ -12,7 +12,8 @@ namespace nilnul.num.real.matrix.op_
 	///		fundamental
 	///		rudimental
 	///		rudic
-	///		
+	///		divide
+	///			,divide the matrix = multiply an inversed matrix, as in <see cref="num.real.matrix.IRatio"/>, <see cref="num.quotient.matrix.co"/>
 	///		gauss
 	///			<see cref="real.matrix_.sq_.IGaussTransformationMatrix"/>
 	public interface IBasic:real.matrix.op_.IRowSpan { }

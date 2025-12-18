@@ -70,6 +70,7 @@ namespace nilnul.num.real.matrix.op_
 	/// </summary>
 	/// 
 	/// another hull in the same space, but perpendicular. kernel is colwise to emphasize it's perpendicular, not aligned as the hull;
+	/// <see cref="matrix.pred_.rudic_.col_.equat._slv_.by_._ByRowReductionX._Solve_0indepVent(quotient_.DenomNonnil[,])"/>
 	/// <remarks>
 	/// 
 	/// 
@@ -88,11 +89,15 @@ namespace nilnul.num.real.matrix.op_
 	///			,vs:<see cref="IRowSpan"/> which is also called <see cref="matrix.rows.op_.IHull"/>
 	///	vs:
 	///		<see cref="real.matrix_.sq.IEigen"/>, whichs scale the matrix when the matrix is transformed by the matrix.
-	///		<see cref="num.real.matrix.rows.IHull"/>
+	///		<see cref="num.real.matrix.rows.ISpan"/>
 	///	
 	/// <see cref="num.real.matrix.to_.IKernel"/>
 	/// 
-	/// <see cref="num.real.matrix.op_._husk_.by_._ByRowReductionX"/>
+	/// <see cref="num.real.matrix.op_._kernel_.by_._ByRowReductionX"/>
+	/// 
+	/// vs:
+	///		husk
+	///		colspace, which is not this.
 	public interface IKernel: num.real.matrix.IOp 
 	{
 	}

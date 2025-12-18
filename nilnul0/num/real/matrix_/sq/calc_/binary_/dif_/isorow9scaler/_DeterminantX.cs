@@ -22,6 +22,7 @@ namespace nilnul.num.real.matrix_.sq.calc_.binary_.dif_.isorow9scaler
 	///		
 	///		
 	/// </summary>
+	/// <see cref="add_.isorow9scaler._DeterminantX.Determinant(quotient_.DenomNonnil[], quotient_.DenomNonnil)"/>
 	static public class _DeterminantX
 	{
 		static public Q Determinant(Q[] row, Q scaler) {

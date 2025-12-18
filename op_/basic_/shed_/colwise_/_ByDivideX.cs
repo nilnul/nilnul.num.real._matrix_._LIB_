@@ -27,7 +27,7 @@ namespace nilnul.num.real.matrix.op_.basic_.shed_.colwise_
 		/// <param name="divisor"></param>
 		static public void _Shed_2divisor(ref Q[,] m, int col, Q divisor)
 		{
-
+			//if (divisor==1) return;
 			for (var r = 0; r < m.GetLength(0); r++)
 			{
 				m[r, col] /= divisor;
@@ -37,6 +37,7 @@ namespace nilnul.num.real.matrix.op_.basic_.shed_.colwise_
 
 		static public void _Shed_2divisor(ref Q[,] m, long col, Q divisor)
 		{
+			//if (divisor==1) return;
 
 			for (var r = 0l; r < m.GetLongLength(0); r++)
 			{

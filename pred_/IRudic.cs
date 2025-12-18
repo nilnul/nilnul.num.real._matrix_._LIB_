@@ -25,6 +25,8 @@ namespace nilnul.num.real.matrix.pred_
 	///		rudic
 	///		rudimental
 	///		linear
+	///		<see cref="real.expr_.IRudimental"/>
+	///		<see cref="real.expr_.polynom_.ISubliminary"/>
 	/// 
 	/// <see cref="num.real.pred_.simult_.ILinear"/>
 	public interface IRudic

@@ -7,6 +7,7 @@ namespace nilnul.num.real.matrix.op_
 	/// alias:
 	///		automultiply
 	///		endomultiply
+	///			ÄÚ³Ë
 	///		self reproduce
 	///		self replicate
 	///		intra multiply

@@ -21,4 +21,5 @@ namespace nilnul.num.real.matrix_.sq_.diag_
 
 
 
+
 }

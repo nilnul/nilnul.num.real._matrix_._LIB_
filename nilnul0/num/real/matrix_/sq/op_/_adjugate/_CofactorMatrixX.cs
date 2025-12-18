@@ -37,7 +37,7 @@ namespace nilnul.num.real.matrix_.sq.op_._adjugate
 			} //not executed if the result is empty.
 
 
-			return raw;
+			return raw;  /// so for [], the cofactor is also []. for [x], the cofactor is [1]
 
 
 			

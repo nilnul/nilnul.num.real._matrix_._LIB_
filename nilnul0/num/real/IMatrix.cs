@@ -19,4 +19,5 @@ namespace nilnul.num.real
 		nilnul.num.real.vec.IStr /// defaulted as rowwise; for colwise <see cref="matrix.ICols"/>
 	{
 	}
+
 }
