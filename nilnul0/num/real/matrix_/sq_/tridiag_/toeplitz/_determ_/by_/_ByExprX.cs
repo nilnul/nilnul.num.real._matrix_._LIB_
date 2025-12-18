@@ -80,7 +80,7 @@ namespace nilnul.num.real.matrix_.sq_.tridiag_.toeplitz._determ_.by_
 
 			numer.simplify(); 
 							  /// change d^(2n) to (c00^2-4 c01 c10)^n
-							  /// todo: this is not rigorous; to be rigorous, as the sqrt of that is not quotient, and in fact it's complex. we can use a polynom of quotient coefficients to make this more rigorous.
+							  /// todo: this is not rigorous; to be rigorous, as the sqrt of that is not quotient, and in fact it's complex. we can use a complex polynom of quotient coefficients to make this more rigorous.
 							  /// 
 			numer = new Algebraic( numer.scaleds.Select(
 				s => new real.expr_._algebraic.pows.prod.Scaled_powIndexPositive(
