@@ -57,7 +57,8 @@ namespace nilnul.num.real.matrix_.sq_.paw_.nilsome8torso5diag
 					*  paw[0, index]  /// the two swapped, hence the permutation is negated
 					*
 					quotient.bi_.mul._CumulaX._Cumulate_0str(
-						Enumerable.Range(1, heightMinus).Where( j=> j!=index).Select(
+						Enumerable.Range(1, heightMinus).Where( j=> j!=index) /// [0,index] are excluded
+                        .Select(
 									k=> paw[k,k]
 						) /// others in the permutation.
 					)
