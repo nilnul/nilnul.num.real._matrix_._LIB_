@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.vec.span.to_
+namespace nilnul.num.real.vec.subspace
 {
 	/// <summary>
-	/// the result is <see cref="real.vec.str."/>
+	/// the count of dimensions spanned by the vectors.
 	/// </summary>
-	internal class ITranslate
+	public interface IRank: nilnul.INum
 	{
 	}
+
 }

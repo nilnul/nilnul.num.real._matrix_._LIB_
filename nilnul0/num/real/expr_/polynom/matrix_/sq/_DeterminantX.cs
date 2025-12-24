@@ -11,11 +11,21 @@ namespace nilnul.num.real.expr_.polynom.matrix_.sq
 	{
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public Algebraic _Determinant_0sq(
+			in Algebraic[,] d
+		)
+		{
+			return expr_.polynom.matrix_.sq._determ_.by_._ByPermuteX._Determ_0sq( d);
+			//return expr_.polynom.matrix_.sq._determ_.by_._BySubmatrixX._Determinant_0sq(d);
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		static public Algebraic _Determinant_0sq(
 			this Algebraic[,] d
 		)
 		{
-			return expr_.polynom.matrix_.sq._determ_.by_._ByPermuteX._Determ_0sq(d);
+			return _Determinant_0sq(in d);
 			//return expr_.polynom.matrix_.sq._determ_.by_._BySubmatrixX._Determinant_0sq(d);
 		}
+
 	}
 }

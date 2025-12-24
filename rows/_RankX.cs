@@ -34,9 +34,9 @@ namespace nilnul.num.real.matrix.rows
 					var head = m[r, c];
 					if (head != 0)
 					{
-						op_.colwise_.shuffle_._Swap0nopX._Swap0nop(ref m, rank, c);  /// might be the same row; to make the row move upward.
+						matrix.op_.colwise_.shuffle_._Swap0nopX._Swap0nop(ref m, rank, c);  /// might be the same row; to make the row move upward.
 
-						op_.basic_.shed_.colwise_._ByDivideX._Shed_2divisorUnish(ref m, rank, head); /// make it <see cref="num.real.vec_.IStd"/>
+						matrix.op_.basic_.shed_.colwise_._ByDivideX._Shed_2divisorUnish(ref m, rank, head); /// make it <see cref="num.real.vec_.IStd"/>
 
 																								/// make all following cels in the row to be 0
 																								///
@@ -45,7 +45,7 @@ namespace nilnul.num.real.matrix.rows
 						{
 							var pivotCurrent = m[r, remained];
 
-							op_.basic_.skew_.colwise_._BySubtractX._Skew_12col_3nilish(
+							matrix.op_.basic_.skew_.colwise_._BySubtractX._Skew_12col_3nilish(
 								ref m
 								,
 								remained

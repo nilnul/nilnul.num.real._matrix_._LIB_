@@ -61,7 +61,7 @@ namespace nilnul.num.real.vecs
 	/// <see cref="num.real.vecs.to_.ILinearCombinate"/>
 	///		
     public interface IHull
-		:vec.ISpan
+		:vec.ISubSpace
     {
     }
 

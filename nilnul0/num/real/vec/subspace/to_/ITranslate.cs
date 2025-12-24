@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.vec.str.to_.collective_
+namespace nilnul.num.real.vec.subspace.to_
 {
 	/// <summary>
-	/// the result is <see cref="vec.collective_.IAffine"/>
+	/// the result is <see cref="real.vec.str."/>
 	/// </summary>
-	/// <see cref="real.vec.subspace.to_.ITranslate"/>
 	internal class ITranslate
 	{
 	}

@@ -17,7 +17,7 @@ namespace nilnul.num.real.vec.collective_
 	public interface IAll
 		:real.vec.ISet
 		,
-		ISpan
+		ISumOfScaled
 	{
 	}
 

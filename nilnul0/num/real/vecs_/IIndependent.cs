@@ -11,7 +11,7 @@ namespace nilnul.num.real.vecs_
 	/// </summary>
 	/// alias:
 	///		basis
-	///			,it's the result of <see cref="vec.ISpan"/>
+	///			,it's the result of <see cref="vec.ISubSpace"/>
 	public interface IIndependent
 		:real.IVecs
 	{

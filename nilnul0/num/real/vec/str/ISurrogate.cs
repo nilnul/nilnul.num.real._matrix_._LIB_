@@ -3,6 +3,8 @@
 	public interface ISurrogate
 		:
 		nilnul.obj.str.IScala
+		,
+		vec.str.to_.IToSingle
 	{
 	}
 }

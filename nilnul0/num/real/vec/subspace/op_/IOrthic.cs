@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.vec.span.op_
+namespace nilnul.num.real.vec.subspace.op_
 {
 	/// <summary>
 	/// another span that is complement (they form the whole space) to this one.
@@ -17,7 +17,7 @@ namespace nilnul.num.real.vec.span.op_
 	///		orthogonal complement
 	///		
 	public interface IOrthic
-		:vec.span.IOp
+		:vec.subspace.IOp
 	{
 	}
 }

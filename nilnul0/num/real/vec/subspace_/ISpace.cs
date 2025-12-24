@@ -1,10 +1,10 @@
-﻿namespace nilnul.num.real.vec.span_
+﻿namespace nilnul.num.real.vec.subspace_
 {
 	/// <summary>
 	/// the whole space
 	/// </summary>
 	public interface ISpace
-		:vec.ISpan
+		:vec.ISubSpace
 		,
 		vec.ISpace
 	{

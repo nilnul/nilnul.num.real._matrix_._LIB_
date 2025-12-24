@@ -5,7 +5,7 @@ namespace nilnul.num.real.matrix_.sq_
 	/// </summary>
 	/// alias:
 	///		projectile, vs£º<see cref="nilnul.num.real.vec.op_.IProjection"/>
-	class IProjectile :matrix_.sq_.idem_.ISymmetric
+	public interface IProjectile :matrix_.sq_.idem_.ISymmetric
 	{
 	}
 

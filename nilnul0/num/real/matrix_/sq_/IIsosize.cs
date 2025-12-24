@@ -6,7 +6,4 @@ namespace nilnul.num.real.matrix_.sq_
 	public interface IIsosize:matrix_.ISquare
 	{
 	}
-
-
-
 }

@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.vec.str.surrogate_
 {
+	/// Ax =b
+	/// ,where x is the combinator, A holds the vecs as columns;
+	/// ; 
+	/// [a1,a2,...a[n] ] * [x1,x2,...,x[n]]
+	///		, the inner product, or sum of product.
+	///	sum of scaled:<see cref="num.real.vec.op_._ScaleX"/>
 	/// <summary>
 	/// coef is 0 or not zero..
 	/// a trivia one is when all coefs are nil.

@@ -5,7 +5,9 @@ namespace nilnul.num.real.expr_.polynom.matrix_.sq._determ_.by_
 {
 	static public class _ByPermuteX
 	{
-		static public P _Determ_0sq(P[,] m)
+		static public P _Determ_0sq(
+			//in	/// cannot be used in lamda
+			P[,] m)
 		{
 			var w = m.GetLength(0);
 			System.Collections.Generic.IEnumerable<int> indexes = Enumerable.Range(0, w).ToArray();

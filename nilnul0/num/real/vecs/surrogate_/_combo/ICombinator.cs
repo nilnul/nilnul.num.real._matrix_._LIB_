@@ -10,7 +10,7 @@ namespace nilnul.num.real.vecs.surrogate_._combo
 	/// <summary>
 	/// the coefficients
 	/// </summary>
-	/// <see cref="real.vec.str."/>
+	/// <see cref="real.vec.str.surrogate_._combo.ICombinator"/>
 	public interface ICombinator
 	{
 	}

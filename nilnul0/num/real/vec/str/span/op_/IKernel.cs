@@ -34,7 +34,7 @@ namespace nilnul.num.real.vec.str.span.op_
 	/// <remarks>
 	/// same as <see cref="num.real.matrix.cols.op_.IKernel"/>
 	/// </remarks>
-	public interface IKernel:vec.span.op_.IOrthic
+	public interface IKernel:vec.subspace.op_.IOrthic
 
 	{
 	}

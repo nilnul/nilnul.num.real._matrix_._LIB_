@@ -18,6 +18,7 @@ namespace nilnul.num.real.vecs.scala_
 	///
 	///  alias:
 	///		weighted sum.
+	///		<see cref="real.vec.str.surrogate_.ILinearCombinate"/>
 	/// 
 	/// <see cref="num.real.matrix.rows.ISpan"/> or <see cref="real.matrix.cols.ILinearCombinate"/>
 	/// ;
