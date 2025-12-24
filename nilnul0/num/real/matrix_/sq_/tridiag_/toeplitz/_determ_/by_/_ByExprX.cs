@@ -101,28 +101,30 @@ namespace nilnul.num.real.matrix_.sq_.tridiag_.toeplitz._determ_.by_
 				))
 				);
 			numer.simplify(); /// would be: q d, as addend containing d^(2n) would be cancelled against each other
-			/// 
-			/// hence:
-			///   c(n+1, 1)  d**1  a**n 2  
-			///   +
-			///   c(n+1,3) d**3 a**(n-2) 2
-			///   +...
-			///   c(n+1, n) d**n a**1 2
-			///   =
-			///   c(n+1, 1)  d**1  a**n 2  
-			///   +
-			///   c(n+1,3)  d**3 a**(n-2) 2
-			///   +...
-			///   c(n+1, n) d**n a**1 2
-			///		# d**2 =0
-			///		
-			///   =
-			///   c(n+1, 1)  d**1  a**n 2  
-			///   = (n+1) d   a**n 2
-			///		, which ,when divied by 2^(n+1) d
-			///		= (n+1) a**n / 2**n
-			/// 
-			///   ; So even when discriminator is 0, the var:d here can still be safely cancelled.
+							  /// 
+							  /// hence:
+							  ///   c(n+1, 1)  d**1  a**n 2  
+							  ///   +
+							  ///   c(n+1,3) d**3 a**(n-2) 2
+							  ///   +...
+							  ///   c(n+1, n) d**n a**1 2
+							  ///   =
+							  ///   c(n+1, 1)  d**1  a**n 2  
+							  ///   +
+							  ///   c(n+1,3)  d**3 a**(n-2) 2
+							  ///   +...
+							  ///   c(n+1, n) d**n a**1 2
+							  ///		# d**2 =0
+							  ///		
+							  ///   =
+							  ///   c(n+1, 1)  d**1  a**n 2  
+							  ///   = (n+1) d   a**n 2
+							  ///		, which ,when divied by 2^(n+1) d
+							  ///		= (n+1) a**n / 2**n
+							  /// 
+							  ///   ; So even when discriminator is 0, the var:d here can still be safely cancelled.
+							  ///   You just need to cancel out d, rather than really substituting it with a literal value.
+							  ///   <see cref="https://math.stackexchange.com/questions/266998/how-to-compute-the-determinant-of-a-tridiagonal-toeplitz-matrix/5115623#5115623"/>
 
 			return nilnul.num.quotient_.denomNonnil._RegressionsX.ToDenomNonnil(
 				numer.scaleds.First().coef.current.lower.mark

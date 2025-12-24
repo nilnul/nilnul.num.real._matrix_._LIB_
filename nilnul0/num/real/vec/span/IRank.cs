@@ -12,4 +12,5 @@ namespace nilnul.num.real.vec.span
 	public interface IRank: nilnul.INum
 	{
 	}
+
 }

@@ -21,4 +21,5 @@ namespace nilnul.num.real.vec.space
 		nilnul.obj._vec_.IArity
 	{
 	}
+
 }

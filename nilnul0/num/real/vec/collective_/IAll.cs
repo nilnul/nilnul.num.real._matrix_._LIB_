@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.vec.set_
+namespace nilnul.num.real.vec.collective_
 {
 	/// <summary>
 	/// given <see cref="obj._vec_.IArity"/>,
@@ -17,7 +17,7 @@ namespace nilnul.num.real.vec.set_
 	public interface IAll
 		:real.vec.ISet
 		,
-		ISubspace
+		ISpan
 	{
 	}
 

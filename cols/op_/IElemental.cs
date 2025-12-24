@@ -12,4 +12,5 @@ namespace nilnul.num.real.matrix.cols.op_
 	public interface IElemental:matrix.op_.IBasic
 	{
 	}
+
 }

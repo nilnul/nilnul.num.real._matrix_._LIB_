@@ -11,4 +11,6 @@ namespace nilnul.num.real.vec.str
 		nilnul.obj.str.ISplit
 	{
 	}
+
+
 }

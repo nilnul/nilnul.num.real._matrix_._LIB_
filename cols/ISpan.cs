@@ -20,7 +20,7 @@ namespace nilnul.num.real.matrix.cols
 	///		husk
 	///			,vs kernel
 	///		<see cref="num.real.matrix.husk"/>
-	public interface ISpan:nilnul.num.real.vecs.IHull // of the cols;
+	public interface ISpan:nilnul.num.real.vecs.ISpan//.IHull // of the cols;
 	{
 	}
 

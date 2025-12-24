@@ -14,4 +14,6 @@ namespace nilnul.num.real.vec.str
 	public interface IRank:nilnul.INum
 	{
 	}
+
+
 }

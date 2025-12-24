@@ -18,6 +18,7 @@ namespace nilnul.num.real.matrix.rows
 	/// 
 	/// alias:
 	///		rows.span
+	///			,
 	///		<see cref="real.vecs.IHull"/>
 	///		ILinearCombinate
 	///		rowspace
@@ -28,7 +29,9 @@ namespace nilnul.num.real.matrix.rows
 	///		<see cref="matrix.cols.ILinearCombinate"/>
 	///		<see cref="real.matrix.cols.ISpan"/>
 	///		
-    public interface ISpan:nilnul.num.real.vecs.IHull
+    public interface ISpan
+		:
+		nilnul.num.real.vecs.ISpan ///.IHull
     {
     }
 }

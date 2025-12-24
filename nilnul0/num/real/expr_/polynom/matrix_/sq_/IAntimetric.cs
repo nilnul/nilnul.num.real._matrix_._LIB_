@@ -16,9 +16,10 @@ namespace nilnul.num.real.expr_.polynom.matrix_.sq_
 	///		mirage
 	///		phantom
 	///		fantasy
+	///		skew symmetric
 	///		
 	///		
-	public interface ISkewSymmetric:expr_.polynom.matrix_.ISquare
+	public interface IAntimetric:expr_.polynom.matrix_.ISquare
 	{
 	}
 }

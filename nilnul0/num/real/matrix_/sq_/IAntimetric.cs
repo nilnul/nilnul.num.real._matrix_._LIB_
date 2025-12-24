@@ -1,7 +1,7 @@
 namespace nilnul.num.real.matrix_.sq_
 {
 	/// <see cref="real.matrix_.sq.be_._AntoSymmetricX"/>
-	/// <see cref="real.expr_.polynom.matrix_.sq_.ISkewSymmetric"/>
+	/// <see cref="real.expr_.polynom.matrix_.sq_.IAntimetric"/>
 	/// <summary>
 	/// like in the mirror, the image is negatively displaced from the reference line, in comparison with the person before the mirror.
 	/// This vindicates that the baseline, or diagonal is 0, and the opposite cels are negative to each other.

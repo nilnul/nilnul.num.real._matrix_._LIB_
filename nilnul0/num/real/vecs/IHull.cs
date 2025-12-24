@@ -55,6 +55,7 @@ namespace nilnul.num.real.vecs
 	///	vs:
 	///		span
 	///			,<see cref="real.matrix.to_.ISpan"/> which means only columns hull, not rows hull
+	///			, whileas this is a linear combination where coefficients cannot be negative?
 	///			
 	///
 	/// <see cref="num.real.vecs.to_.ILinearCombinate"/>
@@ -63,6 +64,7 @@ namespace nilnul.num.real.vecs
 		:vec.ISpan
     {
     }
+
 
 
 }

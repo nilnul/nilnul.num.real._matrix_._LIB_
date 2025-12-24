@@ -20,6 +20,10 @@
 	///		vs
 	///			,used to represent a score comparison in match
 	///		regarding
+	///		
+	///		augmented matrix
+	///	todo:
+	///		investigate,
 	public interface IRatio:ICo { }
 
 }

@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace nilnulnum.real.matrix_.sq_.antidiag
 {
+	/// <summary>
+	/// [
+	///		0,0,...0, a
+	///		0,0,...a1,0
+	///		...
+	///		a[n-1],...0
+	/// ]
+	/// </summary>
 	static public class _DetermX
 	{
 		static public Q Determinant(IEnumerable<Q> antidiag) {

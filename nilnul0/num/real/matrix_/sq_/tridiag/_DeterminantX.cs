@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix_.sq_.tridiag
 {
+	/// en.wikipedia.org/wiki/Tridiagonal_matrix_algorithm
+	/// the tridiagonal matrix algorithm, also known as the Thomas algorithm (named after Llewellyn Thomas), is a simplified form of Gaussian elimination that can be used to solve tridiagonal systems of equations. 
+	/// <summary>
+	/// 
+	/// </summary>
 	static public class _DeterminantX
 	{
 		static public Q4 _Determinant_0tridiag(Q4[,] m) {

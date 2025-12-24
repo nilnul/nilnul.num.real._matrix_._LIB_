@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using P = nilnul.num.real.expr_.Algebraic;
 
 
-namespace nilnul.num.real.expr_.polynom.matrix_.sq_.skew.of_
+namespace nilnul.num.real.matrix_.sq_.antim.of_
 {
 	static public class _UpperX
 	{
@@ -16,7 +16,7 @@ namespace nilnul.num.real.expr_.polynom.matrix_.sq_.skew.of_
 		/// </summary>
 		/// <typeparam name="T"></typeparam>
 		/// <param name="m"></param>
-		static public void OfStrictUpper(ref P[,] m) {
+		static public void OfStrictUpper(ref Q4[,] m) {
 			int height = m.GetLength(0);
 			for (int i = 0; i < height; i++) {
 				

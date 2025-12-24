@@ -99,8 +99,11 @@ namespace nilnul.num.real.matrix.op_
 	///		husk
 	///		colspace, which is not this.
 	public interface IKernel: num.real.matrix.IOp 
+		,
+		num.real.matrix.cols.op_.IKernel
 	{
 	}
+
 
 
 }
