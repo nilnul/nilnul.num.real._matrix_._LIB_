@@ -123,7 +123,7 @@
       <HintPath>packages\nilnul.num._quotient_._LIB_.1.1.251218.34603\lib\net48\nilnul.num._quotient_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul.num._real_._LIB_, Version=2.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>packages\nilnul.num._real_._LIB_.2.1.251218.35034\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
+      <HintPath>..\_TEST_(Git\packages\nilnul.num._real_._LIB_.2.1.251225.150709\lib\net48\nilnul.num._real_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
       <HintPath>packages\nilnul._bit_._LIB_.1.1.251122.90106\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
@@ -294,6 +294,7 @@
     <Compile Include="co\op_\IModulo.cs" />
     <Compile Include="co_\antisize\prod\be_\canon\so_\ICompact.cs" />
     <Compile Include="co_\multible_\ICol9row.cs" />
+    <Compile Include="diag\op_\IRidge.cs" />
     <Compile Include="expr_\IPolynom.cs" />
     <Compile Include="expr_\polynom_\IUnivar.cs" />
     <Compile Include="expr_\_polynom\IMonomial.cs" />
@@ -520,7 +521,11 @@
     <Compile Include="nilnul0\num\real\expr_\polynom\matrix_\sq_\antim_\uniup\crest\_DeterminantX.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom\matrix_\sq_\antim_\uniup\_CrestX.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom\matrix_\sq_\IAntimetric.cs" />
+    <Compile Include="nilnul0\num\real\expr_\polynom\matrix_\sq_\isorow\hunch\_DeterminantX.cs" />
+    <Compile Include="nilnul0\num\real\expr_\polynom\matrix_\sq_\isorow\_HunchX.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom\matrix_\sq_\isosize\bi_\_add_\at_\_RidgeUp.cs" />
+    <Compile Include="nilnul0\num\real\expr_\polynom\matrix_\sq_\paw\IDeterminant.cs" />
+    <Compile Include="nilnul0\num\real\expr_\polynom\matrix_\sq_\paw\_DeterminantX.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom\matrix_\sq_\paw_\nonnil8torso5diag\_DeterminantX.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom\matrix_\sq_\paw_\TorsoUnnil8Ridge.cs" />
     <Compile Include="nilnul0\num\real\expr_\polynom\matrix_\sq_\antim\of_\_Upper.cs" />
@@ -662,6 +667,7 @@
     <Compile Include="nilnul0\num\real\matrix_\sq_\IIsoRow.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\isorow\crest\_DeterminantX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\isorow\ICrest.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\isorow\IRidge.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\isorow\_CrestX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\IToeplitz.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\rowly_\IRepetitive.cs" />
@@ -872,7 +878,12 @@
     <Compile Include="nilnul0\num\real\matrix_\sq_\unival\crest\_DeterminantX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\unival\ICrest.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\unival\_CrestX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\vander\IStretched.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\vander\ITransposed.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\vander\stretched\_DeterminantX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\vander\stretched_\torso\_DeterminantX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\vander\stretched_\_TorsoX.cs" />
+    <Compile Include="nilnul0\num\real\matrix_\sq_\vander\_StretchedX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\vander_\colly\_DeterminantX.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\vander_\IColwise.cs" />
     <Compile Include="nilnul0\num\real\matrix_\sq_\vander_\IRowwise.cs" />
@@ -2230,7 +2241,6 @@
     <Folder Include="nilnul0\num\quotient\matrix_\sq\be_\sparse_\" />
     <Folder Include="nilnul0\num\quotient\matrix_\sq\be_\triag_\upp\" />
     <Folder Include="nilnul0\num\real\expr_\polynom\matrix_\sq\op_\" />
-    <Folder Include="nilnul0\num\real\expr_\polynom\matrix_\sq_\skew\" />
     <Folder Include="nilnul0\num\real\expr_\polynom\op_\" />
     <Folder Include="nilnul0\num\real\expr_\polynom_\homo_\quadra\op_\" />
     <Folder Include="nilnul0\num\real\expr_\polynom_\homo_\quadra_\_as_\" />
@@ -2239,7 +2249,6 @@
     <Folder Include="nilnul0\num\real\expr_\polynom_\univar_\std_\suplim_\" />
     <Folder Include="nilnul0\num\real\expr_\polynom_\univar_\std_\_as_\" />
     <Folder Include="nilnul0\num\real\expr_\polynom_\univar_\_as_\" />
-    <Folder Include="nilnul0\num\real\expr_\rithmet\matrix_\sq_\rank8bit\" />
     <Folder Include="nilnul0\num\real\matrix_\%28square\doubleElement\NewFolder1\" />
     <Folder Include="nilnul0\num\real\matrix_\dent_\indep\" />
     <Folder Include="nilnul0\num\real\matrix_\sq\bi_\dif_\" />

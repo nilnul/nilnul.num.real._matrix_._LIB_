@@ -10,4 +10,6 @@ namespace nilnul.num.real.matrix_.sq_.isorow
 		:num.real.matrix_.ISquare
 	{
 	}
+
+
 }

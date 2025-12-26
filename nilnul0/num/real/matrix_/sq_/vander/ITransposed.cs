@@ -9,4 +9,5 @@ namespace nilnul.num.real.matrix_.sq_.vander
 	public interface ITransposed:real.matrix_.ISquare
 	{
 	}
+
 }

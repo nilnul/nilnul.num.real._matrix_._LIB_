@@ -11,10 +11,13 @@ namespace nilnul.num.real.matrix
 	/// <remarks>
 	/// the result of <see cref="real.matrix.rows.op_.IKernel"/>, which is still rows,  transposed as columns of a matrix.
 	/// </remarks>
+	/// alias:
+	///		dual of rowspace
 	///vs:
 	///		<see cref="num.real.matrix.op_.IKernel"/>, which is intended for the husk of the resulted matrix.
 	/// vs:
 	///		tusk
+	///		
 	public interface IHusk:matrix.cols.ISpan
 	{
 	}

@@ -43,12 +43,13 @@ namespace nilnul.num.real.matrix_.sq_.paw
 			return	nilnul.obj.matrix_.sq._DiagonalX._Diagonal_0sq(
 					paw
 				)._Product_0str()
-				+
+				-
+				/// the two swapped, hence the permutation is negative:
 				nilnul.num.quotient.str._SumX.Sum(
 					torso.Select(
-						index =>-paw[0, index]
+						index =>paw[0, index]
 
-						*   paw[index, 0]  /// the two swapped, hence the permutation is negated
+						*   paw[index, 0]  /// the two swapped, hence the permutation is negative
 						*
 						quotient.bi_.mul._CumulaX._Cumulate_0str(
 							torso.Where(j => j!=index).Select(
