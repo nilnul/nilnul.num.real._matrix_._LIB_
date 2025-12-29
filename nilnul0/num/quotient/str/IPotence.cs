@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix_.sq_.idem.be_
+namespace nilnul.num.quotient.str
 {
-	internal class IDiagible
+	internal class IPotence
 	{
 	}
-
 }

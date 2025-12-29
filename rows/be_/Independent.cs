@@ -18,6 +18,8 @@ namespace nilnul.num.real.matrix.rows.be_
 	///				, and redundant (as [] can be represented as sum() ).it can be simplified as []. 
 	///
 	/// 
+	/// 
+	/// 
 	/// <summary>
 	///  
 	/// 
@@ -28,6 +30,7 @@ namespace nilnul.num.real.matrix.rows.be_
 	public interface IIndependent
 	{
 	}
+
 
 
 }

@@ -20,4 +20,5 @@ namespace nilnul.num.real.vec.subspace.op_
 		:vec.subspace.IOp
 	{
 	}
+
 }

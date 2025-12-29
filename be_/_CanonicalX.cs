@@ -16,4 +16,5 @@ namespace nilnul.num.real.matrix.be_
 		}
 
 	}
+
 }

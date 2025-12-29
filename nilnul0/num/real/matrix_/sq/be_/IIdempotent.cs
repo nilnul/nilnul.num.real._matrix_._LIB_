@@ -9,6 +9,7 @@ namespace nilnul.num.real.matrix_.sq.be_
 	/// <summary>
 	/// A^2 = A
 	/// </summary>
+	/// <see cref="_IdempotentX"/>
 	/// alias:
 	///		projection matrix
 	public interface IIdempotent

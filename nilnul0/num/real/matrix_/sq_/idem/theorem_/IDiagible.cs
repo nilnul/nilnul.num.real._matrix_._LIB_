@@ -11,6 +11,8 @@ namespace nilnul.num.real.matrix_.sq_.idem.theorem_
 	///		[1,a
 	///		  0,0
 	///		 ]
+	///		 ,which is not idempotent.
+	/// ; only when it's symmetric?
 	/// <summary>
 	/// 
 	/// </summary>

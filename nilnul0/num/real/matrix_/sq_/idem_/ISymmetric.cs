@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace nilnul.num.real.matrix_.sq_.idem_
 {
+	/// if it's symmetric, then it's orthogonal;
+	/// vice versa. 
 	/// <summary>
 	/// 
 	/// </summary>
