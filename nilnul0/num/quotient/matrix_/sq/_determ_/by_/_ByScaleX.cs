@@ -11,6 +11,7 @@ namespace nilnul.num.quotient.matrix_.sq._determ_.by_
 	/// <see cref="num.real.matrix_.sq_.diag_.scaler_.IUnnil"/>
 	/// 
 	/// <see cref="num.real.matrix_.sq_.diag_.IShred"/>
+	/// <see cref="num.real.matrix_.sq.factorize_.IDeterminantPreserving"/>
 	/// <summary>
 	///  extract the scale when doing <see cref="sq.op_.IVertible"/>
 	/// 
@@ -23,7 +24,9 @@ namespace nilnul.num.quotient.matrix_.sq._determ_.by_
 		/// <param name="m">
 		/// mutated equivolently
 		/// </param>
-		/// <returns></returns>
+		/// <returns>
+		/// the spinoff. the extracted coef.
+		/// </returns>
 		static public Q4 _Determinant_0sq(ref Q4[,] m)
 		{
 			/// mutate the matrix as <see cref="num.quotient.matrix_.sq.be_.triag_.IUpper"/>

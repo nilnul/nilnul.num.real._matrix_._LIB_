@@ -69,6 +69,13 @@ namespace nilnul.num.real.matrix_.sq_.unival.crest
 #endif
 
 			return wide==0 ? 1 : (unival*wide + crest) * nilnul.num.quotient.op_._PonentX._Quotient_1natural(crest, wide-1);
+			/// if crest is not 0
+			///:
+			///
+			return  (unival*wide + crest) /// sum of the row
+				* nilnul.num.quotient.op_._PonentX._Quotient_1natural(crest, wide-1);
+
+
 
 			///<see cref="num.real.matrix_.sq_.isorow.crest._DeterminantX"/>
 

@@ -22,6 +22,10 @@ namespace nilnul.num.real.matrix.op_
 	///		projection
 	///			,for columns
 	///		selective
+	///		sieve
+	///		filter
+	///		sift
+	///		
 	///	<see cref="nilnul.obj.matrix.op_.selective_"/>
 	static  class _SelectiveX
     {

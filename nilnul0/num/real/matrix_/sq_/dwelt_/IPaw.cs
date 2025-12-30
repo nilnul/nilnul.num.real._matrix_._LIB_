@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.num.real.matrix_.sq_
+namespace nilnul.num.real.matrix_.sq_.dwelt_
 {
 	/// <see cref="matrix_.sq.be_.IPaw"/>
 	/// <summary>
-	/// <see cref="paw.IDeterminant"/>
 	/// </summary>
+	/// <see cref="paw.IDeterminant"/>
+	/// 
 	/// alias:
 	///		爪型(箭形）
 	///		claw,
@@ -18,9 +19,7 @@ namespace nilnul.num.real.matrix_.sq_
 	///		<see cref="sq.be_."/>
 	///		<see cref="sq_.sym.be_.IClaw"/>
 	///	<see cref="num.real.expr_.polynom.matrix_.sq_.paw"/>
-	///	
-	[Obsolete(nameof(matrix_.sq_.dwelt_.IPaw))]
-	public interface IPaw:ISquare
+	public interface IPaw:sq_.IDwelt
 	{
 	}
 

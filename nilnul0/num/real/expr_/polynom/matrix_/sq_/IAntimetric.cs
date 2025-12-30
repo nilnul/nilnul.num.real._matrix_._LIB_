@@ -22,4 +22,5 @@ namespace nilnul.num.real.expr_.polynom.matrix_.sq_
 	public interface IAntimetric:expr_.polynom.matrix_.ISquare
 	{
 	}
+
 }

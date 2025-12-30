@@ -20,6 +20,7 @@ namespace nilnul.num.real.matrix_.sq_.diag_.scaler_
 	///		shard
 	///		scold
 	///		squeeze
+	///		invertible
 	///		
 	///	vs:
 	///		<see cref="real.matrix.op_.stretch_.squash_"/>, implying arbitrary/random/various/disproportion

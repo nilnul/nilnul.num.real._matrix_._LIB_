@@ -24,43 +24,10 @@ namespace nilnul.num.real.matrix_.sq_.paw
 		/// <returns></returns>
 		/// <see cref="real.matrix_.sq_.triag._DeterminantX"/>
 		/// 
-		//[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		static public Q4 _Determinant_0paw(Q4[,] paw)
 		{
-
-			//int height = fracs.GetLength(0);
-			int width = paw.GetLength(0);
-			if (width == 0)
-			{
-				return 1;
-			}
-
-			int heightMinus = width-1;
-
-			/// <see cref="sq._determ_.by_.IBySubmatrix"/> of the row0
-			IEnumerable<int> torso = Enumerable.Range(1, heightMinus);
-			/// <see cref="sq._determ_.by_.IBySubmatrix"/> of the row0
-			return	nilnul.obj.matrix_.sq._DiagonalX._Diagonal_0sq(
-					paw
-				)._Product_0str()
-				-
-				/// the two swapped, hence the permutation is negative:
-				nilnul.num.quotient.str._SumX.Sum(
-					torso.Select(
-						index =>paw[0, index]
-
-						*   paw[index, 0]  /// the two swapped, hence the permutation is negative
-						*
-						quotient.bi_.mul._CumulaX._Cumulate_0str(
-							torso.Where(j => j!=index).Select(
-										k => paw[k, k]
-							) /// others in the permutation.
-						)
-					)
-				)
-			;  
-
-
+			return paw.GetLength(0) == 0 ? (Q4.One) : sq_.dwelt_.paw._DeterminantX._Determinant_0paw(paw);
 
 		}
 

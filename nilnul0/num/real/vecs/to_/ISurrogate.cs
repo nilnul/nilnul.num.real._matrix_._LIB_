@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace nilnul.num.real.vecs.to_
 {
 	public interface ISurrogate
-		:nilnul.objs.to_.ISurrogate
+		:nilnul.objs.to_.IToSingle
 	{
 	}
 

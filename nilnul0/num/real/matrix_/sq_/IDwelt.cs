@@ -10,6 +10,8 @@ namespace nilnul.num.real.matrix_.sq_
 	/// non empty
 	/// </summary>
 	/// unvacant
+	/// alias:
+	///		unvanity:<see cref="IVanity"/><see cref="IUnVanity"/>
 	public interface IDwelt
 		:
 		matrix_.ISquare

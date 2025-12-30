@@ -13,6 +13,10 @@ namespace nilnul.num.real.matrix_.sq_
 	///		flatTop
 	public interface IUnival
 		:nilnul.num.real.matrix_.IUnival
+		,
+		real.matrix_.sq_.ISymmetric
+		,
+		real.matrix_.sq_.IIsoRow
 	{
 	}
 
